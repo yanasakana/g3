@@ -1,0 +1,30 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "g3:sapphire_block"
+		},
+		"components": {
+			"tag:stone": {},
+			"tag:stone_pick_diggable": {},
+			"minecraft:destroy_time": 2,
+
+			"minecraft:map_color": "#94b6ff",
+
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:on_player_destroyed": {
+				"event": "destroyed",
+				"target": "self",
+				"condition": "q.equipped_item_any_tag('slot.weapon.mainhand','amethyst_drill')"
+			}
+		},
+        
+		"events": {
+			"destroyed": {
+				"spawn_loot": {
+					"table": "loot_tables/blocks/sapphire/sapphire_block.loot_table.json"
+				}
+			}
+		}
+	}
+}

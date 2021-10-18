@@ -4,6 +4,7 @@
     "resource_pack_name": "vanilla",
     "texture_name": "atlas.terrain",
     "texture_data": {
+        // Examples
         "havent_used_this_yet": {
             "textures": "textures/blocks/astral_ore"
         },
@@ -24,6 +25,16 @@
                     }
                 ]
             }
+        },
+        // Sapphire
+        "sapphire_block": {
+            "textures": "textures/blocks/sapphire_block"
+        },
+        "sapphire_block_perfect": {
+            "textures": "textures/blocks/sapphire_block_perfect"
+        },
+        "sapphire_cluster": {
+            "textures": "textures/blocks/sapphire_cluster"
         }
     }
 }

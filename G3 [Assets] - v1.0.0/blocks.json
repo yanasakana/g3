@@ -1,0 +1,19 @@
+{
+    "format_version": [
+        1,
+        1,
+        0
+    ],
+    "g3:sapphire_block": {
+        "sound": "metal",
+        "textures": "sapphire_block"
+    },
+    "g3:sapphire_block_perfect": {
+        "sound": "metal",
+        "textures": "sapphire_block_perfect"
+    },
+    "g3:sapphire_cluster": {
+        "sound": "large_amethyst_bud",
+        "textures": "sapphire_cluster"
+    }
+}
