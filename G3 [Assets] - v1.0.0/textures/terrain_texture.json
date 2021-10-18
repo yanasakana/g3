@@ -31,10 +31,10 @@
             "textures": "textures/blocks/sapphire_block"
         },
         "sapphire_block_perfect": {
-            "textures": "textures/blocks/sapphire_block_perfect"
+            "textures": "textures/blocks/perfect_sapphire_block"
         },
         "sapphire_cluster": {
-            "textures": "textures/blocks/sapphire_cluster"
+            "textures": "textures/blocks/sapphire_crystal"
         }
     }
 }
