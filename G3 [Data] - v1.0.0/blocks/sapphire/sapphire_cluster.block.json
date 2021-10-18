@@ -8,7 +8,7 @@
 			"tag:stone": {},
 			"tag:stone_pick_diggable": {},
 			"minecraft:destroy_time": 1,
-			
+
 			"minecraft:map_color": "#94b6ff",
 
 			"minecraft:loot": "loot_tables/empty.json",
@@ -16,6 +16,18 @@
 				"event": "destroyed",
 				"target": "self",
 				"condition": "q.equipped_item_any_tag('slot.weapon.mainhand','amethyst_drill')"
+			},
+
+			"minecraft:block_light_absorption": 0,
+			"minecraft:block_light_emission": 0,
+
+			"minecraft:material_instances": {
+				"*": {
+					"ambient_occlusion": true,
+					"face_dimming": false,
+					"render_method": "alpha_test",
+					"texture": "sapphire_cluster"
+				}
 			}
 		},
 		"events": {
