@@ -11,7 +11,7 @@
             "minecraft:damage": 3,
             "minecraft:hand_equipped": true,
             "minecraft:display_name": {
-                "value": "Pure Diamond Drill §8(Empty)\n§8Drill Engine Upgrade: §4Netherite-Plated Drill Engine§r"
+                "value": "Pure Diamond Drill §8(Empty)\n§8Drill Engine Upgrade: §bDiamond-Plated Drill Engine§r"
             },
             "minecraft:render_offsets": {
                 "main_hand": {

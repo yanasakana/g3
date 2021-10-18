@@ -11,7 +11,7 @@
             "minecraft:damage": 3,
             "minecraft:hand_equipped": true,
             "minecraft:display_name": {
-                "value": "Jade Drill\n§8Drill Engine Upgrade: §4Netherite-Plated Drill Engine§r"
+                "value": "Jade Drill\n§8Drill Engine Upgrade: §bDiamond-Plated Drill Engine§r"
             },
             "minecraft:cooldown": {
 				"duration": 25,
@@ -47,7 +47,7 @@
                 "destroy_speeds": [
                     {
                         "block": {
-                            "tags": "query.any_tag( 'stone', 'metal' )"
+                            "tags": "query.any_tag( 'stone', 'amethyst_drill_diggable', 'sapphire_drill_diggable', 'jade_drill_diggable', 'metal' )"
                         },
                         "speed": 20,
                         "on_dig": {

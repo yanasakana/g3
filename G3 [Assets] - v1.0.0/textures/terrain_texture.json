@@ -4,7 +4,6 @@
     "resource_pack_name": "vanilla",
     "texture_name": "atlas.terrain",
     "texture_data": {
-        // Examples
         "havent_used_this_yet": {
             "textures": "textures/blocks/astral_ore"
         },
@@ -26,7 +25,11 @@
                 ]
             }
         },
-        // Sapphire
+
+        "amethyst_block_perfect": {
+            "textures": "textures/blocks/perfect_amethyst_block"
+        },
+
         "sapphire_block": {
             "textures": "textures/blocks/sapphire_block"
         },
@@ -35,6 +38,46 @@
         },
         "sapphire_cluster": {
             "textures": "textures/blocks/sapphire_crystal"
+        },
+
+        "jade_block": {
+            "textures": "textures/blocks/jade_block"
+        },
+        "jade_block_perfect": {
+            "textures": "textures/blocks/perfect_jade_block"
+        },
+        "jade_cluster": {
+            "textures": "textures/blocks/jade_crystal"
+        },
+
+        "topaz_block": {
+            "textures": "textures/blocks/topaz_block"
+        },
+        "topaz_block_perfect": {
+            "textures": "textures/blocks/perfect_topaz_block"
+        },
+        "topaz_cluster": {
+            "textures": "textures/blocks/topaz_crystal"
+        },
+
+        "ruby_block": {
+            "textures": "textures/blocks/ruby_block"
+        },
+        "ruby_block_perfect": {
+            "textures": "textures/blocks/perfect_ruby_block"
+        },
+        "ruby_cluster": {
+            "textures": "textures/blocks/ruby_crystal"
+        },
+
+        "pure_diamond_block": {
+            "textures": "textures/blocks/pure_diamond_block"
+        },
+        "pure_diamond_block_perfect": {
+            "textures": "textures/blocks/perfect_pure_diamond_block"
+        },
+        "pure_diamond_cluster": {
+            "textures": "textures/blocks/pure_diamond_crystal"
         }
     }
 }

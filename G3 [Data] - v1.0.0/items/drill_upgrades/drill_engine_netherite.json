@@ -10,7 +10,7 @@
                 "texture": "drill_engine_netherite"
             },
             "minecraft:display_name": {
-                "value": "Netherite-Plated Drill Engine"
+                "value": "Diamond-Plated Drill Engine"
             },
             "minecraft:max_stack_size": 1,
             "minecraft:creative_category": {

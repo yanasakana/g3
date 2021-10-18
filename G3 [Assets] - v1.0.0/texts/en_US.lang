@@ -5,7 +5,27 @@
 
 ##Tiles
 
-tile.g3:block.name=we'll have blocks eventually
+tile.g3:amethyst_block_perfefct.name=Perfect Amethyst Block
+
+tile.g3:sapphire_block.name=Sapphire Block
+tile.g3:sapphire_cluster.name=Sapphire Cluster
+tile.g3:sapphire_block_perfefct.name=Perfect Sapphire Block
+
+tile.g3:jade_block.name=Jade Block
+tile.g3:jade_cluster.name=Jade Cluster
+tile.g3:jade_block_perfefct.name=Perfect Jade Block
+
+tile.g3:topaz_block.name=Topaz Block
+tile.g3:topaz_cluster.name=Topaz Cluster
+tile.g3:topaz_block_perfefct.name=Perfect Topaz Block
+
+tile.g3:ruby_block.name=Ruby Block
+tile.g3:ruby_cluster.name=Ruby Cluster
+tile.g3:ruby_block_perfefct.name=Perfect Ruby Block
+
+tile.g3:pure_diamond_block.name=Pure Diamond Block
+tile.g3:pure_diamond_cluster.name=Pure Diamond Cluster
+tile.g3:pure_diamond_block_perfefct.name=Perfect Pure Diamond Block
 
 ##Items
 
@@ -50,5 +70,5 @@ entity.g3:template.name=Template
 ## §6 = Copper
 ## §g = Gold
 ## §3 = Mithril
-## §8 = Netherite
+## §4 = Netherite(Diamond)
 ## §7 = Titanium

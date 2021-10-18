@@ -1,0 +1,37 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "g3:topaz_cluster"
+		},
+		"components": {
+			"tag:jade_drill_diggable": {},
+			"tag:topaz_drill_diggable": {},
+			"tag:ruby_drill_diggable": {},
+			"tag:pure_diamond_drill_diggable": {},
+			"minecraft:destroy_time": 3,
+			"minecraft:map_color": "#e9b644",
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:on_player_destroyed": {
+				"event": "destroyed",
+				"target": "self",
+				"condition": "q.equipped_item_any_tag('slot.weapon.mainhand','jade_drill') || q.equipped_item_any_tag('slot.weapon.mainhand','topaz_drill') || q.equipped_item_any_tag('slot.weapon.mainhand','ruby_drill') || q.equipped_item_any_tag('slot.weapon.mainhand','pure_diamond_drill')"
+			},
+			"minecraft:block_light_absorption": 0,
+			"minecraft:block_light_emission": 0,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "topaz_cluster",
+					"render_method": "blend"
+				}
+			}
+		},
+		"events": {
+			"destroyed": {
+				"spawn_loot": {
+					"table": "loot_tables/blocks/topaz/cluster.loot_table.json"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "g3:ruby_block"
+		},
+		"components": {
+			"tag:topaz_drill_diggable": {},
+			"tag:ruby_drill_diggable": {},
+			"tag:pure_diamond_drill_diggable": {},
+			"minecraft:destroy_time": 5,
+
+			"minecraft:map_color": "#ff5454",
+
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:on_player_destroyed": {
+				"event": "destroyed",
+				"target": "self",
+				"condition": "q.equipped_item_any_tag('slot.weapon.mainhand','topaz_drill') || q.equipped_item_any_tag('slot.weapon.mainhand','ruby_drill') || q.equipped_item_any_tag('slot.weapon.mainhand','pure_diamond_drill')"
+			}
+		},
+        
+		"events": {
+			"destroyed": {
+				"spawn_loot": {
+					"table": "loot_tables/blocks/ruby/block.loot_table.json"
+				}
+			}
+		}
+	}
+}

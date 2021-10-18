@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#"
+        ],
+        "key": {
+            "#": {
+                "item": "g3:sapphire_block_perfect"
+            }
+        },
+        "result": {
+            "item": "g3:sapphire_flawless",
+            "count": 9
+        },
+        "description": {
+            "identifier": "g3:flawless_sapphire_from_block"
+        }
+    }
+}

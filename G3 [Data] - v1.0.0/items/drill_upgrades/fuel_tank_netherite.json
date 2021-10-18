@@ -10,7 +10,7 @@
                 "texture": "fuel_tank_netherite"
             },
             "minecraft:display_name": {
-                "value": "Netherite-Infused Fuel Tank"
+                "value": "Diamond-Infused Fuel Tank"
             },
             "minecraft:max_stack_size": 1,
             "minecraft:creative_category": {

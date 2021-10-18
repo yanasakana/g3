@@ -47,7 +47,7 @@
                 "destroy_speeds": [
                     {
                         "block": {
-                            "tags": "query.any_tag( 'stone', 'metal' )"
+                            "tags": "query.any_tag( 'stone', 'amethyst_drill_diggable', 'sapphire_drill_diggable', 'jade_drill_diggable', 'topaz_drill_diggable', 'ruby_drill_diggable', 'metal' )"
                         },
                         "speed": 26,
                         "on_dig": {
