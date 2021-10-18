@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "g3:drill_amethyst_titanium_empty"
+            },
+            {
+                "item": "g3:oil_barrel"
+            }
+        ],
+        "result": {
+            "item": "g3:drill_amethyst_titanium",
+            "data": 0
+        },
+        "description": {
+            "identifier": "g3:amethyst_titanium_refuel_with_oil_barrel"
+        }
+    }
+}

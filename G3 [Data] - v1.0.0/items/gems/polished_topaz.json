@@ -1,0 +1,21 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "g3:topaz_polished",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "topaz_polished"
+            },
+            "minecraft:display_name": {
+                "value": "Polished Topaz"
+            },
+            "minecraft:max_stack_size": 64,
+            "minecraft:creative_category": {
+                "parent": "topaz"
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+## @VinniSauce
+## 2021/10/12
+
+
+
+##Tiles
+
+tile.g3:block.name=we'll have blocks eventually
+
+##Items
+
+item.g3:amethyst_shard=We dont need this because amethyst shard is already in the game
+item.g3:polished_amethyst=Polished Amethyst
+item.g3:flawless_amethyst=Flawless Amethyst
+
+item.g3:sapphire_shard=Sapphire Shard
+item.g3:polished_sapphire=Polished Sapphire
+item.g3:flawless_sapphire=Flawless Sapphire
+
+item.g3:jade_shard=Jade Shard
+item.g3:polished_jade=Polished Jade
+item.g3:flawless_jade=Flawless Jade
+
+item.g3:topaz_shard=Topaz Shard
+item.g3:polished_topaz=Polished Topaz
+item.g3:flawless_topaz=Flawless Topaz
+
+item.g3:ruby_shard=Ruby Shard
+item.g3:polished_ruby=Polished Ruby
+item.g3:flawless_ruby=Flawless Ruby
+
+item.g3:pure_diamond_shard=Pure Diamond Shard
+item.g3:polished_pure_diamond=Polished Pure Diamond
+item.g3:flawless_pure_diamond=Flawless Pure Diamond
+
+##Entities
+
+item.spawn_egg.entity.g3:template.name=Spawn Template
+entity.g3:template.name=Template
+
+##REMINDER
+
+## §5 = Amethyst
+## §9 = Sapphire
+## §2 = Jade
+## §e = Topaz
+## §c = Ruby
+## §f = Pure Diamond
+
+## §6 = Copper
+## §g = Gold
+## §3 = Mithril
+## §8 = Netherite
+## §7 = Titanium

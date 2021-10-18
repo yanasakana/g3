@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "g3:drill_sapphire_no_engine_empty"
+            },
+            {
+                "item": "g3:drill_engine_copper"
+            }
+        ],
+        "result": {
+            "item": "g3:drill_sapphire_copper_empty",
+            "count": 1
+        },
+        "description": {
+            "identifier": "g3:sapphire_upgrade_to_copper"
+        }
+    }
+}

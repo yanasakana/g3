@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "g3:drill_jade_titanium_empty"
+            },
+            {
+                "item": "minecraft:coal"
+            }
+        ],
+        "result": {
+            "item": "g3:drill_jade_titanium",
+            "data": 12710
+        },
+        "description": {
+            "identifier": "g3:jade_titanium_refuel_with_coal"
+        }
+    }
+}

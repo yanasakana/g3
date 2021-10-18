@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " # ",
+            "###",
+            " # "
+        ],
+        "key": {
+            "#": {
+                "item": "g3:jade_shard"
+            }
+        },
+        "result": {
+            "item": "g3:jade_polished",
+            "count": 1
+        },
+        "description": {
+            "identifier": "g3:jade_polished"
+        }
+    }
+}

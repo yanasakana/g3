@@ -1,0 +1,39 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "G3 (Behaviors)",
+        "description": "@VinniSauce @yanasakanadev",
+        "uuid": "45a68438-7eec-4934-be8e-9498cf404047",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            17,
+            10
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "aba9a70f-4f91-4c62-9a84-c477d7f68140",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "1b7c4f67-2e5d-48cb-8d72-6e4a78560cb2",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###",
+            "#B#",
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "g3:steel_plate"
+            },
+            "B": {
+                "item": "minecraft:bucket"
+            }
+        },
+        "result": {
+            "item": "g3:fuel_tank",
+            "count": 1
+        },
+        "description": {
+            "identifier": "g3:fuel_tank"
+        }
+    }
+}

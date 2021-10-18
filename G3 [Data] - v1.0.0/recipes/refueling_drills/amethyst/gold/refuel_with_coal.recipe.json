@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "g3:drill_amethyst_gold_empty"
+            },
+            {
+                "item": "minecraft:coal"
+            }
+        ],
+        "result": {
+            "item": "g3:drill_amethyst_gold",
+            "data": 2310
+        },
+        "description": {
+            "identifier": "g3:amethyst_gold_refuel_with_coal"
+        }
+    }
+}

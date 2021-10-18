@@ -1,0 +1,34 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "g3:drill_pure_diamond_no_engine_empty",
+            "category": "Commands"
+        },
+        "components": {
+            "tag:is_drill": {},
+            "minecraft:max_stack_size": 1,
+            "minecraft:damage": 3,
+            "minecraft:hand_equipped": true,
+            "minecraft:display_name": {
+                "value": "Pure Diamond Drill §8(Empty)\n§8Drill Engine Upgrade: Not Installed§r"
+            },
+            "minecraft:render_offsets": {
+                "main_hand": {
+                    "third_person": {
+                        "position": [
+                            0.8,
+                            0.7,
+                            -1.3
+                        ]
+                    }
+                }
+            },
+            "minecraft:icon": {
+                "texture": "drill_pure_diamond_no_engine_empty"
+            }
+        },
+        "events": {
+        }
+    }
+}

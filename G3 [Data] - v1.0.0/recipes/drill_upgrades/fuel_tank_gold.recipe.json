@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "ccc",
+            "cGc",
+            "ccc"
+        ],
+        "key": {
+            "c": {
+                "item": "minecraft:gold_ingot"
+            },
+            "G": {
+                "item": "g3:fuel_tank"
+            }
+        },
+        "result": {
+            "item": "g3:fuel_tank_gold",
+            "count": 1
+        },
+        "description": {
+            "identifier": "g3:fuel_tank_gold"
+        }
+    }
+}

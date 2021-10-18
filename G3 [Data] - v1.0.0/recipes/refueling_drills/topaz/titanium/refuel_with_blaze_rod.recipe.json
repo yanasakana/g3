@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "g3:drill_topaz_titanium_empty"
+            },
+            {
+                "item": "minecraft:blaze_rod"
+            }
+        ],
+        "result": {
+            "item": "g3:drill_topaz_titanium",
+            "data": 12210
+        },
+        "description": {
+            "identifier": "g3:topaz_titanium_refuel_with_blaze_rod"
+        }
+    }
+}
