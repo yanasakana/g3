@@ -4,9 +4,21 @@
     "resource_pack_name": "vanilla",
     "texture_name": "atlas.terrain",
     "texture_data": {
-        "havent_used_this_yet": {
-            "textures": "textures/blocks/astral_ore"
+        "mithril_block": {
+            "textures": "textures/blocks/mithril_block"
         },
+        "titanium_block": {
+            "textures": "textures/blocks/titanium_block"
+        },
+        "mithril_ore": {
+            "textures": "textures/blocks/mithril_ore"
+        },
+        
+
+        "planty_mush": {
+            "textures": "textures/blocks/planty_mush"
+        },
+
         "or_this": {
             "textures": {
                 "variations": [
@@ -28,6 +40,9 @@
 
         "amethyst_block_perfect": {
             "textures": "textures/blocks/perfect_amethyst_block"
+        },
+        "amethyst_prism": {
+            "textures": "textures/items/amethyst_prism"
         },
 
         "sapphire_block": {

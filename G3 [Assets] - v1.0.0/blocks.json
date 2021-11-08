@@ -8,6 +8,10 @@
         "sound": "amethyst_block",
         "textures": "amethyst_block_perfect"
     },
+    "g3:amethyst_prism": {
+        "sound": "amethyst_block",
+        "textures": "amethyst_prism"
+    },
     "g3:sapphire_block": {
         "sound": "amethyst_block",
         "textures": "sapphire_block"
@@ -67,5 +71,27 @@
     "g3:pure_diamond_cluster": {
         "sound": "amethyst_block",
         "textures": "pure_diamond_cluster"
+    },
+
+    "g3:mithril_ore": {
+        "sound": "stone",
+        "textures": "mithril_ore"
+    },
+    "g3:mithril_block_fake": {
+        "sound": "stone",
+        "textures": "mithril_block"
+    },
+    "g3:mithril_block": {
+        "sound": "metal",
+        "textures": "mithril_block"
+    },
+    "g3:titanium_block": {
+        "sound": "metal",
+        "textures": "titanium_block"
+    },
+
+    "g3:planty_mush": {
+        "sound": "slime",
+        "textures": "planty_mush"
     }
 }

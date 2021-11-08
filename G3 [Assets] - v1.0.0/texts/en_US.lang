@@ -5,53 +5,67 @@
 
 ##Tiles
 
-tile.g3:amethyst_block_perfefct.name=Perfect Amethyst Block
+tile.g3:amethyst_block_perfect.name=Perfect Amethyst Block
 
 tile.g3:sapphire_block.name=Sapphire Block
 tile.g3:sapphire_cluster.name=Sapphire Cluster
-tile.g3:sapphire_block_perfefct.name=Perfect Sapphire Block
+tile.g3:sapphire_block_perfect.name=Perfect Sapphire Block
 
 tile.g3:jade_block.name=Jade Block
 tile.g3:jade_cluster.name=Jade Cluster
-tile.g3:jade_block_perfefct.name=Perfect Jade Block
+tile.g3:jade_block_perfect.name=Perfect Jade Block
 
 tile.g3:topaz_block.name=Topaz Block
 tile.g3:topaz_cluster.name=Topaz Cluster
-tile.g3:topaz_block_perfefct.name=Perfect Topaz Block
+tile.g3:topaz_block_perfect.name=Perfect Topaz Block
 
 tile.g3:ruby_block.name=Ruby Block
 tile.g3:ruby_cluster.name=Ruby Cluster
-tile.g3:ruby_block_perfefct.name=Perfect Ruby Block
+tile.g3:ruby_block_perfect.name=Perfect Ruby Block
 
 tile.g3:pure_diamond_block.name=Pure Diamond Block
 tile.g3:pure_diamond_cluster.name=Pure Diamond Cluster
-tile.g3:pure_diamond_block_perfefct.name=Perfect Pure Diamond Block
+tile.g3:pure_diamond_block_perfect.name=Perfect Pure Diamond Block
+
+tile.g3:mithril_block_fake.name=Decorative Mithril
+tile.g3:mithril_ore.name=Mithril Ore
+tile.g3:mithril_block.name=Mithril Block
+tile.g3:titanium_block.name=Titanium Block
+tile.g3:planty_mush.name=Planty Mush
+
+
 
 ##Items
 
 item.g3:amethyst_shard=We dont need this because amethyst shard is already in the game
 item.g3:polished_amethyst=Polished Amethyst
 item.g3:flawless_amethyst=Flawless Amethyst
+tile.g3:amethyst_prism.name=Amethyst Prism
 
 item.g3:sapphire_shard=Sapphire Shard
 item.g3:polished_sapphire=Polished Sapphire
 item.g3:flawless_sapphire=Flawless Sapphire
+tile.g3:sapphire_prism.name=Sapphire Prism
 
 item.g3:jade_shard=Jade Shard
 item.g3:polished_jade=Polished Jade
 item.g3:flawless_jade=Flawless Jade
+tile.g3:jade_prism.name=Jade Prism
 
 item.g3:topaz_shard=Topaz Shard
 item.g3:polished_topaz=Polished Topaz
 item.g3:flawless_topaz=Flawless Topaz
+tile.g3:topaz_prism.name=Topaz Prism
 
 item.g3:ruby_shard=Ruby Shard
 item.g3:polished_ruby=Polished Ruby
 item.g3:flawless_ruby=Flawless Ruby
+tile.g3:ruby_prism.name=Ruby Prism
 
 item.g3:pure_diamond_shard=Pure Diamond Shard
 item.g3:polished_pure_diamond=Polished Pure Diamond
 item.g3:flawless_pure_diamond=Flawless Pure Diamond
+tile.g3:pure_diamond_prism.name=Pure Diamond Prism
 
 ##Entities
 
