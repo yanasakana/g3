@@ -1,10 +1,14 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.17.20",
 	"minecraft:block": {
 		"description": {
 			"identifier": "g3:mithril_ore"
 		},
 		"components": {
+			"minecraft:creative_category": {
+				"category": "nature",
+				"group": "itemGroup.name.ore"
+			},
 			"tag:amethyst_drill_diggable": {},
 			"tag:sapphire_drill_diggable": {},
 			"tag:jade_drill_diggable": {},

@@ -1,10 +1,14 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.17.20",
 	"minecraft:block": {
 		"description": {
 			"identifier": "g3:jade_cluster"
 		},
 		"components": {
+			"minecraft:creative_category": {
+				"category": "nature",
+				"group": "itemGroup.name.gem_blocks"
+			},
 			"tag:sapphire_drill_diggable": {},
 			"tag:jade_drill_diggable": {},
 			"tag:topaz_drill_diggable": {},
