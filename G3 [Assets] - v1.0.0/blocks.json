@@ -24,6 +24,10 @@
         "sound": "amethyst_block",
         "textures": "sapphire_cluster"
     },
+    "g3:sapphire_prism": {
+        "sound": "amethyst_block",
+        "textures": "sapphire_prism"
+    },
     "g3:jade_block": {
         "sound": "amethyst_block",
         "textures": "jade_block"
@@ -35,6 +39,10 @@
     "g3:jade_cluster": {
         "sound": "amethyst_block",
         "textures": "jade_cluster"
+    },
+    "g3:jade_prism": {
+        "sound": "amethyst_block",
+        "textures": "jade_prism"
     },
     "g3:topaz_block": {
         "sound": "amethyst_block",
@@ -48,6 +56,10 @@
         "sound": "amethyst_block",
         "textures": "topaz_cluster"
     },
+    "g3:topaz_prism": {
+        "sound": "amethyst_block",
+        "textures": "topaz_prism"
+    },
     "g3:ruby_block": {
         "sound": "amethyst_block",
         "textures": "ruby_block"
@@ -60,6 +72,10 @@
         "sound": "amethyst_block",
         "textures": "ruby_cluster"
     },
+    "g3:ruby_prism": {
+        "sound": "amethyst_block",
+        "textures": "ruby_prism"
+    },
     "g3:pure_diamond_block": {
         "sound": "amethyst_block",
         "textures": "pure_diamond_block"
@@ -71,6 +87,10 @@
     "g3:pure_diamond_cluster": {
         "sound": "amethyst_block",
         "textures": "pure_diamond_cluster"
+    },
+    "g3:pure_diamond_prism": {
+        "sound": "amethyst_block",
+        "textures": "pure_diamond_prism"
     },
 
     "g3:mithril_ore": {

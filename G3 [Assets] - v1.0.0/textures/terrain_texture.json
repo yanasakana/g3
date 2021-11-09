@@ -54,6 +54,9 @@
         "sapphire_cluster": {
             "textures": "textures/blocks/sapphire_crystal"
         },
+        "sapphire_prism": {
+            "textures": "textures/items/sapphire_prism"
+        },
 
         "jade_block": {
             "textures": "textures/blocks/jade_block"
@@ -63,6 +66,9 @@
         },
         "jade_cluster": {
             "textures": "textures/blocks/jade_crystal"
+        },
+        "jade_prism": {
+            "textures": "textures/items/jade_prism"
         },
 
         "topaz_block": {
@@ -74,6 +80,9 @@
         "topaz_cluster": {
             "textures": "textures/blocks/topaz_crystal"
         },
+        "topaz_prism": {
+            "textures": "textures/items/topaz_prism"
+        },
 
         "ruby_block": {
             "textures": "textures/blocks/ruby_block"
@@ -84,6 +93,9 @@
         "ruby_cluster": {
             "textures": "textures/blocks/ruby_crystal"
         },
+        "ruby_prism": {
+            "textures": "textures/items/ruby_prism"
+        },
 
         "pure_diamond_block": {
             "textures": "textures/blocks/pure_diamond_block"
@@ -93,6 +105,9 @@
         },
         "pure_diamond_cluster": {
             "textures": "textures/blocks/pure_diamond_crystal"
+        },
+        "pure_diamond_prism": {
+            "textures": "textures/items/pure_diamond_prism"
         }
     }
 }

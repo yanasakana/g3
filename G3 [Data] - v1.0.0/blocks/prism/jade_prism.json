@@ -2,15 +2,15 @@
   "format_version": "1.17.20",
   "minecraft:block": {
     "description": {
-      "identifier": "g3:amethyst_prism"
+      "identifier": "g3:jade_prism"
     },
     "components": {
       "minecraft:creative_category": {
 				"category": "items",
-				"group": "amethyst"
+				"group": "jade"
 			},
       "minecraft:destroy_time": 0,
-      "minecraft:map_color": "#d586e3",
+      "minecraft:map_color": "#9bdaad",
       "minecraft:breakonpush": true,
       "minecraft:entity_collision": false,
       "minecraft:geometry": "geometry.cubic_item",
@@ -30,7 +30,7 @@
       },
       "minecraft:material_instances": {
         "*": {
-          "texture": "amethyst_prism",
+          "texture": "jade_prism",
         	"render_method": "alpha_test",
 					"face_dimming": false,
 					"ambient_occlusion": false

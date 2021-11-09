@@ -3,9 +3,12 @@
     "minecraft:item": {
         "description": {
             "identifier": "g3:drill_sapphire_no_engine_empty",
-            "category": "Commands"
+            "category": "Equipment"
         },
         "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.drill"
+            },
             "tag:is_drill": {},
             "minecraft:max_stack_size": 1,
             "minecraft:damage": 3,
