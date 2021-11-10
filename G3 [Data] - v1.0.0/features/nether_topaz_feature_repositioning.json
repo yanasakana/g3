@@ -1,0 +1,17 @@
+{
+	"format_version": "1.13.0",
+
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "g3:nether_topaz_feature_repositioning"
+		},
+
+		"places_feature": "g3:nether_topaz_feature",
+
+		"iterations": 1,
+
+		"x": 0,
+		"z": 0,
+		"y": -3
+	}
+}

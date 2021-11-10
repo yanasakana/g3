@@ -1,0 +1,14 @@
+{
+	"format_version": "1.16.0",
+
+	"minecraft:snap_to_surface_feature": {
+		"description": {
+			"identifier": "g3:nether_topaz_feature_snap"
+		},
+
+		"feature_to_snap": "g3:nether_topaz_feature_repositioning",
+
+		"surface": "floor",
+		"vertical_search_range": 24
+	}
+}

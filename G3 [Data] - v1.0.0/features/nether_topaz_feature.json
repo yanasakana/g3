@@ -1,0 +1,15 @@
+{
+	"format_version": "1.13.0",
+
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "g3:nether_topaz_feature"
+		},
+
+		"features": [
+			["g3:nether_topaz_feature_up", 3],
+			["g3:nether_topaz_feature_angled", 2],
+			["g3:nether_topaz_feature_large", 1]
+		]
+	}
+}
