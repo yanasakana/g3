@@ -3,21 +3,21 @@
 	
 	"minecraft:feature_rules": {
 		"description": {
-			"identifier": "g3:savanna_ruby_feature_placement",
+			"identifier": "g3:overworld_underground_purediamond_feature_placement",
 			
-			"places_feature": "g3:savanna_ruby_feature"
+			"places_feature": "g3:underground_purediamond_feature"
 		},
 		
 		"conditions": {
 			"placement_pass": "underground_pass",
 			"minecraft:biome_filter": {
 				"test": "has_biome_tag",
-				"value": "savanna"
+				"value": "overworld"
 			}
 		},
 		
 		"distribution": {
-			"iterations": 4,
+			"iterations": 1,
 			"x": {
 				"distribution": "uniform",
 				"extent": [0, 16]
@@ -28,7 +28,7 @@
 			},
 			"y": {
 				"distribution": "uniform",
-				"extent": [0, 64]
+				"extent": [0, 12]
 			}
 		}
 	}
