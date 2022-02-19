@@ -13,6 +13,9 @@
         "mithril_ore": {
             "textures": "textures/blocks/mithril_ore"
         },
+        "deepslate_mithril_ore": {
+            "textures": "textures/blocks/deepslate_mithril_ore"
+        },
         
 
         "planty_mush": {
@@ -108,6 +111,16 @@
         },
         "pure_diamond_prism": {
             "textures": "textures/items/pure_diamond_prism"
+        },
+
+        "altar_side": {
+            "textures": "textures/blocks/altar_side"
+        },
+        "altar_top": {
+            "textures": "textures/blocks/altar_top"
+        },
+        "altar_bottom": {
+            "textures": "textures/blocks/altar_bottom"
         }
     }
 }

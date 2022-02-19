@@ -29,15 +29,18 @@ tile.g3:pure_diamond_block_perfect.name=Perfect Pure Diamond Block
 
 tile.g3:mithril_block_fake.name=Decorative Mithril
 tile.g3:mithril_ore.name=Mithril Ore
+tile.g3:deepslate_mithril_ore.name=Deepslate Mithril Ore
 tile.g3:mithril_block.name=Mithril Block
 tile.g3:titanium_block.name=Titanium Block
 tile.g3:planty_mush.name=Planty Mush
+tile.g3:altar.name=Prismatic Altar
+
 
 
 
 ##Items
 
-item.g3:amethyst_shard=We dont need this because amethyst shard is already in the game
+item.g3:amethyst_shard=Amethyst Sha- oh wait thats already in the game nvm
 item.g3:polished_amethyst=Polished Amethyst
 item.g3:flawless_amethyst=Flawless Amethyst
 tile.g3:amethyst_prism.name=Amethyst Prism

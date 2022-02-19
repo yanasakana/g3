@@ -13,7 +13,7 @@
 		},
 		
 		"distribution": {
-			"iterations": "math.abs(v.originx) > 500 || math.abs(v.originz) > 500",
+			"iterations": "5 * (math.abs(v.originx) > 500 || math.abs(v.originz) > 500)",
 			"scatter_chance": 0.5,
 			"x": {
 				"distribution": "uniform",

@@ -1,15 +1,14 @@
 {
 	"format_version": "1.13.0",
-
-	"minecraft:aggregate_feature": {
+	
+	"minecraft:weighted_random_feature": {
 		"description": {
 			"identifier": "g3:underground_purediamond_feature"
 		},
-
+		
 		"features": [
-			"g3:underground_purediamond_feature_cluster",
-			"g3:underground_purediamond_feature_block"
-		],
-		"early_out": "first_failure"
+			["g3:underground_purediamond_feature_cluster", 1],
+			["g3:underground_purediamond_feature_block", 1]
+		]
 	}
 }

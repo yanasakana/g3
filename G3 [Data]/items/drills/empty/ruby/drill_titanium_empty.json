@@ -11,7 +11,7 @@
             "minecraft:damage": 3,
             "minecraft:hand_equipped": true,
             "minecraft:display_name": {
-                "value": "Ruby Drill §8(Empty)\n§8Drill Engine Upgrade: §7Titanium-Plated Drill Engine§r"
+                "value": "Ruby Drill §8(Empty)\n§8Drill Engine Upgrade: §7Titanium-Plated Drill Engine§r\n§8Mining Speed: 26§r \n§8Fuel Capacity: 13200§r"
             },
             "minecraft:render_offsets": {
                 "main_hand": {

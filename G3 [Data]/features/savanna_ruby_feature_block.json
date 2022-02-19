@@ -1,20 +1,18 @@
 {
 	"format_version": "1.13.0",
-
-	"minecraft:ore_feature": {
+	"minecraft:structure_template_feature": {
 		"description": {
 			"identifier": "g3:savanna_ruby_feature_block"
 		},
-
-		"count": 12,
-		"replace_rules": [
-			{
-				"places_block": "g3:ruby_block",
-				"may_replace": [
+		"structure_name": "g3:ruby_cluster",
+		"facing_direction": "random",
+		"constraints": {
+			"block_intersection": {
+				"block_allowlist": [
 					"minecraft:stone",
-					"g3:ruby_cluster"
+					"minecraft:deepslate"
 				]
 			}
-		]
+		}
 	}
 }

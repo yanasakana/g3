@@ -10,7 +10,7 @@
                 "texture": "drill_engine_copper"
             },
             "minecraft:display_name": {
-                "value": "Copper-Plated Drill Engine"
+                "value": "Copper-Plated Drill Engine\n§8+2 Mining Speed§r \n§8+800 Fuel Capacity§r"
             },
             "minecraft:max_stack_size": 1,
             "minecraft:creative_category": {

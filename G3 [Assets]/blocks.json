@@ -97,6 +97,10 @@
         "sound": "stone",
         "textures": "mithril_ore"
     },
+    "g3:deepslate_mithril_ore": {
+        "sound": "deepslate",
+        "textures": "deepslate_mithril_ore"
+    },
     "g3:mithril_block_fake": {
         "sound": "stone",
         "textures": "mithril_block"
@@ -113,5 +117,14 @@
     "g3:planty_mush": {
         "sound": "slime",
         "textures": "planty_mush"
+    },
+
+    "g3:altar": {
+        "sound": "deepslate",
+        "textures": {
+            "up": "altar_top",
+            "down": "altar_bottom",
+            "side": "altar_side"
+        }
     }
 }

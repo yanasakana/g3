@@ -1,17 +1,17 @@
 {
 	"format_version": "1.13.0",
-
-	"minecraft:ore_feature": {
+	"minecraft:structure_template_feature": {
 		"description": {
 			"identifier": "g3:underground_purediamond_feature_cluster"
 		},
-
-		"count": 20,
-		"replace_rules": [
-			{
-				"places_block": "g3:pure_diamond_cluster",
-				"may_replace": ["minecraft:lava"]
+		"structure_name": "g3:pure_diamond_cluster",
+		"facing_direction": "random",
+		"constraints": {
+			"block_intersection": {
+				"block_allowlist": [
+					"minecraft:lava"
+				]
 			}
-		]
+		}
 	}
 }

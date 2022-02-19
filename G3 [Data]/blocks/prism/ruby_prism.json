@@ -10,6 +10,7 @@
 				"group": "ruby"
 			},
       "minecraft:destroy_time": 0,
+      "minecraft:block_light_emission": 0.3,
       "minecraft:map_color": "#ff99aa",
       "minecraft:breakonpush": true,
       "minecraft:entity_collision": false,
@@ -22,8 +23,7 @@
               "up"
             ],
             "block_filter": [
-              "netherreactor",
-              "minecraft:netherreactor"
+              "g3:altar"
             ]
           }
         ]

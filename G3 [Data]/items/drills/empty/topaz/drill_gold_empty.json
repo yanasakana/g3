@@ -11,7 +11,7 @@
             "minecraft:damage": 3,
             "minecraft:hand_equipped": true,
             "minecraft:display_name": {
-                "value": "Topaz Drill §8(Empty)\n§8Drill Engine Upgrade: §eGold-Plated Drill Engine§r"
+                "value": "Topaz Drill §8(Empty)\n§8Drill Engine Upgrade: §eGold-Plated Drill Engine§r\n§8Mining Speed: 18§r \n§8Fuel Capacity: 2800§r"
             },
             "minecraft:render_offsets": {
                 "main_hand": {

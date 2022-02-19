@@ -6,21 +6,26 @@
       "places_feature": "g3:mithril_ore_feature"
     },
     "conditions": {
-      "placement_pass": "underground_pass",
+      "placement_pass": "final_pass",
       "minecraft:biome_filter": [
         {
           "any_of": [
             {
               "test": "has_biome_tag",
               "operator": "==",
-              "value": "dwarven"
+              "value": "mountains"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "extreme_hills"
             }
           ]
         }
       ]
     },
     "distribution": {
-      "iterations": 20,
+      "iterations": 64,
       "coordinate_eval_order": "zyx",
       "x": {
         "distribution": "uniform",
@@ -28,7 +33,7 @@
       },
       "y": {
         "distribution": "uniform",
-        "extent": [ 0, 255 ]
+        "extent": [ -64, 255 ]
       },
       "z": {
         "distribution": "uniform",

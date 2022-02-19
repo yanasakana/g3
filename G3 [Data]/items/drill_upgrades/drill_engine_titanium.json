@@ -10,7 +10,7 @@
                 "texture": "drill_engine_titanium"
             },
             "minecraft:display_name": {
-                "value": "Titanium-Plated Drill Engine"
+                "value": "Titanium-Plated Drill Engine\n§8+10 Mining Speed§r \n§8+12800 Fuel Capacity§r"
             },
             "minecraft:max_stack_size": 1,
             "minecraft:creative_category": {
