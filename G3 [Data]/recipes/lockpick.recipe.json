@@ -5,21 +5,24 @@
             "crafting_table"
         ],
         "pattern": [
-            "aaa",
-            "aaa",
-            "aaa"
+            "  #",
+            " G ",
+            "G  "
         ],
         "key": {
-            "a": {
-                "item": "minecraft:leaves"
+            "#": {
+                "item": "g3:steel_rod"
+            },
+            "G": {
+                "item": "g3:steel_plate"
             }
         },
         "result": {
-            "item": "g3:planty_mush",
+            "item": "g3:lockpick",
             "count": 1
         },
         "description": {
-            "identifier": "g3:planty_mush"
+            "identifier": "g3:lockpick"
         }
     }
 }

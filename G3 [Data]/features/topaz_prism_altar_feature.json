@@ -1,0 +1,24 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "g3:topaz_prism_altar_feature"
+		},
+
+		"structure_name": "g3:topaz_prism_chamber",
+
+		"facing_direction": "random",
+		"constraints": {
+			"block_intersection": {
+				"block_allowlist": [
+					"minecraft:netherrack",
+					"minecraft:soulsand",
+					"minecraft:lava",
+					"minecraft:blackstone",
+					"minecraft:quartz_ore"
+				]
+			},
+			"grounded": {}
+		}
+	}
+}

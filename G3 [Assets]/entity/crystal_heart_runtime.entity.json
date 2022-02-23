@@ -1,0 +1,24 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "g3:crystal_heart_runtime",
+			"materials": {
+				"default": "endermite"
+			},
+			"textures": {
+				"default": "textures/entity/endermite"
+			},
+			"geometry": {
+				"default": "geometry.endermite"
+			},
+			"render_controllers": [
+				"controller.render.endermite"
+			],
+			"spawn_egg": {
+				"texture": "spawn_egg",
+				"texture_index": 51
+			}
+		}
+	}
+}

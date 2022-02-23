@@ -3,7 +3,7 @@
   "minecraft:feature_rules": {
     "description": {
       "identifier": "overworld_underground_deepslate_mithril_ore_feature",
-      "places_feature": "g3:mithril_ore_feature"
+      "places_feature": "g3:deepslate_mithril_ore_feature"
     },
     "conditions": {
       "placement_pass": "final_pass",
@@ -33,7 +33,7 @@
       },
       "y": {
         "distribution": "uniform",
-        "extent": [ 0, 255 ]
+        "extent": [ -64, 0 ]
       },
       "z": {
         "distribution": "uniform",

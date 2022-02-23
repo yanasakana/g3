@@ -1,0 +1,32 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "g3:worm",
+      "textures": {
+        "default": "textures/entity/worm"
+      },
+      "materials": {
+        "default": "creeper"
+      },
+      "geometry": {
+        "default": "geometry.worm"
+      },
+      "animations": {
+        "worm": "animation.worm"
+      },
+      "scripts": {
+        "animate": [
+          "worm"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.creeper"
+      ],
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 57
+      }
+    }
+  }
+}

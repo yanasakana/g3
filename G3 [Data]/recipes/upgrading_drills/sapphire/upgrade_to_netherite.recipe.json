@@ -2,7 +2,7 @@
     "format_version": "1.12",
     "minecraft:recipe_shapeless": {
         "tags": [
-            "crafting_table"
+            "drill_table"
         ],
         "ingredients": [
             {

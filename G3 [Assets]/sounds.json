@@ -1,0 +1,15 @@
+{
+   "entity_sounds" : {
+      "entities" : {
+         "g3:worm" : {
+            "events" : {
+               "ambient" : "mob.drowned.say",
+               "hurt" : "mob.drowned.hurt",
+               "step" : "mob.drowned.step"
+            },
+            "pitch" : [ 0.50, 0.75 ],
+            "volume" : 1.0
+         }
+      }
+   }
+}

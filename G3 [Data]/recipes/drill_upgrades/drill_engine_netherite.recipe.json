@@ -2,7 +2,7 @@
     "format_version": "1.12",
     "minecraft:recipe_shaped": {
         "tags": [
-            "crafting_table"
+            "drill_table"
         ],
         "pattern": [
             "cGc",
@@ -11,7 +11,7 @@
         ],
         "key": {
             "c": {
-                "item": "minecraft:diamond"
+                "item": "minecraft:diamond_block"
             },
             "G": {
                 "item": "g3:steel_plate"

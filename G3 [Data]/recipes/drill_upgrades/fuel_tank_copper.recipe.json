@@ -2,7 +2,7 @@
     "format_version": "1.12",
     "minecraft:recipe_shaped": {
         "tags": [
-            "crafting_table"
+            "drill_table"
         ],
         "pattern": [
             "ccc",
@@ -11,7 +11,7 @@
         ],
         "key": {
             "c": {
-                "item": "minecraft:copper_ingot"
+                "item": "minecraft:copper_block"
             },
             "G": {
                 "item": "g3:fuel_tank"

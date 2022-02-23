@@ -1,0 +1,7 @@
+[
+  {
+    "flipbook_texture": "textures/blocks/lockbox_side_shimmer",
+    "atlas_tile": "lockbox_side_shimmer",
+    "ticks_per_frame": 2
+  }
+]

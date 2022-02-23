@@ -1,0 +1,25 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "g3:sapphire_prism_altar_feature"
+		},
+
+		"structure_name": "g3:sapphire_prism_chamber",
+
+		"facing_direction": "random",
+		"constraints": {
+			"block_intersection": {
+				"block_allowlist": [
+					"minecraft:deepslate",
+					"minecraft:tuff",
+					"minecraft:dirt",
+					"minecraft:stone",
+					"minecraft:gravel",
+					"minecraft:sand"
+				]
+			},
+			"grounded": {}
+		}
+	}
+}

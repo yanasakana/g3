@@ -4,6 +4,22 @@
         1,
         0
     ],
+    "g3:deepslate_worm_egg" : {
+        "isotropic" : {
+           "down" : true,
+           "up" : true
+        },
+        "sound" : "deepslate",
+        "textures" : {
+           "down" : "deepslate_top",
+           "side" : "deepslate",
+           "up" : "deepslate_top"
+        }
+     },
+    "g3:worm_egg" : {
+        "sound" : "stone",
+        "textures" : "stone"
+     },
     "g3:amethyst_block_perfect": {
         "sound": "amethyst_block",
         "textures": "amethyst_block_perfect"
@@ -113,7 +129,10 @@
         "sound": "metal",
         "textures": "titanium_block"
     },
-
+    "g3:crystal_heart_activator": {
+        "sound": "metal",
+        "textures": "titanium_block"
+    },
     "g3:planty_mush": {
         "sound": "slime",
         "textures": "planty_mush"
@@ -126,5 +145,67 @@
             "down": "altar_bottom",
             "side": "altar_side"
         }
+    },
+
+    "g3:unbreakable_altar": {
+        "sound": "deepslate",
+        "textures": {
+            "up": "altar_top",
+            "down": "altar_bottom",
+            "side": "altar_side"
+        }
+    },
+    "g3:lockbox": {
+        "sound": "metal",
+        "textures": {
+            "up": "lockbox_top",
+            "down": "lockbox_top",
+            "side": "lockbox_side"
+        }
+    },
+    "g3:lockbox_waiting": {
+        "sound": "metal",
+        "textures": {
+            "up": "lockbox_top",
+            "down": "lockbox_top",
+            "side": "lockbox_side"
+        }
+    },
+    "g3:lockbox_shimmer": {
+        "sound": "metal",
+        "textures": {
+            "up": "lockbox_top",
+            "down": "lockbox_top",
+            "side": "lockbox_side_shimmer"
+        }
+    },
+    "g3:lockbox_broken": {
+        "sound": "metal",
+        "textures": {
+            "up": "lockbox_top",
+            "down": "lockbox_top",
+            "side": "lockbox_side_broken"
+        }
+    },
+    "g3:lockbox_opened": {
+        "sound": "metal",
+        "textures": {
+            "up": "lockbox_top",
+            "down": "lockbox_top",
+            "side": "lockbox_side_opened"
+        }
+    },
+    "g3:drill_table": {
+        "sound": "metal",
+        "textures": {
+            "up": "drill_table_top",
+            "down": "drill_table_bottom",
+            "side": "drill_table_side"
+        }
+    },
+
+    "g3:crystal_chest": {
+        "sound": "glass",
+        "textures": "crystal_chest"
     }
 }

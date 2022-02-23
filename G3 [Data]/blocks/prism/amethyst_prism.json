@@ -9,10 +9,15 @@
 				"category": "items",
 				"group": "amethyst"
 			},
+      "minecraft:pick_collision": {
+        "origin": [-4, 4, -4],
+        "size": [8, 8, 8]
+      },
+      "minecraft:immovable": true,
+			"minecraft:explosion_resistance": 32767,
       "minecraft:destroy_time": 0,
       "minecraft:block_light_emission": 0.3,
       "minecraft:map_color": "#d586e3",
-      "minecraft:breakonpush": true,
       "minecraft:entity_collision": false,
       "minecraft:geometry": "geometry.cubic_item",
       "minecraft:block_light_absorption": 0,
@@ -35,7 +40,25 @@
 					"face_dimming": false,
 					"ambient_occlusion": false
 				}
+      },
+      "minecraft:on_placed": {
+        "event": "g3:amethyst_placed"
+      },
+      "minecraft:on_player_destroyed": {
+        "event": "g3:amethyst_removed"
       }
-    }
+    },
+		"events": {
+			"g3:amethyst_placed": {
+				"run_command": {
+          "command": ["event entity @e[type=g3:crystal_heart_runtime,c=1,r=5] g3:amethyst_placed"]
+        }
+			},
+      "g3:amethyst_removed": {
+				"run_command": {
+          "command": ["event entity @e[type=g3:crystal_heart_runtime,c=1,r=5] g3:amethyst_removed"]
+        }
+			}
+		}
   }
 }

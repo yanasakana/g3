@@ -22,13 +22,13 @@
 				"distribution": "uniform",
 				"extent": [0, 16]
 			},
-			"z": {
-				"distribution": "uniform",
-				"extent": [0, 16]
-			},
 			"y": {
 				"distribution": "uniform",
 				"extent": [0, 128]
+			},
+			"z": {
+				"distribution": "uniform",
+				"extent": [0, 16]
 			}
 		}
 	}

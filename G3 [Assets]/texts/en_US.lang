@@ -35,6 +35,16 @@ tile.g3:titanium_block.name=Titanium Block
 tile.g3:planty_mush.name=Planty Mush
 tile.g3:altar.name=Prismatic Altar
 
+tile.g3:lockbox.name=Rusty Lockbox
+tile.g3:lockbox_broken.name=Broken Lockbox
+tile.g3:lockbox_opened.name=Opened Lockbox
+
+tile.g3:drill_table.name=Drill Assembly Table
+
+tile.g3:crystal_chest.name=Crystal Chest
+
+tile.g3:deepslate_worm_egg.name=worm_egg
+tile.g3:worm_egg.name=worm_egg
 
 
 
@@ -72,8 +82,8 @@ tile.g3:pure_diamond_prism.name=Pure Diamond Prism
 
 ##Entities
 
-item.spawn_egg.entity.g3:template.name=Spawn Template
-entity.g3:template.name=Template
+item.spawn_egg.entity.g3:worm.name=Spawn Cave Worm
+entity.g3:worm.name=Cave Worm
 
 ##REMINDER
 

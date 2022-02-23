@@ -2,7 +2,7 @@
     "format_version": "1.12",
     "minecraft:recipe_shaped": {
         "tags": [
-            "crafting_table"
+            "drill_table"
         ],
         "pattern": [
             "###",

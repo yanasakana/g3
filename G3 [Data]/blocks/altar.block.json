@@ -8,6 +8,8 @@
 			"minecraft:creative_category": {
 				"category": "construction"
 			},
+			"minecraft:immovable": true,
+			"minecraft:explosion_resistance": 32767,
 			"tag:amethyst_drill_diggable": {},
 			"tag:sapphire_drill_diggable": {},
 			"tag:jade_drill_diggable": {},

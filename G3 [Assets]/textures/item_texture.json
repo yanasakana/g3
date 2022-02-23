@@ -347,6 +347,39 @@
 
         "gemstone_slag": {
             "textures": "textures/items/gemstone_slag"
+        },
+        "lockpick": {
+            "textures": "textures/items/lockpick"
+        },
+        "key": {
+            "textures": "textures/items/key"
+        },
+        "crystal_skull": {
+            "textures": "textures/items/crystal_skull"
+        },
+        "bomb": {
+            "textures": "textures/items/bomb"
+        },
+        "fossil": {
+            "textures": "textures/items/fossil"
+        },
+        "geode": {
+            "textures": "textures/items/geode"
+        },
+        "prismatic_candy": {
+            "textures": "textures/items/prismatic_candy"
+        },
+        "spear_of_longinus": {
+            "textures": "textures/items/spear_of_longinus"
+        },
+        "raw_worm_meat": {
+            "textures": "textures/items/raw_worm_meat"
+        },
+        "cooked_worm_meat": {
+            "textures": "textures/items/cooked_worm_meat"
+        },
+        "worm_scale": {
+            "textures": "textures/items/worm_scale"
         }
     },
     "texture_name": "atlas.items"

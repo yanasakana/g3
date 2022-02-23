@@ -16,7 +16,32 @@
         "deepslate_mithril_ore": {
             "textures": "textures/blocks/deepslate_mithril_ore"
         },
+
+        "drill_table_top": {
+            "textures": "textures/blocks/drill_table_top"
+        },
+        "drill_table_side": {
+            "textures": "textures/blocks/drill_table_side"
+        },
+        "drill_table_bottom": {
+            "textures": "textures/blocks/drill_table_bottom"
+        },
         
+        "lockbox_top": {
+            "textures": "textures/blocks/lockbox_top"
+        },
+        "lockbox_side": {
+            "textures": "textures/blocks/lockbox_side"
+        },
+        "lockbox_side_shimmer": {
+            "textures": "textures/blocks/lockbox_side_shimmer"
+        },
+        "lockbox_side_broken": {
+            "textures": "textures/blocks/lockbox_side_broken"
+        },
+        "lockbox_side_opened": {
+            "textures": "textures/blocks/lockbox_side_opened"
+        },
 
         "planty_mush": {
             "textures": "textures/blocks/planty_mush"
@@ -121,6 +146,10 @@
         },
         "altar_bottom": {
             "textures": "textures/blocks/altar_bottom"
+        },
+
+        "crystal_chest": {
+            "textures": "textures/blocks/crystal_chest"
         }
     }
 }
