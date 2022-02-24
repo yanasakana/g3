@@ -1,0 +1,29 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "g3:sapphire_flawless"
+            },
+            {
+                "item": "minecraft:potion"
+            },
+            {
+                "item": "minecraft:potion"
+            },
+            {
+                "item": "minecraft:potion"
+            }
+        ],
+        "result": {
+            "item": "minecraft:experience_bottle",
+            "count": 3
+        },
+        "description": {
+            "identifier": "g3:experience_bottle_from_sapphire"
+        }
+    }
+}

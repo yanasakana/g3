@@ -1,0 +1,20 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "g3:amethyst_polished"
+            }
+        ],
+        "result": {
+            "item": "minecraft:amethyst_shard",
+            "count": 5
+        },
+        "description": {
+            "identifier": "g3:decraft_polished_amethyst"
+        }
+    }
+}

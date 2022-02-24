@@ -9,8 +9,6 @@
 				"category": "nature",
 				"group": "itemGroup.name.ore"
 			},
-			"tag:amethyst_drill_diggable": {},
-			"tag:sapphire_drill_diggable": {},
 			"tag:jade_drill_diggable": {},
 			"tag:topaz_drill_diggable": {},
 			"tag:ruby_drill_diggable": {},
@@ -23,7 +21,7 @@
 			"minecraft:on_player_destroyed": {
 				"event": "destroyed",
 				"target": "self",
-				"condition": "q.equipped_item_any_tag('slot.weapon.mainhand','amethyst_drill') || q.equipped_item_any_tag('slot.weapon.mainhand','sapphire_drill') || q.equipped_item_any_tag('slot.weapon.mainhand','jade_drill') || q.equipped_item_any_tag('slot.weapon.mainhand','topaz_drill') || q.equipped_item_any_tag('slot.weapon.mainhand','ruby_drill') || q.equipped_item_any_tag('slot.weapon.mainhand','pure_diamond_drill')"
+				"condition": "q.equipped_item_any_tag('slot.weapon.mainhand','jade_drill') || q.equipped_item_any_tag('slot.weapon.mainhand','topaz_drill') || q.equipped_item_any_tag('slot.weapon.mainhand','ruby_drill') || q.equipped_item_any_tag('slot.weapon.mainhand','pure_diamond_drill')"
 			}
 		},
         

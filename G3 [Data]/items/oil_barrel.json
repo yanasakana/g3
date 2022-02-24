@@ -9,6 +9,9 @@
             "minecraft:icon": {
                 "texture": "oil_barrel"
             },
+            "minecraft:fuel": {
+                "duration": 500
+            },
             "minecraft:display_name": {
                 "value": "Oil Barrel"
             },

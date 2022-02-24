@@ -9,6 +9,9 @@
             "minecraft:icon": {
                 "texture": "biofuel"
             },
+            "minecraft:fuel": {
+                "duration": 500
+            },
             "minecraft:display_name": {
                 "value": "Biofuel"
             },

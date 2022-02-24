@@ -1,0 +1,32 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "g3:jade_polished"
+            },
+            {
+                "item": "g3:jade_polished"
+            },
+            {
+                "item": "g3:jade_polished"
+            },
+            {
+                "item": "minecraft:chorus_fruit"
+            },
+            {
+                "item": "g3:jade_polished"
+            }
+        ],
+        "result": {
+            "item": "minecraft:ender_pearl",
+            "count": 4
+        },
+        "description": {
+            "identifier": "g3:ender_pearls_from_jade"
+        }
+    }
+}
