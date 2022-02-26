@@ -2119,16 +2119,59 @@
             "updateFuel": {
                 "sequence": [
                     {
-                        "condition": "q.remaining_durability(0) == 10",
+                        "condition": "q.remaining_durability(0) == 11",
                         "trigger": {
                             "event": "fuel_gone"
                         }
                     },
-                    {
+                    {   
+						"condition": "!q.equipped_item_any_tag('slot.weapon.offhand','is_battery')",
                         "damage": {
                             "type": "durability",
                             "amount": 1,
                             "target": "self"
+                        }
+                    },
+					{   
+						"condition": "query.is_item_name_any('slot.weapon.offhand', 'g3:battery')",
+                        "trigger": {
+                            "event": "damagechance_battery"
+                        }
+                    },
+					{   
+						"condition": "query.is_item_name_any('slot.weapon.offhand', 'g3:amethyst_battery')",
+                        "trigger": {
+                            "event": "damagechance_amethyst_battery"
+                        }
+                    },
+					{   
+						"condition": "query.is_item_name_any('slot.weapon.offhand', 'g3:sapphire_battery')",
+                        "trigger": {
+                            "event": "damagechance_sapphire_battery"
+                        }
+                    },
+					{   
+						"condition": "query.is_item_name_any('slot.weapon.offhand', 'g3:jade_battery')",
+                        "trigger": {
+                            "event": "damagechance_jade_battery"
+                        }
+                    },
+					{   
+						"condition": "query.is_item_name_any('slot.weapon.offhand', 'g3:topaz_battery')",
+                        "trigger": {
+                            "event": "damagechance_topaz_battery"
+                        }
+                    },
+					{   
+						"condition": "query.is_item_name_any('slot.weapon.offhand', 'g3:ruby_battery')",
+                        "trigger": {
+                            "event": "damagechance_ruby_battery"
+                        }
+                    },
+					{   
+						"condition": "query.is_item_name_any('slot.weapon.offhand', 'g3:pure_diamond_battery')",
+                        "trigger": {
+                            "event": "damagechance_pure_diamond_battery"
                         }
                     },
                     {
@@ -2139,6 +2182,111 @@
                         }
                     }
                 ]
+            },
+			"damagechance_battery": {
+                "randomize": [
+					{
+						"weight": 2
+					},
+					{
+						"weight": 8,
+                        "damage": {
+                            "type": "durability",
+                            "amount": 1,
+                            "target": "self"
+                        }
+					}
+				]
+            },
+			"damagechance_amethyst_battery": {
+                "randomize": [
+					{
+						"weight": 3
+					},
+					{
+						"weight": 7,
+                        "damage": {
+                            "type": "durability",
+                            "amount": 1,
+                            "target": "self"
+                        }
+					}
+				]
+            },
+			"damagechance_sapphire_battery": {
+                "randomize": [
+					{
+						"weight": 4
+					},
+					{
+						"weight": 6,
+                        "damage": {
+                            "type": "durability",
+                            "amount": 1,
+                            "target": "self"
+                        }
+					}
+				]
+            },
+			"damagechance_jade_battery": {
+                "randomize": [
+					{
+						"weight": 5
+					},
+					{
+						"weight": 5,
+                        "damage": {
+                            "type": "durability",
+                            "amount": 1,
+                            "target": "self"
+                        }
+					}
+				]
+            },
+			"damagechance_topaz_battery": {
+                "randomize": [
+					{
+						"weight": 6
+					},
+					{
+						"weight": 4,
+                        "damage": {
+                            "type": "durability",
+                            "amount": 1,
+                            "target": "self"
+                        }
+					}
+				]
+            },
+			"damagechance_ruby_battery": {
+                "randomize": [
+					{
+						"weight": 7
+					},
+					{
+						"weight": 3,
+                        "damage": {
+                            "type": "durability",
+                            "amount": 1,
+                            "target": "self"
+                        }
+					}
+				]
+            },
+			"damagechance_pure_diamond_battery": {
+                "randomize": [
+					{
+						"weight": 8
+					},
+					{
+						"weight": 2,
+                        "damage": {
+                            "type": "durability",
+                            "amount": 1,
+                            "target": "self"
+                        }
+					}
+				]
             },
             "used": {
                 "sequence": [

@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###",
+            "#G#",
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "g3:sapphire_flawless"
+            },
+            "G": {
+                "item": "g3:amethyst_battery"
+            }
+        },
+        "result": {
+            "item": "g3:sapphire_battery",
+            "count": 1
+        },
+        "description": {
+            "identifier": "g3:sapphire_battery"
+        }
+    }
+}

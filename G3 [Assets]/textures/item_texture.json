@@ -380,6 +380,50 @@
         },
         "worm_scale": {
             "textures": "textures/items/worm_scale"
+        },
+
+        "battery": {
+            "textures": "textures/items/battery"
+        },
+        "amethyst_battery": {
+            "textures": "textures/items/amethyst_battery"
+        },
+        "sapphire_battery": {
+            "textures": "textures/items/sapphire_battery"
+        },
+        "jade_battery": {
+            "textures": "textures/items/jade_battery"
+        },
+        "topaz_battery": {
+            "textures": "textures/items/topaz_battery"
+        },
+        "ruby_battery": {
+            "textures": "textures/items/ruby_battery"
+        },
+        "pure_diamond_battery": {
+            "textures": "textures/items/pure_diamond_battery"
+        },
+
+        "gemstone_claymore": {
+            "textures": "textures/items/gemstone_claymore"
+        },
+        "gemstone_claymore_amethyst": {
+            "textures": "textures/items/gemstone_claymore_amethyst"
+        },
+        "gemstone_claymore_sapphire": {
+            "textures": "textures/items/gemstone_claymore_sapphire"
+        },
+        "gemstone_claymore_jade": {
+            "textures": "textures/items/gemstone_claymore_jade"
+        },
+        "gemstone_claymore_topaz": {
+            "textures": "textures/items/gemstone_claymore_topaz"
+        },
+        "gemstone_claymore_ruby": {
+            "textures": "textures/items/gemstone_claymore_ruby"
+        },
+        "gemstone_claymore_pure_diamond": {
+            "textures": "textures/items/gemstone_claymore_pure_diamond"
         }
     },
     "texture_name": "atlas.items"
