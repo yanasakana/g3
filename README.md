@@ -1,6 +1,6 @@
-# G3 - A Minecraft: Bedrock Edition Add-On
+# The Hot Sauce Collection - A Minecraft: Bedrock Edition Add-On
 
-G3 is a mining-centered update inspired by Hypixel Skyblock's Dwarven Mines and Crystal Hallows. (Screenshots to follow in the future)
+The Hot Sauce Collection is a variety addon, adding a vast amount of unique content to make the survival experience more interesting.
 
 ## Project Authors
 - Vinni - `Vinni#6248`
