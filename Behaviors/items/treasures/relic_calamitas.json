@@ -1,0 +1,22 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "smpvine:relic_calamitas",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.relics"
+			},
+			"minecraft:display_name": {
+				"text": "relic_calamitas"
+			},
+			"minecraft:icon": {
+				"texture": "relic_calamitas"
+			},
+			"minecraft:use_duration": 20,
+			"minecraft:max_stack_size": 1
+		}
+	}
+}

@@ -1,0 +1,49 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "catacombs:wither_leggings_red",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:explodable": true,
+			"minecraft:max_stack_size": 1,
+			"minecraft:enchantable": {
+				"value": 25,
+				"slot": "armor_legs"
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"catacombs:wither_fragment"
+						],
+						"repair_amount": "query.max_durability"
+					}
+				]
+			},
+			"minecraft:durability": {
+				"max_durability": 750
+			},
+			"minecraft:armor": {
+				"protection": 4
+			},
+			"minecraft:icon": {
+				"texture": "wither_leggings_red"
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.legs"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.leggings"
+			},
+			"minecraft:display_name": {
+				"value": "Wither Leggings (Damage Form)"
+			},
+			"minecraft:knockback_resistance": {
+				"protection": 0.25
+			}
+		},
+		"events": {}
+	}
+}

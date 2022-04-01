@@ -1,0 +1,56 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "catacombs:tenebris_spike"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "category": "nature",
+        "group": "itemGroup.name.tenebris"
+      },
+      "minecraft:destroy_time": 0,
+      "minecraft:map_color": "#8d957c",
+      "minecraft:unwalkable": true,
+      "minecraft:breakonpush": true,
+      "minecraft:geometry": "geometry.plant",
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:block_light_absorption": 0,
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "up"
+            ],
+            "block_filter": [
+              "catacombs:tenebris",
+              "catacombs:tenebris_blood_vessel"
+            ]
+          }
+        ]
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "tenebris_spike",
+          "render_method": "alpha_test",
+          "face_dimming": false,
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:on_fall_on": {
+        "event": "kill_player",
+        "target": "other",
+        "min_fall_distance": 2
+      }
+    },
+    "events": {
+      "kill_player": {
+        "damage": {
+          "amount": 20,
+          "target": "other",
+          "type": "fall"
+        }
+      }
+    }
+  }
+}

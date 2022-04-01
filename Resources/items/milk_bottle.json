@@ -1,0 +1,14 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "smpvine:milk_bottle",
+      "category": "Items"
+    },
+    "components": {
+      "minecraft:icon": "milk_bottle",
+      "minecraft:use_animation": "drink",
+      "minecraft:render_offsets": "bottles"
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "smpvine:brimstone_seeker",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {},
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "brimstone",
+          "seeker",
+          "mob",
+          "monster"
+        ]
+      },
+      "minecraft:nameable": {},
+      "minecraft:fall_damage": {
+        "value": 0
+      },
+      "minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "fall",
+						"deals_damage": false
+					},
+          {
+						"cause": "projectile",
+						"deals_damage": false
+					}
+				]
+			},
+      "minecraft:health": {
+        "value": 15,
+        "max": 15
+      },
+      "minecraft:physics": {
+        "has_gravity": false
+      },
+      "minecraft:attack": {
+        "damage": 16,
+        "effect_duration": 8
+      },
+      "minecraft:breathable": {
+        "totalSupply": 15,
+        "suffocateTime": 0,
+        "breathesAir": true,
+        "breathesWater": false
+      },
+      "minecraft:collision_box": {
+        "width": 0.9,
+        "height": 0.9
+      },
+      "minecraft:movement": {
+        "value": 1.8
+      },
+      "minecraft:movement.glide": {
+        "start_speed": 0.1,
+        "speed_when_turning": 0.2
+      },
+      "minecraft:follow_range": {
+        "value": 64,
+        "max": 64
+      },
+      "minecraft:fire_immune": {},
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_water_or_rain",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "drowning",
+            "damage_per_tick": 1
+          }
+        ]
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 1,
+        "entity_types": [
+          {
+            "filters": {
+              "test": "is_family",
+              "subject": "other",
+              "value": "player"
+            },
+            "max_dist": 140
+          }
+        ],
+        "must_see": true
+      },
+      "minecraft:behavior.swoop_attack": {
+        "priority": 1,
+        "delay_range": [
+          10,
+          20
+        ]
+      },
+      "minecraft:behavior.circle_around_anchor": {
+        "priority": 3,
+        "radius_range": [
+          5,
+          15
+        ],
+        "height_above_target_range": [
+          10,
+          15
+        ],
+        "height_offset_range": [
+          -4,
+          5
+        ],
+        "goal_radius": 1
+      }
+    }
+  }
+}

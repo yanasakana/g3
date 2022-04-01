@@ -1,0 +1,18 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "catacombs:rotten_flesh_block",
+            "properties": {}
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "category": "nature"
+              },
+            "tag:tenebris": {},
+            "minecraft:destroy_time": 1,
+            "minecraft:explosion_resistance": 5,
+            "minecraft:map_color": "#792d38"
+        }
+    }
+}

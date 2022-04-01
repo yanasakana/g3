@@ -1,0 +1,369 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "g3:worm": {
+        "events": {
+          "ambient": "mob.drowned.say",
+          "hurt": "mob.drowned.hurt",
+          "step": "mob.drowned.step"
+        },
+        "pitch": [
+          0.50,
+          0.75
+        ],
+        "volume": 1.0
+      },
+      "smpvine:calamitas": {
+        "volume": 0.6,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "mob.calamitas.hurt",
+            "volume": 0.6,
+            "pitch": [
+              0.9,
+              1.1
+            ]
+          },
+          "death": {
+            "sound": "mob.blaze.death",
+            "volume": 0.6,
+            "pitch": [
+              0.2,
+              0.6
+            ]
+          },
+          "attack": {
+            "sound": "mob.wither.break_block",
+            "pitch": [
+              0.8,
+              1.0
+            ]
+          },
+          "shoot": {
+            "sound": "mob.wither.shoot",
+            "volume": 3.0,
+            "pitch": 1.0
+          },
+          "ambient": {
+            "sound": "mob.blaze.breathe",
+            "volume": 0.85,
+            "pitch": [
+              0.2,
+              0.6
+            ]
+          }
+        }
+      },
+      "smpvine:calamitas_s2": {
+        "volume": 0.6,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "mob.calamitas.hurt",
+            "volume": 0.6,
+            "pitch": [
+              0.9,
+              1.1
+            ]
+          },
+          "death": {
+            "sound": "mob.blaze.death",
+            "volume": 0.6,
+            "pitch": [
+              0.2,
+              0.6
+            ]
+          },
+          "attack": {
+            "sound": "mob.wither.break_block",
+            "pitch": [
+              0.8,
+              1.0
+            ]
+          },
+          "shoot": {
+            "sound": "mob.wither.shoot",
+            "volume": 3.0,
+            "pitch": 1.0
+          },
+          "ambient": {
+            "sound": "mob.blaze.breathe",
+            "volume": 0.85,
+            "pitch": [
+              0.2,
+              0.6
+            ]
+          }
+        }
+      },
+      "smpvine:calamitas_s3": {
+        "volume": 0.6,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "mob.calamitas.hurt",
+            "volume": 0.6,
+            "pitch": [
+              0.9,
+              1.1
+            ]
+          },
+          "death": {
+            "sound": "mob.blaze.death",
+            "volume": 0.6,
+            "pitch": [
+              0.2,
+              0.6
+            ]
+          },
+          "attack": {
+            "sound": "mob.wither.break_block",
+            "pitch": [
+              0.8,
+              1.0
+            ]
+          },
+          "shoot": {
+            "sound": "mob.wither.shoot",
+            "volume": 3.0,
+            "pitch": 1.0
+          },
+          "ambient": {
+            "sound": "mob.blaze.breathe",
+            "volume": 0.85,
+            "pitch": [
+              0.2,
+              0.6
+            ]
+          }
+        }
+      },
+      "smpvine:calamitas_s4": {
+        "volume": 0.6,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "mob.calamitas.hurt",
+            "volume": 0.6,
+            "pitch": [
+              0.9,
+              1.1
+            ]
+          },
+          "death": {
+            "sound": "mob.blaze.death",
+            "volume": 0.6,
+            "pitch": [
+              0.2,
+              0.6
+            ]
+          },
+          "attack": {
+            "sound": "mob.wither.break_block",
+            "pitch": [
+              0.8,
+              1.0
+            ]
+          },
+          "shoot": {
+            "sound": "mob.wither.shoot",
+            "volume": 3.0,
+            "pitch": 1.0
+          },
+          "ambient": {
+            "sound": "mob.blaze.breathe",
+            "volume": 0.85,
+            "pitch": [
+              0.2,
+              0.6
+            ]
+          }
+        }
+      },
+      "smpvine:cataclysm": {
+        "volume": 0.6,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "mob.cataclysm.hurt",
+            "volume": 0.6,
+            "pitch": [
+              0.9,
+              1.1
+            ]
+          },
+          "death": {
+            "sound": "mob.blaze.death",
+            "volume": 0.6,
+            "pitch": [
+              0.2,
+              0.6
+            ]
+          },
+          "attack": {
+            "sound": "mob.wither.break_block",
+            "pitch": [
+              0.8,
+              1.0
+            ]
+          },
+          "shoot": {
+            "sound": "mob.wither.shoot",
+            "volume": 3.0,
+            "pitch": 1.0
+          },
+          "ambient": {
+            "sound": "mob.blaze.breathe",
+            "volume": 0.85,
+            "pitch": [
+              0.2,
+              0.6
+            ]
+          }
+        }
+      },
+      "smpvine:catastrophe": {
+        "volume": 0.6,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "mob.catastrophe.hurt",
+            "volume": 0.6,
+            "pitch": [
+              0.9,
+              1.1
+            ]
+          },
+          "death": {
+            "sound": "mob.blaze.death",
+            "volume": 0.6,
+            "pitch": [
+              0.2,
+              0.6
+            ]
+          },
+          "attack": {
+            "sound": "mob.wither.break_block",
+            "pitch": [
+              0.8,
+              1.0
+            ]
+          },
+          "shoot": {
+            "sound": "mob.wither.shoot",
+            "volume": 3.0,
+            "pitch": 1.0
+          },
+          "ambient": {
+            "sound": "mob.blaze.breathe",
+            "volume": 0.85,
+            "pitch": [
+              0.2,
+              0.6
+            ]
+          }
+        }
+      },
+      "smpvine:brimstone_seeker": {
+        "volume": 0.6,
+        "pitch": 1.0,
+        "events": {
+          "hurt": {
+            "sound": "mob.blaze.hurt",
+            "volume": 0.6,
+            "pitch": [
+              0.2,
+              0.6
+            ]
+          },
+          "death": {
+            "sound": "mob.blaze.death",
+            "volume": 0.6,
+            "pitch": [
+              0.2,
+              0.6
+            ]
+          },
+          "attack": {
+            "sound": "mob.phantom.bite",
+            "pitch": [
+              0.8,
+              1.0
+            ]
+          },
+          "swoop": {
+            "sound": "mob.phantom.swoop",
+            "volume": 3.0,
+            "pitch": 1.0
+          }
+        }
+      },
+      "smpvine:brimstone_heart": {
+        "volume": 0.6,
+        "pitch": 1.0,
+        "events": {
+          "death": {
+            "sound": "mob.heart.hurt",
+            "volume": 0.6,
+            "pitch": [
+              0.9,
+              1.1
+            ]
+          },
+          "shoot": {
+            "sound": "mob.blaze.shoot",
+            "volume": 3.0,
+            "pitch": 1.0
+          },
+          "ambient": {
+            "sound": "mob.blaze.breathe",
+            "volume": 0.85,
+            "pitch": [
+              0.2,
+              0.6
+            ]
+          }
+        }
+      },
+      "catacombs:hunter": {
+        "volume": 0.6,
+        "pitch": 1.0,
+        "events": {
+          "death": {
+            "sound": "mob.hunter.death",
+            "volume": 0.6,
+            "pitch": [
+              0.9,
+              1.1
+            ]
+          },
+          "hurt": {
+            "sound": "mob.hunter.hurt",
+            "volume": 0.6,
+            "pitch": [
+              0.9,
+              1.1
+            ]
+          },
+          "ambient": {
+            "sound": "mob.hunter.ambient",
+            "volume": 0.85,
+            "pitch": [
+              0.9,
+              1.1
+            ]
+          },
+          "step": {
+            "sound": "mob.hunter.step",
+            "volume": 0.85,
+            "pitch": [
+              0.9,
+              1.1
+            ]
+          }
+        }
+      }
+    }
+  }
+}

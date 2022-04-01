@@ -1,0 +1,59 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "smpvine:cal_event_start"
+		},
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "invisible",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:explosion_resistance": 32000,
+			"minecraft:destroy_time": 999,
+			"minecraft:geometry": "geometry.null",
+			"minecraft:ticking": {
+				"looping": false,
+				"range": [
+					1,
+					1
+				],
+				"on_tick": {
+					"event": "begin"
+				}
+			},
+			"minecraft:entity_collision": false,
+			"minecraft:block_light_emission": 0
+		},
+		"events": {
+			"begin": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"time set 14000",
+								"weather clear",
+								"summon smpvine:calstart ~ ~50 ~",
+								"summon smpvine:brimstone_heart  ~20 ~15  ~20",
+								"summon smpvine:brimstone_heart ~-20 ~15  ~20",
+								"summon smpvine:brimstone_heart  ~20 ~15 ~-20",
+								"summon smpvine:brimstone_heart ~-20 ~15 ~-20",
+								"summon smpvine:brimstone_heart  ~25 ~15 ~",
+								"summon smpvine:brimstone_heart ~-25 ~15 ~",
+								"summon smpvine:brimstone_heart ~    ~15  ~25",
+								"summon smpvine:brimstone_heart ~    ~15 ~-25"
+							]
+						}
+					},
+					{
+						"run_command": {
+							"command": "setblock ~ ~ ~ air 0"
+						}
+					}
+				]
+			}
+		}
+	}
+}

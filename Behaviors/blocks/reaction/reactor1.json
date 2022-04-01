@@ -1,0 +1,76 @@
+{
+  "format_version": "1.16.200",
+  "minecraft:block": {
+    "description": {
+      "identifier": "smpvine:reactor_stage1"
+    },
+    "components": {
+      "minecraft:destroy_time": 2,
+      "minecraft:block_light_emission": 0.5,
+	  "minecraft:block_light_absorption": 1,
+	  "minecraft:display_name": "reactor_standby",
+	  "minecraft:unit_cube": {},
+		"minecraft:material_instances" : {
+		"*": {
+      "texture": "reactor_standby",
+      "render_method" : "opaque"
+		}
+		},
+		"minecraft:entity_collision":{
+		"origin":[-8.0, 0.0, -8.0],
+		"size":[16,16,16]
+		},
+		"minecraft:pick_collision":{
+		"origin":[-8.0, 0.0, -8.0],
+		"size":[16,16,16]
+		},
+		"minecraft:on_interact":{
+				"condition": "",
+				"event": "onDetect"
+		}
+    },
+	"events":{			
+		"onDetect":{		
+			"sequence":[
+			
+			{
+			"run_command":{
+				"command": ["summon armor_stand reactor","effect @e[name=reactor] invisibility 9 1 true","scoreboard objectives add reactor dummy reactor","scoreboard players set @a reactor 0","execute @e[name=reactor] ~ ~ ~ detect ~ ~-1 ~ cobblestone 0 scoreboard players add @a reactor 1","execute @e[name=reactor] ~ ~ ~ detect ~1 ~-1 ~ cobblestone 0 scoreboard players add @a reactor 1","execute @e[name=reactor] ~ ~ ~ detect ~-1 ~-1 ~ cobblestone 0 scoreboard players add @a reactor 1","execute @e[name=reactor] ~ ~ ~ detect ~ ~-1 ~1 cobblestone 0 scoreboard players add @a reactor 1","execute @e[name=reactor] ~ ~ ~ detect ~ ~-1 ~-1 cobblestone 0 scoreboard players add @a reactor 1"]
+				}
+			},
+			{
+			"run_command":{
+				"command": ["execute @e[name=reactor] ~ ~ ~ detect ~ ~1 ~ cobblestone 0 scoreboard players add @a reactor 1","execute @e[name=reactor] ~ ~ ~ detect ~1 ~1 ~ cobblestone 0 scoreboard players add @a reactor 1","execute @e[name=reactor] ~ ~ ~ detect ~-1 ~1 ~ cobblestone 0 scoreboard players add @a reactor 1","execute @e[name=reactor] ~ ~ ~ detect ~ ~1 ~1 cobblestone 0 scoreboard players add @a reactor 1","execute @e[name=reactor] ~ ~ ~ detect ~ ~1 ~-1 cobblestone 0 scoreboard players add @a reactor 1"]
+				}
+			},
+			{
+			"run_command":{
+				"command": ["execute @e[name=reactor] ~ ~ ~ detect ~1 ~ ~1 cobblestone 0 scoreboard players add @a reactor 1","execute @e[name=reactor] ~ ~ ~ detect ~1 ~ ~-1 cobblestone 0 scoreboard players add @a reactor 1","execute @e[name=reactor] ~ ~ ~ detect ~-1 ~ ~1 cobblestone 0 scoreboard players add @a reactor 1","execute @e[name=reactor] ~ ~ ~ detect ~-1 ~ ~-1 cobblestone 0 scoreboard players add @a reactor 1"]
+			}
+			},
+			{
+			"run_command":{
+				"command": ["execute @e[name=reactor] ~ ~ ~ detect ~1 ~-1 ~1 gold_block 0 scoreboard players add @a reactor 1","execute @e[name=reactor] ~ ~ ~ detect ~1 ~-1 ~-1 gold_block 0 scoreboard players add @a reactor 1","execute @e[name=reactor] ~ ~ ~ detect ~-1 ~-1 ~1 gold_block 0 scoreboard players add @a reactor 1","execute @e[name=reactor] ~ ~ ~ detect ~-1 ~-1 ~-1 gold_block 0 scoreboard players add @a reactor 1"]
+			}
+			},
+			{
+			"run_command":{
+				"command": ["execute @a[scores={reactor=18}] ~ ~ ~ tag @e[name=reactor] add complete","execute @e[tag=complete] ~ ~ ~ say Active!","execute @a[scores={reactor=..17}] ~ ~ ~ tag @e[name=reactor] add incomplete","execute @e[tag=incomplete] ~ ~ ~ say Not The Correct Pattern!"]
+			}
+			},
+			{
+			"run_command":{
+				"command": ["execute @e[tag=complete] ~ ~ ~ structure load mystructure:spire ~-8 ~-3 ~-8 0_degrees xz block_by_block 3","execute @e[tag=complete] ~ ~ ~ fill ~-1 ~-1 ~-1 ~1 ~1 ~1 smpvine:glowing_obsidian 0 replace cobblestone","execute @e[tag=complete] ~ ~ ~ fill ~-1 ~-1 ~-1 ~1 ~1 ~1 smpvine:glowing_obsidian 0 replace gold_block","execute @e[tag=complete] ~ ~ ~ setblock ~ ~ ~ smpvine:reactor_stage2","kill @e[name=reactor]"]
+			}
+			},
+			{
+			"run_command":{
+				"command": "fill ~ ~5 ~ ~ ~3 ~ air 0 replace structure_block 0"
+			}
+			}
+			]
+		}
+		
+	}
+  }
+}

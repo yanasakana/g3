@@ -1,0 +1,60 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "catacombs:pulse_rod",
+			"category": "equipment"
+		},
+		"components": {
+			"tag:dungeon_weapon": {},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.miscWeapon"
+			},
+			"minecraft:display_name": {
+				"value": "§6Pulse Rod§r"
+			},
+			"minecraft:icon": {
+				"texture": "pulse_rod"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "fire"
+				}
+			},
+			"minecraft:cooldown": {
+				"duration": 5,
+				"category": "pulse_rod"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:can_destroy_in_creative": true
+		},
+		"events": {
+			"fire": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"playsound pulse_rod.fire"
+							]
+						},
+						"damage": {
+							"type": "none",
+							"amount": 1,
+							"target": "self"
+						},
+						"transform_item": {
+							"transform": "catacombs:pulse_rod_depleted"
+						}
+					},
+					{
+						"shoot": {
+							"projectile": "catacombs:pulse_orb",
+							"launch_power": 1
+						}
+					}
+				]
+			}
+		}
+	}
+}

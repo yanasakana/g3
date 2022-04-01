@@ -1,0 +1,66 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "smpvine:calstart",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"minecraft:starting": {
+				"minecraft:explode": {
+					"fuse_length": 0.1,
+					"fuse_lit": true,
+					"power": 8,
+					"causes_fire": true,
+					"destroy_affected_by_griefing": true
+				},
+				"minecraft:spawn_entity": {
+					"entities": [{
+						"min_wait_time": 0,
+						"max_wait_time": 0,
+						"spawn_entity": "smpvine:calamitas",
+						"spawn_event": "minecraft:entity_spawned",
+						"single_use": true,
+						"num_to_spawn": 1,
+						"should_leash": false
+					}]
+				}
+			}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"monster",
+					"mob"
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 3.5,
+				"height": 3.5
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"on_damage": {
+						"event": "minecraft:start_battle"
+					}
+				}
+			},
+			"minecraft:health": {
+				"value": 2000,
+				"max": 2000
+			},
+			"minecraft:physics": {}
+		},
+		"events": {
+			"minecraft:start_battle": {
+				"add": {
+					"component_groups": [
+						"minecraft:starting"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,67 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "catacombs:hunter",
+      "population_control": "monster"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_on_surface": {},
+        "minecraft:spawns_underground": {},
+        "minecraft:brightness_filter": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": true
+        },
+        "minecraft:difficulty_filter": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "minecraft:distance_filter": {
+          "min": 32,
+          "max": 64
+        },
+        "minecraft:world_age_filter": {
+          "min": 18000
+        },
+        "minecraft:player_in_village_filter": {
+          "distance": 48,
+          "village_border_tolerance": 32
+        },
+        "minecraft:spawns_on_block_filter": [
+          "minecraft:grass",
+          "minecraft:snow",
+          "minecraft:sand",
+          "minecraft:snow_layer"
+        ],
+        "minecraft:weight": {
+          "default": 5
+        },
+        "minecraft:biome_filter": {
+          "all_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "!=",
+              "value": "mooshroom_island"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "!=",
+              "value": "nether"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "!=",
+              "value": "the_end"
+            }
+          ]
+        },
+        "minecraft:herd": {
+          "min_size": 2,
+          "max_size": 3
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "format_version": "1.16.200",
+  "minecraft:block": {
+    "description": {
+      "identifier": "smpvine:reactor_mob_gen"
+    },
+    "components": {
+      "minecraft:destroy_time": 200,
+	  "minecraft:block_light_absorption": 1,
+	  "minecraft:explosion_resistance": 36000000,
+	  "minecraft:immovable": true,
+	  "minecraft:display_name": "reactor_mob_gen",
+	  "minecraft:unit_cube": {},
+		"minecraft:material_instances" : {
+		"*": {
+      "texture": "netherrack",
+      "render_method" : "opaque"
+		}
+		},
+		"minecraft:entity_collision":{
+		"origin":[-8.0, 0.0, -8.0],
+		"size":[16,16,16]
+		},
+		"minecraft:pick_collision":{
+		"origin":[-8.0, 0.0, -8.0],
+		"size":[16,16,16]
+		},		
+		"minecraft:ticking": {
+						"looping": true,
+						"range": [10, 15],
+							"on_tick": {
+								"event": "summon",
+								"target": "self",
+								"condition": ""
+						}
+					}
+    },
+	"events":{			
+		"summon":{		
+			"run_command":{
+				"command": "summon smpvine:reactor_mob_gen ~ ~1 ~"
+			}
+		}
+		
+	}
+  }
+}

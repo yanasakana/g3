@@ -1,0 +1,615 @@
+{
+    "resource_pack_name": "vanilla",
+    "texture_data": {
+        "drill_amethyst_no_engine": {
+            "textures": "textures/items/drill/full/amethyst/no_engine"
+        },
+        "drill_sapphire_no_engine": {
+            "textures": "textures/items/drill/full/sapphire/no_engine"
+        },
+        "drill_jade_no_engine": {
+            "textures": "textures/items/drill/full/jade/no_engine"
+        },
+        "drill_topaz_no_engine": {
+            "textures": "textures/items/drill/full/topaz/no_engine"
+        },
+        "drill_ruby_no_engine": {
+            "textures": "textures/items/drill/full/ruby/no_engine"
+        },
+        "drill_pure_diamond_no_engine": {
+            "textures": "textures/items/drill/full/pure_diamond/no_engine"
+        },
+        "drill_amethyst_copper": {
+            "textures": "textures/items/drill/full/amethyst/copper"
+        },
+        "drill_sapphire_copper": {
+            "textures": "textures/items/drill/full/sapphire/copper"
+        },
+        "drill_jade_copper": {
+            "textures": "textures/items/drill/full/jade/copper"
+        },
+        "drill_topaz_copper": {
+            "textures": "textures/items/drill/full/topaz/copper"
+        },
+        "drill_ruby_copper": {
+            "textures": "textures/items/drill/full/ruby/copper"
+        },
+        "drill_pure_diamond_copper": {
+            "textures": "textures/items/drill/full/pure_diamond/copper"
+        },
+        "drill_amethyst_gold": {
+            "textures": "textures/items/drill/full/amethyst/gold"
+        },
+        "drill_sapphire_gold": {
+            "textures": "textures/items/drill/full/sapphire/gold"
+        },
+        "drill_jade_gold": {
+            "textures": "textures/items/drill/full/jade/gold"
+        },
+        "drill_topaz_gold": {
+            "textures": "textures/items/drill/full/topaz/gold"
+        },
+        "drill_ruby_gold": {
+            "textures": "textures/items/drill/full/ruby/gold"
+        },
+        "drill_pure_diamond_gold": {
+            "textures": "textures/items/drill/full/pure_diamond/gold"
+        },
+        "drill_amethyst_mithril": {
+            "textures": "textures/items/drill/full/amethyst/mithril"
+        },
+        "drill_sapphire_mithril": {
+            "textures": "textures/items/drill/full/sapphire/mithril"
+        },
+        "drill_jade_mithril": {
+            "textures": "textures/items/drill/full/jade/mithril"
+        },
+        "drill_topaz_mithril": {
+            "textures": "textures/items/drill/full/topaz/mithril"
+        },
+        "drill_ruby_mithril": {
+            "textures": "textures/items/drill/full/ruby/mithril"
+        },
+        "drill_pure_diamond_mithril": {
+            "textures": "textures/items/drill/full/pure_diamond/mithril"
+        },
+        "drill_amethyst_netherite": {
+            "textures": "textures/items/drill/full/amethyst/netherite"
+        },
+        "drill_sapphire_netherite": {
+            "textures": "textures/items/drill/full/sapphire/netherite"
+        },
+        "drill_jade_netherite": {
+            "textures": "textures/items/drill/full/jade/netherite"
+        },
+        "drill_topaz_netherite": {
+            "textures": "textures/items/drill/full/topaz/netherite"
+        },
+        "drill_ruby_netherite": {
+            "textures": "textures/items/drill/full/ruby/netherite"
+        },
+        "drill_pure_diamond_netherite": {
+            "textures": "textures/items/drill/full/pure_diamond/netherite"
+        },
+        "drill_amethyst_titanium": {
+            "textures": "textures/items/drill/full/amethyst/titanium"
+        },
+        "drill_sapphire_titanium": {
+            "textures": "textures/items/drill/full/sapphire/titanium"
+        },
+        "drill_jade_titanium": {
+            "textures": "textures/items/drill/full/jade/titanium"
+        },
+        "drill_topaz_titanium": {
+            "textures": "textures/items/drill/full/topaz/titanium"
+        },
+        "drill_ruby_titanium": {
+            "textures": "textures/items/drill/full/ruby/titanium"
+        },
+        "drill_pure_diamond_titanium": {
+            "textures": "textures/items/drill/full/pure_diamond/titanium"
+        },
+        "drill_amethyst_no_engine_empty": {
+            "textures": "textures/items/drill/empty/amethyst/no_engine"
+        },
+        "drill_sapphire_no_engine_empty": {
+            "textures": "textures/items/drill/empty/sapphire/no_engine"
+        },
+        "drill_jade_no_engine_empty": {
+            "textures": "textures/items/drill/empty/jade/no_engine"
+        },
+        "drill_topaz_no_engine_empty": {
+            "textures": "textures/items/drill/empty/topaz/no_engine"
+        },
+        "drill_ruby_no_engine_empty": {
+            "textures": "textures/items/drill/empty/ruby/no_engine"
+        },
+        "drill_pure_diamond_no_engine_empty": {
+            "textures": "textures/items/drill/empty/pure_diamond/no_engine"
+        },
+        "drill_amethyst_copper_empty": {
+            "textures": "textures/items/drill/empty/amethyst/copper"
+        },
+        "drill_sapphire_copper_empty": {
+            "textures": "textures/items/drill/empty/sapphire/copper"
+        },
+        "drill_jade_copper_empty": {
+            "textures": "textures/items/drill/empty/jade/copper"
+        },
+        "drill_topaz_copper_empty": {
+            "textures": "textures/items/drill/empty/topaz/copper"
+        },
+        "drill_ruby_copper_empty": {
+            "textures": "textures/items/drill/empty/ruby/copper"
+        },
+        "drill_pure_diamond_copper_empty": {
+            "textures": "textures/items/drill/empty/pure_diamond/copper"
+        },
+        "drill_amethyst_gold_empty": {
+            "textures": "textures/items/drill/empty/amethyst/gold"
+        },
+        "drill_sapphire_gold_empty": {
+            "textures": "textures/items/drill/empty/sapphire/gold"
+        },
+        "drill_jade_gold_empty": {
+            "textures": "textures/items/drill/empty/jade/gold"
+        },
+        "drill_topaz_gold_empty": {
+            "textures": "textures/items/drill/empty/topaz/gold"
+        },
+        "drill_ruby_gold_empty": {
+            "textures": "textures/items/drill/empty/ruby/gold"
+        },
+        "drill_pure_diamond_gold_empty": {
+            "textures": "textures/items/drill/empty/pure_diamond/gold"
+        },
+        "drill_amethyst_mithril_empty": {
+            "textures": "textures/items/drill/empty/amethyst/mithril"
+        },
+        "drill_sapphire_mithril_empty": {
+            "textures": "textures/items/drill/empty/sapphire/mithril"
+        },
+        "drill_jade_mithril_empty": {
+            "textures": "textures/items/drill/empty/jade/mithril"
+        },
+        "drill_topaz_mithril_empty": {
+            "textures": "textures/items/drill/empty/topaz/mithril"
+        },
+        "drill_ruby_mithril_empty": {
+            "textures": "textures/items/drill/empty/ruby/mithril"
+        },
+        "drill_pure_diamond_mithril_empty": {
+            "textures": "textures/items/drill/empty/pure_diamond/mithril"
+        },
+        "drill_amethyst_netherite_empty": {
+            "textures": "textures/items/drill/empty/amethyst/netherite"
+        },
+        "drill_sapphire_netherite_empty": {
+            "textures": "textures/items/drill/empty/sapphire/netherite"
+        },
+        "drill_jade_netherite_empty": {
+            "textures": "textures/items/drill/empty/jade/netherite"
+        },
+        "drill_topaz_netherite_empty": {
+            "textures": "textures/items/drill/empty/topaz/netherite"
+        },
+        "drill_ruby_netherite_empty": {
+            "textures": "textures/items/drill/empty/ruby/netherite"
+        },
+        "drill_pure_diamond_netherite_empty": {
+            "textures": "textures/items/drill/empty/pure_diamond/netherite"
+        },
+        "drill_amethyst_titanium_empty": {
+            "textures": "textures/items/drill/empty/amethyst/titanium"
+        },
+        "drill_sapphire_titanium_empty": {
+            "textures": "textures/items/drill/empty/sapphire/titanium"
+        },
+        "drill_jade_titanium_empty": {
+            "textures": "textures/items/drill/empty/jade/titanium"
+        },
+        "drill_topaz_titanium_empty": {
+            "textures": "textures/items/drill/empty/topaz/titanium"
+        },
+        "drill_ruby_titanium_empty": {
+            "textures": "textures/items/drill/empty/ruby/titanium"
+        },
+        "drill_pure_diamond_titanium_empty": {
+            "textures": "textures/items/drill/empty/pure_diamond/titanium"
+        },
+        "sapphire_shard": {
+            "textures": "textures/items/sapphire_shard"
+        },
+        "jade_shard": {
+            "textures": "textures/items/jade_shard"
+        },
+        "topaz_shard": {
+            "textures": "textures/items/topaz_shard"
+        },
+        "ruby_shard": {
+            "textures": "textures/items/ruby_shard"
+        },
+        "pure_diamond_shard": {
+            "textures": "textures/items/pure_diamond_shard"
+        },
+        "amethyst_polished": {
+            "textures": "textures/items/polished_amethyst"
+        },
+        "sapphire_polished": {
+            "textures": "textures/items/polished_sapphire"
+        },
+        "jade_polished": {
+            "textures": "textures/items/polished_jade"
+        },
+        "topaz_polished": {
+            "textures": "textures/items/polished_topaz"
+        },
+        "ruby_polished": {
+            "textures": "textures/items/polished_ruby"
+        },
+        "pure_diamond_polished": {
+            "textures": "textures/items/polished_pure_diamond"
+        },
+        "amethyst_flawless": {
+            "textures": "textures/items/flawless_amethyst"
+        },
+        "sapphire_flawless": {
+            "textures": "textures/items/flawless_sapphire"
+        },
+        "jade_flawless": {
+            "textures": "textures/items/flawless_jade"
+        },
+        "topaz_flawless": {
+            "textures": "textures/items/flawless_topaz"
+        },
+        "ruby_flawless": {
+            "textures": "textures/items/flawless_ruby"
+        },
+        "pure_diamond_flawless": {
+            "textures": "textures/items/flawless_pure_diamond"
+        },
+        "steel_plate": {
+            "textures": "textures/items/steel_plating"
+        },
+        "steel_rod": {
+            "textures": "textures/items/steel_rod"
+        },
+        "fuel_tank": {
+            "textures": "textures/items/fuel_tank"
+        },
+        "drill_engine": {
+            "textures": "textures/items/drill_engine"
+        },
+        "drill_engine_copper": {
+            "textures": "textures/items/drill_upgrades/copper_plated_drill_engine"
+        },
+        "drill_engine_gold": {
+            "textures": "textures/items/drill_upgrades/gold_plated_drill_engine"
+        },
+        "drill_engine_mithril": {
+            "textures": "textures/items/drill_upgrades/mithril_plated_drill_engine"
+        },
+        "drill_engine_netherite": {
+            "textures": "textures/items/drill_upgrades/netherite_plated_drill_engine"
+        },
+        "drill_engine_titanium": {
+            "textures": "textures/items/drill_upgrades/titanium_plated_drill_engine"
+        },
+        "fuel_tank_copper": {
+            "textures": "textures/items/drill_upgrades/copper_infused_fuel_tank"
+        },
+        "fuel_tank_gold": {
+            "textures": "textures/items/drill_upgrades/gold_infused_fuel_tank"
+        },
+        "fuel_tank_mithril": {
+            "textures": "textures/items/drill_upgrades/mithril_infused_fuel_tank"
+        },
+        "fuel_tank_netherite": {
+            "textures": "textures/items/drill_upgrades/netherite_infused_fuel_tank"
+        },
+        "fuel_tank_titanium": {
+            "textures": "textures/items/drill_upgrades/titanium_infused_fuel_tank"
+        },
+        "biofuel": {
+            "textures": "textures/items/biofuel"
+        },
+        "oil_barrel": {
+            "textures": "textures/items/oil_barrel"
+        },
+        "mithril_ingot": {
+            "textures": "textures/items/mithril_ingot"
+        },
+        "mithril_nugget": {
+            "textures": "textures/items/mithril_nugget"
+        },
+        "raw_mithril": {
+            "textures": "textures/items/raw_mithril"
+        },
+        "mithril_pickaxe": {
+            "textures": "textures/items/mithril_pickaxe"
+        },
+        "titanium_ingot": {
+            "textures": "textures/items/titanium_ingot"
+        },
+        "titanium_nugget": {
+            "textures": "textures/items/titanium_nugget"
+        },
+        "titanium_pickaxe": {
+            "textures": "textures/items/titanium_pickaxe"
+        },
+        "gemstone_slag": {
+            "textures": "textures/items/gemstone_slag"
+        },
+        "lockpick": {
+            "textures": "textures/items/lockpick"
+        },
+        "key": {
+            "textures": "textures/items/key"
+        },
+        "crystal_skull": {
+            "textures": "textures/items/crystal_skull"
+        },
+        "bomb": {
+            "textures": "textures/items/bomb"
+        },
+        "fossil": {
+            "textures": "textures/items/fossil"
+        },
+        "geode": {
+            "textures": "textures/items/geode"
+        },
+        "prismatic_candy": {
+            "textures": "textures/items/prismatic_candy"
+        },
+        "spear_of_longinus": {
+            "textures": "textures/items/spear_of_longinus"
+        },
+        "raw_worm_meat": {
+            "textures": "textures/items/raw_worm_meat"
+        },
+        "cooked_worm_meat": {
+            "textures": "textures/items/cooked_worm_meat"
+        },
+        "worm_scale": {
+            "textures": "textures/items/worm_scale"
+        },
+        "battery": {
+            "textures": "textures/items/battery"
+        },
+        "amethyst_battery": {
+            "textures": "textures/items/amethyst_battery"
+        },
+        "sapphire_battery": {
+            "textures": "textures/items/sapphire_battery"
+        },
+        "jade_battery": {
+            "textures": "textures/items/jade_battery"
+        },
+        "topaz_battery": {
+            "textures": "textures/items/topaz_battery"
+        },
+        "ruby_battery": {
+            "textures": "textures/items/ruby_battery"
+        },
+        "pure_diamond_battery": {
+            "textures": "textures/items/pure_diamond_battery"
+        },
+        "gemstone_claymore": {
+            "textures": "textures/items/gemstone_claymore"
+        },
+        "gemstone_claymore_amethyst": {
+            "textures": "textures/items/gemstone_claymore_amethyst"
+        },
+        "gemstone_claymore_sapphire": {
+            "textures": "textures/items/gemstone_claymore_sapphire"
+        },
+        "gemstone_claymore_jade": {
+            "textures": "textures/items/gemstone_claymore_jade"
+        },
+        "gemstone_claymore_topaz": {
+            "textures": "textures/items/gemstone_claymore_topaz"
+        },
+        "gemstone_claymore_ruby": {
+            "textures": "textures/items/gemstone_claymore_ruby"
+        },
+        "gemstone_claymore_pure_diamond": {
+            "textures": "textures/items/gemstone_claymore_pure_diamond"
+        },
+        "vulcanite": {
+            "textures": "textures/items/vulcanite"
+        },
+        "wither_fragment": {
+            "textures": "textures/items/wither_fragment"
+        },
+        "wither_fragment_red": {
+            "textures": "textures/items/wither_fragment_red"
+        },
+        "wither_fragment_blue": {
+            "textures": "textures/items/wither_fragment_blue"
+        },
+        "wither_fragment_green": {
+            "textures": "textures/items/wither_fragment_green"
+        },
+        "wither_skeleton_bone": {
+            "textures": "textures/items/wither_bone"
+        },
+        "wither_handle": {
+            "textures": "textures/items/wither_handle"
+        },
+        "wither_helmet": {
+            "textures": "textures/items/wither_helmet"
+        },
+        "wither_chestplate": {
+            "textures": "textures/items/wither_chestplate"
+        },
+        "wither_leggings": {
+            "textures": "textures/items/wither_leggings"
+        },
+        "wither_boots": {
+            "textures": "textures/items/wither_boots"
+        },
+        "wither_helmet_red": {
+            "textures": "textures/items/wither_helmet_red"
+        },
+        "wither_chestplate_red": {
+            "textures": "textures/items/wither_chestplate_red"
+        },
+        "wither_leggings_red": {
+            "textures": "textures/items/wither_leggings_red"
+        },
+        "wither_boots_red": {
+            "textures": "textures/items/wither_boots_red"
+        },
+        "wither_helmet_blue": {
+            "textures": "textures/items/wither_helmet_blue"
+        },
+        "wither_chestplate_blue": {
+            "textures": "textures/items/wither_chestplate_blue"
+        },
+        "wither_leggings_blue": {
+            "textures": "textures/items/wither_leggings_blue"
+        },
+        "wither_boots_blue": {
+            "textures": "textures/items/wither_boots_blue"
+        },
+        "wither_helmet_green": {
+            "textures": "textures/items/wither_helmet_green"
+        },
+        "wither_chestplate_green": {
+            "textures": "textures/items/wither_chestplate_green"
+        },
+        "wither_leggings_green": {
+            "textures": "textures/items/wither_leggings_green"
+        },
+        "wither_boots_green": {
+            "textures": "textures/items/wither_boots_green"
+        },
+        "wither_essence": {
+            "textures": "textures/items/essence/wither_essence"
+        },
+        "livid_dagger": {
+            "textures": "textures/items/weapons/livid_dagger"
+        },
+        "livid_dagger_fragged": {
+            "textures": "textures/items/weapons/livid_dagger_fragged"
+        },
+        "shadow_fury": {
+            "textures": "textures/items/weapons/shadow_fury"
+        },
+        "shadow_fury_fragged": {
+            "textures": "textures/items/weapons/shadow_fury_fragged"
+        },
+        "wither_cloak_sword": {
+            "textures": "textures/items/weapons/wither_cloak_sword"
+        },
+        "wither_katana": {
+            "textures": "textures/items/weapons/wither_katana"
+        },
+        "wither_blade": {
+            "textures": "textures/items/weapons/wither_blade"
+        },
+        "wither_blade_red": {
+            "textures": "textures/items/weapons/wither_blade_red"
+        },
+        "wither_blade_blue": {
+            "textures": "textures/items/weapons/wither_blade_blue"
+        },
+        "wither_blade_green": {
+            "textures": "textures/items/weapons/wither_blade_green"
+        },
+        "1st_star": {
+            "textures": "textures/items/dungeon_stars/1st_star"
+        },
+        "2nd_star": {
+            "textures": "textures/items/dungeon_stars/2nd_star"
+        },
+        "3rd_star": {
+            "textures": "textures/items/dungeon_stars/3rd_star"
+        },
+        "4th_star": {
+            "textures": "textures/items/dungeon_stars/4th_star"
+        },
+        "5th_star": {
+            "textures": "textures/items/dungeon_stars/5th_star"
+        },
+        "template": {
+            "textures": "textures/items/template"
+        },
+        "cooked_egg": {
+            "textures": "textures/items/cooked_egg"
+        },
+        "milk_bottle": {
+            "textures": "textures/items/milk_bottle"
+        },
+        "cooked_wagyu": {
+            "textures": "textures/items/cooked_wagyu"
+        },
+        "raw_wagyu": {
+            "textures": "textures/items/raw_wagyu"
+        },
+        "eye_of_extinction": {
+            "textures": "textures/items/eye_of_extinction"
+        },
+        "sleeping_eye": {
+            "textures": "textures/items/sleeping_eye"
+        },
+        "spicy_mushroom_stew": {
+            "textures": "textures/items/spicy_mushroom_stew"
+        },
+        "glowing_mushroom_stew": {
+            "textures": "textures/items/glowing_mushroom_stew"
+        },
+        "relic_calamitas": {
+            "textures": "textures/items/brimstone_gem"
+        },
+        "spawn_egg_brimstone": {
+            "textures": "textures/items/egg_brimstone"
+        },
+        "reaper_axe": {
+            "textures": "textures/items/weapons/reaper_axe"
+        },
+        "undead_fragment": {
+            "textures": "textures/items/undead_fragment"
+        },
+        "zombie_heart": {
+            "textures": "textures/items/zombie_heart"
+        },
+        "undead_core": {
+            "textures": "textures/items/undead_core"
+        },
+        "crystalized_ender_pearl": {
+            "textures": "textures/items/crystalized_ender_pearl"
+        },
+        "aspect_of_the_end": {
+            "textures": "textures/items/weapons/aspect_of_the_end"
+        },
+        "pulse_rod": {
+            "textures": "textures/items/weapons/pulse_rod"
+        },
+        "pulse_rod_depleted": {
+            "textures": "textures/items/weapons/pulse_rod_depleted"
+        },
+        "disk_skull": {
+            "textures": "textures/items/disk_skull"
+        },
+        "disk_storm": {
+            "textures": "textures/items/disk_storm"
+        },
+        "disk_warp": {
+            "textures": "textures/items/disk_warp"
+        },
+        "disk_fire": {
+            "textures": "textures/items/disk_fire"
+        },
+        "disk_soul": {
+            "textures": "textures/items/disk_soul"
+        },
+        "disk_impact": {
+            "textures": "textures/items/disk_impact"
+        },
+        "blaze_orb": {
+            "textures": "textures/items/blaze_orb"
+        }
+    },
+    "texture_name": "atlas.items"
+}

@@ -1,0 +1,20 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "catacombs:tenebris_bricks",
+            "properties": {}
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "category": "construction",
+                "group": "itemGroup.name.tenebris"
+              },
+            "tag:tenebris": {},
+            "minecraft:destroy_time": 60,
+            "minecraft:explosion_resistance": 2147483647,
+            "minecraft:map_color": "#5f3644",
+            "minecraft:loot": "loot_tables/empty.json"
+        }
+    }
+}

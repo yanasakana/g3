@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###",
+            "# #",
+            "# #"
+        ],
+        "key": {
+            "#": {
+                "item": "catacombs_wither_fragment:netherite_ingot"
+            }
+        },
+        "result": {
+            "item": "catacombs:wither_leggings",
+            "count": 1
+        },
+        "description": {
+            "identifier": "catacombs:wither_leggings"
+        }
+    }
+}

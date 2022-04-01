@@ -1,0 +1,432 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "catacombs:shadow_assassin",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+      "runtime_identifier": "minecraft:wither_skeleton"
+    },
+    "component_groups": {
+      "minecraft:activated": {
+        "minecraft:behavior.nearest_attackable_target": {
+          "priority": 2,
+          "reselect_targets": true,
+          "must_see": false,
+          "entity_types": [
+            {
+              "filters": {
+                "test": "is_family",
+                "subject": "other",
+                "value": "player"
+              },
+              "max_dist": 16
+            },
+            {
+              "filters": {
+                "test": "is_family",
+                "subject": "other",
+                "value": "irongolem"
+              },
+              "max_dist": 16
+            },
+            {
+              "filters": {
+                "test": "is_family",
+                "subject": "other",
+                "value": "villager"
+              },
+              "max_dist": 16
+            },
+            {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "is_family",
+                    "subject": "other",
+                    "value": "baby_turtle"
+                  },
+                  {
+                    "test": "in_water",
+                    "subject": "other",
+                    "operator": "!=",
+                    "value": true
+                  }
+                ]
+              },
+              "max_dist": 16
+            }
+          ]
+        },
+        "minecraft:follow_range": {
+          "value": 64
+        },
+        "minecraft:teleport": {
+          "random_teleports": true,
+          "max_random_teleport_time": 30,
+          "random_teleport_cube": [
+            16,
+            16,
+            16
+          ],
+          "target_distance": 8,
+          "target_teleport_chance": 0.05,
+          "light_teleport_chance": 0.05
+        },
+        "minecraft:spell_effects": {
+          "remove_effects": "invisibility"
+        },
+        "minecraft:boss": {
+          "should_darken_sky": true,
+          "hud_range": 48,
+          "name": "Shadow Assassin"
+        },
+        "minecraft:movement": {
+          "value": 0.35
+        }
+      },
+      "minecraft:inactive": {
+        "minecraft:on_target_acquired": {
+          "event": "minecraft:activated",
+          "target": "self"
+        },
+        "minecraft:behavior.nearest_attackable_target": {
+          "priority": 2,
+          "reselect_targets": true,
+          "must_see": false,
+          "entity_types": [
+            {
+              "filters": {
+                "test": "is_family",
+                "subject": "other",
+                "value": "player"
+              },
+              "max_dist": 5
+            }
+          ]
+        },
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "invisibility",
+              "duration": 32767,
+              "display_on_screen_animation": true
+            }
+          ]
+        },
+        "minecraft:movement": {
+          "value": 0.1
+        }
+      }
+    },
+    "components": {
+      "minecraft:is_hidden_when_invisible": {},
+      "minecraft:experience_reward": {
+        "on_death": "query.last_hit_by_player ? 500 : 0"
+      },
+      "minecraft:nameable": {},
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0,
+        "breathes_water": true
+      },
+      "minecraft:health": {
+        "value": 200,
+        "max": 200
+      },
+      "minecraft:equip_item": {},
+      "minecraft:collision_box": {
+        "width": 0.72,
+        "height": 1.95
+      },
+      "minecraft:attack": {
+        "damage": 5,
+        "effect_name": "blindness",
+        "effect_duration": 8
+      },
+      "minecraft:despawn": {
+        "despawn_from_distance": {}
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/wither_skeleton.json"
+      },
+      "minecraft:equipment": {
+        "table": "loot_tables/entities/shadow_assassin_gear.json"
+      },
+      "minecraft:navigation.walk": {
+        "is_amphibious": true,
+        "avoid_sun": true,
+        "avoid_water": true
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:jump.static": {},
+      "minecraft:can_climb": {},
+      "minecraft:shareables": {
+        "items": [
+          {
+            "item": "minecraft:netherite_helmet",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 0
+          },
+          {
+            "item": "minecraft:diamond_helmet",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 1
+          },
+          {
+            "item": "minecraft:iron_helmet",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 2
+          },
+          {
+            "item": "minecraft:chainmail_helmet",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 3
+          },
+          {
+            "item": "minecraft:golden_helmet",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 4
+          },
+          {
+            "item": "minecraft:leather_helmet",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 5
+          },
+          {
+            "item": "minecraft:turtle_helmet",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 6
+          },
+          {
+            "item": "minecraft:skull:0",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 7
+          },
+          {
+            "item": "minecraft:skull:1",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 7
+          },
+          {
+            "item": "minecraft:carved_pumpkin",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 7
+          },
+          {
+            "item": "minecraft:netherite_chestplate",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 0
+          },
+          {
+            "item": "minecraft:diamond_chestplate",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 1
+          },
+          {
+            "item": "minecraft:iron_chestplate",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 2
+          },
+          {
+            "item": "minecraft:chainmail_chestplate",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 3
+          },
+          {
+            "item": "minecraft:golden_chestplate",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 4
+          },
+          {
+            "item": "minecraft:leather_chestplate",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 5
+          },
+          {
+            "item": "minecraft:netherite_leggings",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 0
+          },
+          {
+            "item": "minecraft:diamond_leggings",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 1
+          },
+          {
+            "item": "minecraft:iron_leggings",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 2
+          },
+          {
+            "item": "minecraft:chainmail_leggings",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 3
+          },
+          {
+            "item": "minecraft:golden_leggings",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 4
+          },
+          {
+            "item": "minecraft:leather_leggings",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 5
+          },
+          {
+            "item": "minecraft:netherite_boots",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 0
+          },
+          {
+            "item": "minecraft:diamond_boots",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 1
+          },
+          {
+            "item": "minecraft:iron_boots",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 2
+          },
+          {
+            "item": "minecraft:chainmail_boots",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 3
+          },
+          {
+            "item": "minecraft:golden_boots",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 4
+          },
+          {
+            "item": "minecraft:leather_boots",
+            "want_amount": 1,
+            "surplus_amount": 1,
+            "priority": 5
+          }
+        ]
+      },
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1
+      },
+      "minecraft:behavior.equip_item": {
+        "priority": 3
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 4,
+        "track_target": true,
+        "speed_multiplier": 1.25
+      },
+      "minecraft:behavior.pickup_items": {
+        "priority": 5,
+        "max_dist": 3,
+        "goal_radius": 2,
+        "speed_multiplier": 1.0,
+        "pickup_based_on_chance": true
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 6,
+        "speed_multiplier": 1
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 7,
+        "look_distance": 8
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 8
+      },
+      "minecraft:behavior.avoid_mob_type": {
+        "priority": 1,
+        "entity_types": [
+          {
+            "filters": { 
+                "any_of": [
+                  { "test" : "is_family", "subject" : "other", "value" : "shadow_assassin"}
+                ]
+            },
+            "max_dist": 64,
+            "walk_speed_multiplier": 1.5,
+            "sprint_speed_multiplier": 1.5
+          }
+        ]
+      },
+      "minecraft:type_family": {
+        "family": [
+          "monster",
+          "undead",
+          "mob",
+          "shadow_assassin"
+        ]
+      },
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:conditional_bandwidth_optimization": {}
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "remove": {},
+        "add": {
+          "component_groups": [
+            "minecraft:inactive"
+          ]
+        }
+      },
+      "minecraft:vanish": {
+        "run_command": {
+          "command": [
+            "tp @s 0 0 0"
+          ]
+        }
+      },
+      "minecraft:activated": {
+        "remove": {
+          "component_groups": [
+            "minecraft:inactive"
+          ]
+        },
+        "run_command": {
+          "command": [
+            "playsound mob.wither.ambient @a[r=32]",
+            "particle minecraft:large_explosion ~ ~1 ~"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:activated"
+          ]
+        }
+      }
+    }
+  }
+}

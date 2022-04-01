@@ -1,0 +1,126 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.andromeda_2",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 3, -8]
+				},
+				{
+					"name": "head2",
+					"parent": "body",
+					"pivot": [0, 10, 8],
+					"cubes": [
+						{"origin": [-7, 4, 1], "size": [14, 12, 14], "uv": [0, 0]},
+						{"origin": [-7, 16, -7], "size": [14, 1, 14], "uv": [40, 40]}
+					]
+				},
+				{
+					"name": "head3",
+					"parent": "body",
+					"pivot": [8, 10, 0],
+					"rotation": [0, -90, 0],
+					"cubes": [
+						{"origin": [1, 4, -7], "size": [14, 12, 14], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "head4",
+					"parent": "body",
+					"pivot": [-8, 10, 0],
+					"rotation": [0, -90, 0],
+					"cubes": [
+						{"origin": [-15, 4, -7], "size": [14, 12, 14], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "head5",
+					"parent": "body",
+					"pivot": [0, 9, 0],
+					"cubes": [
+						{"origin": [-7, 2, -7], "size": [14, 12, 14], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 3, -8],
+					"cubes": [
+						{"origin": [-7, 4, -14], "size": [14, 12, 13], "uv": [0, 26]},
+						{"origin": [6, 4, -15], "size": [1, 12, 1], "uv": [60, 11]},
+						{"origin": [-6, 4, -15], "size": [12, 1, 1], "uv": [42, 9]},
+						{"origin": [-6, 15, -15], "size": [12, 1, 1], "uv": [41, 36]},
+						{"origin": [-7, 4, -15], "size": [1, 12, 1], "uv": [56, 11]},
+						{"origin": [2, 0, -2], "size": [2, 2, 4], "uv": [0, 26]},
+						{"origin": [-4, 0, -2], "size": [2, 2, 4], "uv": [0, 8]}
+					]
+				},
+				{
+					"name": "turret",
+					"parent": "body",
+					"pivot": [0, 1, 0],
+					"rotation": [0, -45, 0],
+					"cubes": [
+						{"origin": [-15, 3, -4], "size": [8, 15, 8], "uv": [0, 51]},
+						{"origin": [-18, 12, -1.5], "size": [3, 5, 3], "uv": [0, 0]},
+						{"origin": [-18, 3, -4], "size": [3, 5, 8], "uv": [32, 55]},
+						{"origin": [-19, 8, -4], "size": [4, 1, 8], "uv": [54, 55]},
+						{"origin": [-20, 9, -4], "size": [5, 1, 8], "uv": [42, 0]},
+						{"origin": [-21, 10, -4], "size": [6, 2, 8], "uv": [41, 26]}
+					]
+				},
+				{
+					"name": "turret2",
+					"parent": "body",
+					"pivot": [0, 1, 0],
+					"rotation": [0, 45, 0],
+					"cubes": [
+						{"origin": [-15, 3, -4], "size": [8, 15, 8], "uv": [0, 51]},
+						{"origin": [-18, 12, -1.5], "size": [3, 5, 3], "uv": [0, 0]},
+						{"origin": [-18, 3, -4], "size": [3, 5, 8], "uv": [32, 55]},
+						{"origin": [-19, 8, -4], "size": [4, 1, 8], "uv": [54, 55]},
+						{"origin": [-20, 9, -4], "size": [5, 1, 8], "uv": [42, 0]},
+						{"origin": [-21, 10, -4], "size": [6, 2, 8], "uv": [41, 26]}
+					]
+				},
+				{
+					"name": "turret3",
+					"parent": "body",
+					"pivot": [0, 1, 0],
+					"rotation": [0, 135, 0],
+					"cubes": [
+						{"origin": [-15, 3, -4], "size": [8, 15, 8], "uv": [0, 51]},
+						{"origin": [-18, 12, -1.5], "size": [3, 5, 3], "uv": [0, 0]},
+						{"origin": [-18, 3, -4], "size": [3, 5, 8], "uv": [32, 55]},
+						{"origin": [-19, 8, -4], "size": [4, 1, 8], "uv": [54, 55]},
+						{"origin": [-20, 9, -4], "size": [5, 1, 8], "uv": [42, 0]},
+						{"origin": [-21, 10, -4], "size": [6, 2, 8], "uv": [41, 26]}
+					]
+				},
+				{
+					"name": "turret4",
+					"parent": "body",
+					"pivot": [0, 1, 0],
+					"rotation": [0, -135, 0],
+					"cubes": [
+						{"origin": [-15, 3, -4], "size": [8, 15, 8], "uv": [0, 51]},
+						{"origin": [-18, 12, -1.5], "size": [3, 5, 3], "uv": [0, 0]},
+						{"origin": [-18, 3, -4], "size": [3, 5, 8], "uv": [32, 55]},
+						{"origin": [-19, 8, -4], "size": [4, 1, 8], "uv": [54, 55]},
+						{"origin": [-20, 9, -4], "size": [5, 1, 8], "uv": [42, 0]},
+						{"origin": [-21, 10, -4], "size": [6, 2, 8], "uv": [41, 26]}
+					]
+				}
+			]
+		}
+	]
+}
