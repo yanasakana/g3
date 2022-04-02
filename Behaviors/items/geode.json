@@ -10,6 +10,9 @@
 			"minecraft:display_name": {
 				"value": "Geode"
 			},
+			"minecraft:creative_category": {
+                "parent": "misc"
+            },
 			"minecraft:cooldown": {
 				"duration": 1,
 				"category": "geode"

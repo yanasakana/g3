@@ -26,7 +26,7 @@
 				"max_durability": 650
 			},
 			"minecraft:armor": {
-				"protection": 4
+				"protection": 3
 			},
 			"minecraft:icon": {
 				"texture": "wither_boots_red"

@@ -609,6 +609,9 @@
         },
         "blaze_orb": {
             "textures": "textures/items/blaze_orb"
+        },
+        "skeleton_key": {
+            "textures": "textures/items/skeleton_key"
         }
     },
     "texture_name": "atlas.items"

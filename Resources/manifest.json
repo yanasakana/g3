@@ -3,7 +3,7 @@
     "header": {
         "name": "The Hot Sauce Collection (Resources)",
         "description": "@VinniSauce",
-        "uuid": "df400354-67c5-47ca-a499-ccda5787ab9f",
+        "uuid": "b313fd09-02b8-49be-9bc7-f2248189709b",
         "version": [
             1,
             0,
@@ -18,7 +18,7 @@
     "modules": [
         {
             "type": "resources",
-            "uuid": "d30d4e90-1949-4ed7-9721-61ded2df708d",
+            "uuid": "152e555f-5037-4a21-85cd-10ee3b73df4c",
             "version": [
                 1,
                 0,
@@ -28,7 +28,7 @@
     ],
     "dependencies": [
         {
-            "uuid": "37673ece-4d2c-44ed-a077-c6cf1a600123",
+            "uuid": "618268d6-f516-4b8d-88ce-4babc71f4e70",
             "version": [
                 1,
                 0,

@@ -9,7 +9,7 @@
 				"category": "nature",
 				"group": "itemGroup.name.grass"
 			},
-			"minecraft:destroy_time": 1,
+			"minecraft:destroy_time": 0.1,
 			"minecraft:map_color": "#2b4411"
 		}
 	}

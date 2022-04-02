@@ -6,6 +6,9 @@
             "category": "items"
         },
         "components": {
+            "minecraft:creative_category": {
+                "parent": "blaze_rod"
+            },
             "minecraft:icon": {
                 "texture": "blaze_orb"
             },

@@ -2,7 +2,7 @@
 	"format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
-			"identifier": "g3:lockbox"
+			"identifier": "g3:lockbox_nether"
 		},
 		"components": {
             "minecraft:creative_category": {
@@ -14,7 +14,7 @@
 			"minecraft:on_interact": {
 				"event": "interaction",
 				"target": "self",
-				"condition": "q.get_equipped_item_name(0) == 'lockpick' || q.get_equipped_item_name(0) == 'key'"
+				"condition": "q.get_equipped_item_name(0) == 'lockpick' || q.get_equipped_item_name(0) == 'key' || q.get_equipped_item_name(0) == 'skeleton_key'"
 			}
 		},
 		"events": {
@@ -24,6 +24,12 @@
 						"condition": "q.get_equipped_item_name == 'lockpick'",
 						"trigger": {
 							"event": "start_picking"
+						}
+					},
+					{
+						"condition": "q.get_equipped_item_name == 'skeleton_key'",
+						"trigger": {
+							"event": "unlock"
 						}
 					},
 					{
@@ -38,7 +44,7 @@
 			"start_picking": {
 				"run_command": {
 					"command": [
-						"setblock ~ ~ ~ g3:lockbox_waiting",
+						"setblock ~ ~ ~ g3:lockbox_waiting_nether",
 						"playsound step.chain @p"
 					]
 				}
@@ -46,7 +52,7 @@
 			"unlock": {
 				"run_command": {
 					"command": [
-						"setblock ~ ~ ~ g3:lockbox_opened",
+						"setblock ~ ~ ~ g3:lockbox_opened_nether",
                         "playsound random.click @p"
 					]
 				}

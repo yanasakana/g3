@@ -10,7 +10,7 @@
                 "texture": "drill_engine_netherite"
             },
             "minecraft:display_name": {
-                "value": "Diamond-Plated Drill Engine\n§8+8 Mining Speed§r \n§8+9600 Fuel Capacity§r"
+                "value": "Diamond-Plated Drill Engine\n§8+16 Mining Speed§r \n§8+9600 Fuel Capacity§r"
             },
             "minecraft:max_stack_size": 1,
             "minecraft:creative_category": {

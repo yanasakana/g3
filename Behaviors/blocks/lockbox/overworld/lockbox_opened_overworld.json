@@ -2,7 +2,7 @@
     "format_version": "1.16.100",
     "minecraft:block": {
         "description": {
-            "identifier": "g3:lockbox_opened"
+            "identifier": "g3:lockbox_opened_overworld"
         },
         "components": {
             "minecraft:creative_category": {

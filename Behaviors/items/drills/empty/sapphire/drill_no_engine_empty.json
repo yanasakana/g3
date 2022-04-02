@@ -14,7 +14,7 @@
             "minecraft:damage": 3,
             "minecraft:hand_equipped": true,
             "minecraft:display_name": {
-                "value": "Sapphire Drill §8(Empty)\n§8Drill Engine Upgrade: Not Installed§r\n§8Mining Speed: 10§r \n§8Fuel Capacity: 400§r"
+                "value": "Sapphire Drill §8(Empty)\n§8Drill Engine Upgrade: Not Installed§r"
             },
             "minecraft:render_offsets": {
                 "main_hand": {

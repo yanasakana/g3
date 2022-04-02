@@ -1,0 +1,23 @@
+{
+	"format_version": "1.13.0",
+
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "g3:nether_lockbox_feature"
+		},
+
+		"places_block": "g3:lockbox_nether",
+
+		"enforce_placement_rules": false,
+		"enforce_survivability_rules": false,
+		"may_replace": ["minecraft:netherrack"],
+		"may_attach_to": {
+			"top": ["minecraft:netherrack"],
+            "bottom": ["minecraft:netherrack"],
+			"north": ["minecraft:netherrack"],
+			"south": ["minecraft:netherrack"],
+			"east": ["minecraft:netherrack"],
+			"west": ["minecraft:netherrack"]
+		}
+	}
+}

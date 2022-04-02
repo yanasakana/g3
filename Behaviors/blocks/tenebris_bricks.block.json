@@ -11,6 +11,7 @@
                 "group": "itemGroup.name.tenebris"
               },
             "tag:tenebris": {},
+            "tag:stone": {},
             "minecraft:destroy_time": 60,
             "minecraft:explosion_resistance": 2147483647,
             "minecraft:map_color": "#5f3644",

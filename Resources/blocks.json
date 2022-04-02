@@ -238,7 +238,7 @@
             "side": "lockbox_side"
         }
     },
-    "g3:lockbox_waiting": {
+    "g3:lockbox_overworld": {
         "sound": "metal",
         "textures": {
             "up": "lockbox_top",
@@ -246,12 +246,92 @@
             "side": "lockbox_side"
         }
     },
-    "g3:lockbox_shimmer": {
+    "g3:lockbox_waiting_overworld": {
+        "sound": "metal",
+        "textures": {
+            "up": "lockbox_top",
+            "down": "lockbox_top",
+            "side": "lockbox_side"
+        }
+    },
+    "g3:lockbox_shimmer_overworld": {
         "sound": "metal",
         "textures": {
             "up": "lockbox_top",
             "down": "lockbox_top",
             "side": "lockbox_side_shimmer"
+        }
+    },
+    "g3:lockbox_opened_overworld": {
+        "sound": "metal",
+        "textures": {
+            "up": "lockbox_top",
+            "down": "lockbox_top",
+            "side": "lockbox_side_opened"
+        }
+    },
+    "g3:lockbox_nether": {
+        "sound": "metal",
+        "textures": {
+            "up": "lockbox_top",
+            "down": "lockbox_top",
+            "side": "lockbox_side"
+        }
+    },
+    "g3:lockbox_waiting_nether": {
+        "sound": "metal",
+        "textures": {
+            "up": "lockbox_top",
+            "down": "lockbox_top",
+            "side": "lockbox_side"
+        }
+    },
+    "g3:lockbox_shimmer_nether": {
+        "sound": "metal",
+        "textures": {
+            "up": "lockbox_top",
+            "down": "lockbox_top",
+            "side": "lockbox_side_shimmer"
+        }
+    },
+    "g3:lockbox_opened_nether": {
+        "sound": "metal",
+        "textures": {
+            "up": "lockbox_top",
+            "down": "lockbox_top",
+            "side": "lockbox_side_opened"
+        }
+    },
+    "g3:lockbox_end": {
+        "sound": "metal",
+        "textures": {
+            "up": "lockbox_top",
+            "down": "lockbox_top",
+            "side": "lockbox_side"
+        }
+    },
+    "g3:lockbox_waiting_end": {
+        "sound": "metal",
+        "textures": {
+            "up": "lockbox_top",
+            "down": "lockbox_top",
+            "side": "lockbox_side"
+        }
+    },
+    "g3:lockbox_shimmer_end": {
+        "sound": "metal",
+        "textures": {
+            "up": "lockbox_top",
+            "down": "lockbox_top",
+            "side": "lockbox_side_shimmer"
+        }
+    },
+    "g3:lockbox_opened_end": {
+        "sound": "metal",
+        "textures": {
+            "up": "lockbox_top",
+            "down": "lockbox_top",
+            "side": "lockbox_side_opened"
         }
     },
     "g3:lockbox_broken": {
@@ -260,14 +340,6 @@
             "up": "lockbox_top",
             "down": "lockbox_top",
             "side": "lockbox_side_broken"
-        }
-    },
-    "g3:lockbox_opened": {
-        "sound": "metal",
-        "textures": {
-            "up": "lockbox_top",
-            "down": "lockbox_top",
-            "side": "lockbox_side_opened"
         }
     },
     "g3:drill_table": {

@@ -3,9 +3,12 @@
     "minecraft:item": {
         "description": {
             "identifier": "catacombs_disk_skull:netherite_ingot",
-            "category": "items"
+            "category": "equipment"
         },
         "components": {
+            "minecraft:creative_category": {
+                "parent": "wither_disks"
+            },
             "minecraft:explodable": true,
             "minecraft:icon": {
                 "texture": "disk_skull"

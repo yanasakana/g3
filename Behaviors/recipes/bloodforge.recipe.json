@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "nnn",
+            "CFC",
+            "CCC"
+        ],
+        "key": {
+            "n": {
+                "item": "minecraft:netherite_ingot"
+            },
+            "C": {
+                "item": "catacombs:smooth_tenebris"
+            },
+            "F": {
+                "item": "minecraft:furnace"
+            }
+        },
+        "result": {
+            "item": "catacombs:bloodforge",
+            "count": 1
+        },
+        "description": {
+            "identifier": "catacombs:bloodforge"
+        }
+    }
+}

@@ -9,6 +9,9 @@
             "minecraft:icon": {
                 "texture": "fossil"
             },
+            "minecraft:creative_category": {
+                "parent": "misc"
+            },
             "minecraft:display_name": {
                 "value": "Fossil"
             },

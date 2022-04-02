@@ -1,0 +1,62 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "g3:lockbox_end"
+		},
+		"components": {
+            "minecraft:creative_category": {
+				"category": "items",
+				"group": "lockbox"
+			},
+			"minecraft:destroy_time": 1,
+			"minecraft:map_color": "#615756",
+			"minecraft:on_interact": {
+				"event": "interaction",
+				"target": "self",
+				"condition": "q.get_equipped_item_name(0) == 'lockpick' || q.get_equipped_item_name(0) == 'key' || q.get_equipped_item_name(0) == 'skeleton_key'"
+			}
+		},
+		"events": {
+			"interaction": {
+				"sequence": [
+					{
+						"condition": "q.get_equipped_item_name == 'lockpick'",
+						"trigger": {
+							"event": "start_picking"
+						}
+					},
+					{
+						"condition": "q.get_equipped_item_name == 'skeleton_key'",
+						"trigger": {
+							"event": "unlock"
+						}
+					},
+					{
+						"condition": "q.get_equipped_item_name == 'key'",
+						"decrement_stack": {},
+                        "trigger": {
+							"event": "unlock"
+						}
+					}
+				]
+			},
+			"start_picking": {
+				"run_command": {
+					"command": [
+						"setblock ~ ~ ~ g3:lockbox_waiting_end",
+						"playsound step.chain @p"
+					]
+				}
+			},
+			"unlock": {
+				"run_command": {
+					"command": [
+						"setblock ~ ~ ~ g3:lockbox_opened_end",
+                        "playsound random.click @p"
+					]
+				}
+			}
+		}
+	}
+}

@@ -6,6 +6,9 @@
             "category": "items"
         },
         "components": {
+            "minecraft:creative_category": {
+                "parent": "wither_disks"
+            },
             "minecraft:explodable": true,
             "minecraft:icon": {
                 "texture": "disk_storm"

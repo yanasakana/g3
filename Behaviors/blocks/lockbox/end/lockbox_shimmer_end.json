@@ -2,9 +2,11 @@
     "format_version": "1.16.100",
     "minecraft:block": {
         "description": {
-            "identifier": "g3:lockbox_shimmer"
+            "identifier": "g3:lockbox_shimmer_end"
         },
         "components": {
+            "minecraft:immovable": true,
+			"minecraft:explosion_resistance": 2147483647,
             "minecraft:ticking": {
                 "looping": false,
                 "range": [
@@ -27,7 +29,7 @@
             "too_late": {
                 "run_command": {
                     "command": [
-                        "setblock ~ ~ ~ g3:lockbox_waiting"
+                        "setblock ~ ~ ~ g3:lockbox_waiting_end"
                     ]
                 }
             },
@@ -37,7 +39,7 @@
                         "weight": 1,
                         "run_command": {
                             "command": [
-                                "setblock ~ ~ ~ g3:lockbox_opened",
+                                "setblock ~ ~ ~ g3:lockbox_opened_end",
                                 "playsound random.click @p"
                             ]
                         }
@@ -46,7 +48,7 @@
                         "weight": 1,
                         "run_command": {
                             "command": [
-                                "setblock ~ ~ ~ g3:lockbox_waiting",
+                                "setblock ~ ~ ~ g3:lockbox_waiting_end",
                                 "playsound step.chain @p"
                             ]
                         }

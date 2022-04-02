@@ -33,9 +33,13 @@ tile.g3:titanium_block.name=Titanium Block
 tile.g3:planty_mush.name=Planty Mush
 tile.g3:altar.name=Prismatic Altar
 
-tile.g3:lockbox.name=Rusty Lockbox
+tile.g3:lockbox.name=Rusty Lockbox (Found Underground)
+tile.g3:lockbox_nether.name=Rusty Lockbox (Found in The Nether)
+tile.g3:lockbox_end.name=Rusty Lockbox (Found in The End)
+tile.g3:lockbox_opened_overworld.name=Opened Lockbox (Found Underground)
+tile.g3:lockbox_opened_nether.name=Opened Lockbox (Found in The Nether)
+tile.g3:lockbox_opened_end.name=Opened Lockbox (Found in The End)
 tile.g3:lockbox_broken.name=Broken Lockbox
-tile.g3:lockbox_opened.name=Opened Lockbox
 
 tile.g3:drill_table.name=Drill Assembly Table
 

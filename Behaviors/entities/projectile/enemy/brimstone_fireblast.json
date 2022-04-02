@@ -15,7 +15,6 @@
 					"fuse_lit": true,
 					"power": 3,
 					"causes_fire": false,
-					"max_resistance": 4,
 					"destroy_affected_by_griefing": true
 				}
 			}

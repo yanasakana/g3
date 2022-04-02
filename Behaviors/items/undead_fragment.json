@@ -6,6 +6,9 @@
             "category": "items"
         },
         "components": {
+            "minecraft:creative_category": {
+                "parent": "rotten_flesh"
+            },
             "minecraft:explodable": true,
             "minecraft:icon": {
                 "texture": "undead_fragment"

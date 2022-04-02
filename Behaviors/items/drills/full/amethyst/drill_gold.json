@@ -11,7 +11,7 @@
             "minecraft:damage": 3,
             "minecraft:hand_equipped": true,
             "minecraft:display_name": {
-                "value": "Amethyst Drill\n§8Drill Engine Upgrade: §eGold-Plated Drill Engine§r\n§8Mining Speed: 12§r \n§8Fuel Capacity: 2800§r"
+                "value": "Amethyst Drill\n§8Drill Engine Upgrade: §eGold-Plated Drill Engine§r\n§8Mining Speed: 16§r \n§8Fuel Capacity: 2800§r"
             },
             "minecraft:cooldown": {
 				"duration": 30,
@@ -49,2065 +49,2065 @@
 						"block": {
 							"tags": "q.any_tag('amethyst_drill_diggable', 'stone', 'metal',  'diamond_pick_diggable', 'gold_pick_diggable', 'iron_pick_diggable', 'stone_pick_diggable', 'wood_pick_diggable', 'rail')"
 						},
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:stone",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:cobblestone",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:gold_ore",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:iron_ore",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:coal_ore",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:glass",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:lapis_ore",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:lapis_block",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:dispenser",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:golden_rail",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:detector_rail",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:sticky_piston",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:piston",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:pistonarmcollision",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:gold_block",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:iron_block",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:double_stone_slab",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:stone_slab",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:brick_block",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:mossy_cobblestone",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:obsidian",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:mob_spawner",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:diamond_ore",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:diamond_block",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:furnace",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:lit_furnace",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:stone_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:lever",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:stone_pressure_plate",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:iron_door",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:redstone_ore",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:lit_redstone_ore",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:stone_button",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:ice",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:netherrack",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:glowstone",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:unpowered_repeater",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:powered_repeater",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:monster_egg",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:stonebrick",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:iron_bars",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:glass_pane",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:brick_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:stone_brick_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:nether_brick",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:nether_brick_fence",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:nether_brick_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:enchanting_table",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:brewing_stand",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:cauldron",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:end_stone",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:dragon_egg",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:redstone_lamp",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:lit_redstone_lamp",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:dropper",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:activator_rail",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:sandstone_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:emerald_ore",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:ender_chest",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:emerald_block",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:beacon",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:cobblestone_wall",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:flower_pot",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:skull",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:anvil",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:light_weighted_pressure_plate",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:heavy_weighted_pressure_plate",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:unpowered_comparator",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:powered_comparator",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:redstone_block",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:quartz_ore",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:hopper",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:quartz_block",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:quartz_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:stained_hardened_clay",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:stained_glass_pane",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:iron_trapdoor",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:prismarine",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:sealantern",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:hardened_clay",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:coal_block",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:packed_ice",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:red_sandstone",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:red_sandstone_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:double_stone_slab2",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:stone_slab2",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:hard_glass_pane",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:hard_stained_glass_pane",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:chemical_heat",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:chorus_flower",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:purpur_block",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:purpur_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:undyed_shulker_box",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:end_bricks",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:frosted_ice",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:end_rod",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:magma",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:red_nether_brick",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:bone_block",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:shulker_box",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:purple_glazed_terracotta",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:white_glazed_terracotta",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:orange_glazed_terracotta",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:magenta_glazed_terracotta",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:light_blue_glazed_terracotta",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:yellow_glazed_terracotta",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:lime_glazed_terracotta",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:pink_glazed_terracotta",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:gray_glazed_terracotta",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:silver_glazed_terracotta",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:cyan_glazed_terracotta",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:blue_glazed_terracotta",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:brown_glazed_terracotta",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:green_glazed_terracotta",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:red_glazed_terracotta",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:black_glazed_terracotta",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:concrete",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:chemistry_table",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:chorus_plant",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:stained_glass",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:stonecutter",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:glowingobsidian",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:netherreactor",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:movingblock",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:observer",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:hard_glass",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:hard_stained_glass",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:prismarine_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:dark_prismarine_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:prismarine_bricks_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:blue_ice",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:coral",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:coral_block",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:coral_fan",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:coral_fan_dead",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:coral_fan_hang",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:coral_fan_hang2",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:coral_fan_hang3",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:conduit",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:turtle_egg",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:stone_slab3",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:stone_slab4",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:double_stone_slab3",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:double_stone_slab4",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:granite_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:diorite_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:andesite_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:polished_granite_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:polished_diorite_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:polished_andesite_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:mossy_stone_brick_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:smooth_red_sandstone_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:smooth_sandstone_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:end_brick_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:mossy_cobblestone_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:smooth_stone",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:red_nether_brick_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:smooth_quartz_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:grindstone",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:blast_furnace",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:stonecutter_block",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:smoker",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:lit_smoker",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:bell",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:lantern",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:lava_cauldron",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:lit_blast_furnace",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:stickypistonarmcollision",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:lodestone",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:crimson_nylium",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:warped_nylium",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:basalt",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:polished_basalt",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:soul_lantern",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:netherite_block",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:ancient_debris",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:respawn_anchor",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:blackstone",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:polished_blackstone_bricks",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:polished_blackstone_brick_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:blackstone_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:blackstone_wall",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:polished_blackstone_brick_wall",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:chiseled_polished_blackstone",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:cracked_polished_blackstone_bricks",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:gilded_blackstone",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:blackstone_slab",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:blackstone_double_slab",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:polished_blackstone_brick_slab",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:polished_blackstone_brick_double_slab",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:chain",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:nether_gold_ore",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:crying_obsidian",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:polished_blackstone",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:polished_blackstone_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:polished_blackstone_slab",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:polished_blackstone_double_slab",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:polished_blackstone_pressure_plate",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:polished_blackstone_button",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:polished_blackstone_wall",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:chiseled_nether_bricks",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:cracked_nether_bricks",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:quartz_bricks",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:pointed_dripstone",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:copper_ore",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:dripstone_block",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:calcite",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:amethyst_block",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:budding_amethyst",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:amethyst_cluster",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:large_amethyst_bud",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:medium_amethyst_bud",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:small_amethyst_bud",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:tuff",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:tinted_glass",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:copper_block",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:exposed_copper",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:weathered_copper",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:oxidized_copper",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:waxed_copper",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:waxed_exposed_copper",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:waxed_weathered_copper",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:cut_copper",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:exposed_cut_copper",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:weathered_cut_copper",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:oxidized_cut_copper",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:waxed_cut_copper",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:waxed_exposed_cut_copper",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:waxed_weathered_cut_copper",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:cut_copper_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:exposed_cut_copper_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:weathered_cut_copper_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:weathered_cut_copper_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:oxidized_cut_copper_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:waxed_cut_copper_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:waxed_exposed_cut_copper_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:waxed_weathered_cut_copper_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:cut_copper_slab",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:exposed_cut_copper_slab",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:weathered_cut_copper_slab",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:oxidized_cut_copper_slab",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:waxed_cut_copper_slab",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:waxed_exposed_cut_copper_slab",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:waxed_weathered_cut_copper_slab",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:cut_copper",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:exposed_cut_copper",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:weathered_cut_copper",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:oxidized_cut_copper",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:waxed_cut_copper",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:waxed_exposed_cut_copper",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:waxed_weathered_cut_copper",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:smooth_basalt",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:deepslate",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:cobbled_deepslate",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:cobbled_deepslate_slab",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:cobbled_deepslate_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:cobbled_deepslate_wall",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:polished_deepslate",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:polished_deepslate_slab",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:polished_deepslate_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:polished_deepslate_wall",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:deepslate_tiles",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:deepslate_tile_slab",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:deepslate_tile_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:deepslate_tile_wall",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:deepslate_bricks",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:deepslate_brick_slab",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:deepslate_brick_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:deepslate_brick_wall",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:chiseled_deepslate",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:cobbled_deepslate_double_slab",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:polished_deepslate_double_slab",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:deepslate_tile_double_slab",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:deepslate_brick_double_slab",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:deepslate_lapis_ore",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:deepslate_iron_ore",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:deepslate_gold_ore",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:deepslate_redstone_ore",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:lit_deepslate_redstone_ore",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:deepslate_diamond_ore",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:deepslate_coal_ore",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:deepslate_emerald_ore",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:deepslate_copper_ore",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:cracked_deepslate_tiles",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:cracked_deepslate_bricks",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:cracked_deepslate_bricks",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:waxed_oxidized_copper",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:waxed_oxidized_cut_copper",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:waxed_oxidized_cut_copper_stairs",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:waxed_oxidized_cut_copper_slab",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:waxed_oxidized_double_cut_copper_slab",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:raw_iron_block",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:raw_copper_block",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}
 					},
 					{
 						"block": "minecraft:raw_gold_block",
-						"speed": 12,
+						"speed": 16,
 						"on_dig": {
 							"event": "updateFuel"
 						}

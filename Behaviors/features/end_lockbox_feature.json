@@ -1,0 +1,23 @@
+{
+	"format_version": "1.13.0",
+
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "g3:end_lockbox_feature"
+		},
+
+		"places_block": "g3:lockbox_end",
+
+		"enforce_placement_rules": false,
+		"enforce_survivability_rules": false,
+		"may_replace": ["minecraft:end_stone"],
+		"may_attach_to": {
+			"top": ["minecraft:end_stone"],
+            "bottom": ["minecraft:end_stone"],
+			"north": ["minecraft:end_stone"],
+			"south": ["minecraft:end_stone"],
+			"east": ["minecraft:end_stone"],
+			"west": ["minecraft:end_stone"]
+		}
+	}
+}

@@ -22,8 +22,8 @@
 		},
 		"components": {
 			"minecraft:collision_box": {
-				"width": 0.5,
-				"height": 0.5
+				"width": 0.1,
+				"height": 0.1
 			},
 			"minecraft:variant": {
 				"value": 0

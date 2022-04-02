@@ -6,6 +6,9 @@
             "category": "items"
         },
         "components": {
+            "minecraft:creative_category": {
+                "parent": "wither_items"
+            },
             "minecraft:icon": {
                 "texture": "wither_skeleton_bone"
             },

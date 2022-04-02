@@ -8,8 +8,8 @@
 		"components": {
 			"tag:dungeon_weapon": {},
 			"minecraft:creative_category": {
-				"parent": "itemGroup.name.miscWeapon"
-			},
+                "parent": "pulse_rod"
+            },
 			"minecraft:display_name": {
 				"value": "§6Pulse Rod§r"
 			},

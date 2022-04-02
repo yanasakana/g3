@@ -6,6 +6,9 @@
             "category": "items"
         },
         "components": {
+            "minecraft:creative_category": {
+                "parent": "ender_pearl"
+            },
             "minecraft:explodable": true,
             "minecraft:icon": {
                 "texture": "crystalized_ender_pearl"

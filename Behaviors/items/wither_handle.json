@@ -6,6 +6,9 @@
             "category": "items"
         },
         "components": {
+            "minecraft:creative_category": {
+                "parent": "wither_items"
+            },
             "minecraft:explodable": true,
             "minecraft:icon": {
                 "texture": "wither_handle"

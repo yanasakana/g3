@@ -6,6 +6,9 @@
 			"category": "equipment"
 		},
 		"components": {
+			"minecraft:creative_category": {
+                "parent": "pulse_rod"
+            },
 			"tag:gun": {},
 			"minecraft:icon": {
 				"texture": "pulse_rod_depleted"

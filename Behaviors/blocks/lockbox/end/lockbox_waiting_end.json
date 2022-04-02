@@ -2,9 +2,11 @@
 	"format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
-			"identifier": "g3:lockbox_waiting"
+			"identifier": "g3:lockbox_waiting_end"
 		},
 		"components": {
+			"minecraft:immovable": true,
+			"minecraft:explosion_resistance": 2147483647,
             "minecraft:ticking": {
                 "looping": false,
                 "range": [
@@ -35,7 +37,7 @@
 			"shimmer": {
 				"run_command": {
 					"command": [
-						"setblock ~ ~ ~ g3:lockbox_shimmer"
+						"setblock ~ ~ ~ g3:lockbox_shimmer_end"
 					]
 				}
 			}
