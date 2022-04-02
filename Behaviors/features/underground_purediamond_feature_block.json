@@ -1,0 +1,17 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "g3:underground_purediamond_feature_block"
+		},
+		"structure_name": "g3:small_pure_diamond_cluster",
+		"facing_direction": "random",
+		"constraints": {
+			"block_intersection": {
+				"block_allowlist": [
+					"minecraft:lava"
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "tags": [
+            "drill_table"
+        ],
+        "ingredients": [
+            {
+                "item": "g3:drill_jade_no_engine_empty"
+            },
+            {
+                "item": "g3:drill_engine_mithril"
+            }
+        ],
+        "result": {
+            "item": "g3:drill_jade_mithril_empty",
+            "count": 1
+        },
+        "description": {
+            "identifier": "g3:jade_upgrade_to_mithril"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "g3:worm_scale",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "misc"
+            },
+            "minecraft:icon": {
+                "texture": "worm_scale"
+            },
+            "minecraft:display_name": {
+                "value": "Worm Scale"
+            },
+            "minecraft:max_stack_size": 64
+        }
+    }
+}

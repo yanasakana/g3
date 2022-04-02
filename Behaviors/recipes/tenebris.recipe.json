@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#C#",
+            "C#C",
+            "#C#"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:netherrack"
+            },
+            "C": {
+                "item": "catacombs:wither_skeleton_bone"
+            }
+        },
+        "result": {
+            "item": "catacombs:tenebris",
+            "count": 5
+        },
+        "description": {
+            "identifier": "catacombs:tenebris"
+        }
+    }
+}

@@ -1,0 +1,64 @@
+{
+  "format_version": "1.17.20",
+  "minecraft:block": {
+    "description": {
+      "identifier": "g3:ruby_prism"
+    },
+    "components": {
+      "minecraft:creative_category": {
+				"category": "items",
+				"group": "ruby"
+			},
+      "minecraft:pick_collision": {
+        "origin": [-4, 4, -4],
+        "size": [8, 8, 8]
+      },
+      "minecraft:immovable": true,
+			"minecraft:explosion_resistance": 32767,
+      "minecraft:destroy_time": 0,
+      "minecraft:block_light_emission": 0.3,
+      "minecraft:map_color": "#ff99aa",
+      "minecraft:entity_collision": false,
+      "minecraft:geometry": "geometry.cubic_item",
+      "minecraft:block_light_absorption": 0,
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "up"
+            ],
+            "block_filter": [
+              "g3:altar"
+            ]
+          }
+        ]
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "ruby_prism",
+        	"render_method": "alpha_test",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				}
+      },
+      "minecraft:on_placed": {
+        "event": "g3:ruby_placed"
+      },
+      "minecraft:on_player_destroyed": {
+        "event": "g3:ruby_removed"
+      }
+    },
+		"events": {
+			"g3:ruby_placed": {
+				"run_command": {
+          "command": ["event entity @e[type=g3:crystal_heart_runtime,c=1,r=5] g3:ruby_placed"]
+        }
+			},
+      "g3:ruby_removed": {
+				"run_command": {
+          "command": ["event entity @e[type=g3:crystal_heart_runtime,c=1,r=5] g3:ruby_removed"]
+        }
+			}
+		}
+  }
+}

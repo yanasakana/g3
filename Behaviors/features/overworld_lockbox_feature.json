@@ -1,0 +1,23 @@
+{
+	"format_version": "1.13.0",
+
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "g3:overworld_lockbox_feature"
+		},
+
+		"places_block": "g3:lockbox",
+
+		"enforce_placement_rules": false,
+		"enforce_survivability_rules": false,
+		"may_replace": ["minecraft:deepslate", "minecraft:stone"],
+		"may_attach_to": {
+			"top": ["minecraft:deepslate", "minecraft:stone"],
+            "bottom": ["minecraft:deepslate", "minecraft:stone"],
+			"north": ["minecraft:deepslate", "minecraft:stone"],
+			"south": ["minecraft:deepslate", "minecraft:stone"],
+			"east": ["minecraft:deepslate", "minecraft:stone"],
+			"west": ["minecraft:deepslate", "minecraft:stone"]
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "g3:furnace_worm_meat"
+    },
+
+
+    "tags": ["furnace", "smoker", "campfire", "soul_campfire"],
+    "input": "g3:raw_worm_meat",
+    "output": "g3:cooked_worm_meat"
+  }
+  
+}

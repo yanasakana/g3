@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#C#",
+            "CNC",
+            "#C#"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:diamond_block"
+            },
+            "C": {
+                "item": "catacombs:rotten_flesh_block"
+            },
+            "N": {
+                "item": "minecraft:netherite_block"
+            }
+        },
+        "result": {
+            "item": "catacombs:undead_fragment",
+            "count": 1
+        },
+        "description": {
+            "identifier": "catacombs:undead_fragment"
+        }
+    }
+}

@@ -1,0 +1,229 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "g3:crystal_heart_runtime",
+            "is_spawnable": false,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "component_groups": {
+            "minecraft:delete_crystal_heart": {
+                "minecraft:instant_despawn": {}
+            },
+            "minecraft:amethyst_placed": {
+                "minecraft:is_sheared": {}
+            },
+            "minecraft:sapphire_placed": {
+                "minecraft:is_saddled": {}
+            },
+            "minecraft:jade_placed": {
+                "minecraft:is_tamed": {}
+            },
+            "minecraft:topaz_placed": {
+                "minecraft:is_charged": {}
+            },
+            "minecraft:ruby_placed": {
+                "minecraft:is_stunned": {}
+            },
+            "minecraft:pure_diamond_placed": {
+                "minecraft:is_illager_captain": {}
+            }
+        },
+        "components": {
+            "minecraft:health": {
+                "value": 20,
+                "max": 20,
+                "min": 20
+            },
+            "minecraft:environment_sensor": {
+                "triggers": [
+                    {
+                        "filters": {
+                            "all_of": [
+                                {
+                                    "test": "has_component",
+                                    "subject": "self",
+                                    "value": "minecraft:is_sheared"
+                                },
+                                {
+                                    "test": "has_component",
+                                    "subject": "self",
+                                    "value": "minecraft:is_saddled"
+                                },
+                                {
+                                    "test": "has_component",
+                                    "subject": "self",
+                                    "value": "minecraft:is_tamed"
+                                },
+                                {
+                                    "test": "has_component",
+                                    "subject": "self",
+                                    "value": "minecraft:is_charged"
+                                },
+                                {
+                                    "test": "has_component",
+                                    "subject": "self",
+                                    "value": "minecraft:is_stunned"
+                                },
+                                {
+                                    "test": "has_component",
+                                    "subject": "self",
+                                    "value": "minecraft:is_illager_captain"
+                                }
+                            ]
+                        },
+                        "event": "minecraft:all_prisms_placed"
+                    }
+                ]
+            },
+            "minecraft:physics": {
+                "has_collision": false,
+                "has_gravity": false
+            },
+            "minecraft:knockback_resistance": {
+                "value": 1.0
+            },
+            "minecraft:damage_sensor": {
+                "triggers": {
+                    "cause": "all",
+                    "deals_damage": false
+                }
+            },
+            "minecraft:persistent": {
+            },
+            "minecraft:collision_box": {
+                "width": 0.5,
+                "height": 0.5
+            },
+            "minecraft:nameable": {
+                "always_show": false,
+                "allow_name_tag_renaming": false
+            },
+            "minecraft:pushable": {
+                "is_pushable": false,
+                "is_pushable_by_piston": false
+            },
+            "minecraft:fire_immune": true
+        },
+        "events": {
+            "minecraft:all_prisms_placed": {
+                "remove": {
+                    "component_groups": [
+                        "minecraft:amethyst_placed",
+                        "minecraft:sapphire_placed",
+                        "minecraft:jade_placed",
+                        "minecraft:topaz_placed",
+                        "minecraft:ruby_placed",
+                        "minecraft:pure_diamond_placed"
+                    ]
+                },
+                "run_command": {
+                    "command": [
+                        "setblock ~ ~1 ~ g3:crystal_chest",
+                        "particle g3:crystal_ritual ~ ~1 ~",
+                        "playsound firework.twinkle @a[r=7]",
+                        "playsound firework.large_blast @a[r=7]",
+                        "fill ~5 ~1 ~5 ~-5 ~ ~-5 air 0 replace g3:amethyst_prism",
+                        "fill ~5 ~1 ~5 ~-5 ~ ~-5 air 0 replace g3:sapphire_prism",
+                        "fill ~5 ~1 ~5 ~-5 ~ ~-5 air 0 replace g3:jade_prism",
+                        "fill ~5 ~1 ~5 ~-5 ~ ~-5 air 0 replace g3:topaz_prism",
+                        "fill ~5 ~1 ~5 ~-5 ~ ~-5 air 0 replace g3:ruby_prism",
+                        "fill ~5 ~1 ~5 ~-5 ~ ~-5 air 0 replace g3:pure_diamond_prism"
+                    ]
+                }
+            },
+            "g3:delete_crystal_heart": {
+                "add": {
+                    "component_groups": [
+                        "minecraft:delete_crystal_heart"
+                    ]
+                }
+            },
+            "g3:amethyst_placed": {
+                "add": {
+                    "component_groups": [
+                        "minecraft:amethyst_placed"
+                    ]
+                }
+            },
+            "g3:amethyst_removed": {
+                "remove": {
+                    "component_groups": [
+                        "minecraft:amethyst_placed"
+                    ]
+                }
+            },
+            "g3:sapphire_placed": {
+                "add": {
+                    "component_groups": [
+                        "minecraft:sapphire_placed"
+                    ]
+                }
+            },
+            "g3:sapphire_removed": {
+                "remove": {
+                    "component_groups": [
+                        "minecraft:sapphire_placed"
+                    ]
+                }
+            },
+            "g3:jade_placed": {
+                "add": {
+                    "component_groups": [
+                        "minecraft:jade_placed"
+                    ]
+                }
+            },
+            "g3:jade_removed": {
+                "remove": {
+                    "component_groups": [
+                        "minecraft:jade_placed"
+                    ]
+                }
+            },
+            "g3:topaz_placed": {
+                "add": {
+                    "component_groups": [
+                        "minecraft:topaz_placed"
+                    ]
+                }
+            },
+            "g3:topaz_removed": {
+                "remove": {
+                    "component_groups": [
+                        "minecraft:topaz_placed"
+                    ]
+                }
+            },
+            "g3:ruby_placed": {
+                "add": {
+                    "component_groups": [
+                        "minecraft:ruby_placed"
+                    ]
+                }
+            },
+            "g3:ruby_removed": {
+                "remove": {
+                    "component_groups": [
+                        "minecraft:ruby_placed"
+                    ]
+                }
+            },
+            "g3:pure_diamond_placed": {
+                "add": {
+                    "component_groups": [
+                        "minecraft:pure_diamond_placed"
+                    ]
+                }
+            },
+            "g3:pure_diamond_removed": {
+                "remove": {
+                    "component_groups": [
+                        "minecraft:pure_diamond_placed"
+                    ]
+                }
+            }
+        }
+    }
+}

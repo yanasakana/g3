@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###",
+            "iii",
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:coal"
+            },
+            "i": {
+                "item": "minecraft:iron_ingot"
+            }
+        },
+        "result": {
+            "item": "g3:steel_plate",
+            "count": 4
+        },
+        "description": {
+            "identifier": "g3:steel_plate"
+        }
+    }
+}

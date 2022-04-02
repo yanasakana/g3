@@ -1,0 +1,30 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "catacombs:livid_dagger_fragged_thrown",
+      "textures": {
+        "default": "textures/projectiles/player/livid_dagger_fragged"
+      },
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "geometry": {
+        "default": "geometry.livid_dagger_thrown"
+      },
+      "animations": {
+        "aim": "animation.projectile.aim",
+        "rotate": "animation.item_throw.vertical"
+      },
+      "scripts": {
+        "animate": [
+          "aim",
+          "rotate"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ]
+    }
+  }
+}

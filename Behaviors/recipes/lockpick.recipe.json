@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "  #",
+            " G ",
+            "G  "
+        ],
+        "key": {
+            "#": {
+                "item": "g3:steel_rod"
+            },
+            "G": {
+                "item": "g3:steel_plate"
+            }
+        },
+        "result": {
+            "item": "g3:lockpick",
+            "count": 1
+        },
+        "description": {
+            "identifier": "g3:lockpick"
+        }
+    }
+}

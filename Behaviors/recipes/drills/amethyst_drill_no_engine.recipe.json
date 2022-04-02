@@ -1,0 +1,37 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "drill_table"
+        ],
+        "pattern": [
+            "#G ",
+            "GLE",
+            " EC"
+        ],
+        "key": {
+            "#": {
+                "item": "g3:amethyst_flawless"
+            },
+            "G": {
+                "item": "g3:amethyst_polished"
+            },
+            "L": {
+                "item": "g3:drill_engine"
+            },
+            "E": {
+                "item": "g3:steel_plate"
+            },
+            "C": {
+                "item": "g3:steel_rod"
+            }
+        },
+        "result": {
+            "item": "g3:drill_amethyst_no_engine_empty",
+            "count": 1
+        },
+        "description": {
+            "identifier": "g3:drill_amethyst_no_engine"
+        }
+    }
+}

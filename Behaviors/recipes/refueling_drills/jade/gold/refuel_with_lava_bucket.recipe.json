@@ -1,0 +1,24 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "g3:drill_jade_gold_empty"
+            },
+            {
+                "item": "minecraft:bucket",
+                "data": 10
+            }
+        ],
+        "result": {
+            "item": "g3:drill_jade_gold",
+            "data": 0
+        },
+        "description": {
+            "identifier": "g3:jade_gold_refuel_with_lava_bucket"
+        }
+    }
+}

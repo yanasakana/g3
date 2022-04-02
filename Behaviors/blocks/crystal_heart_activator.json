@@ -1,0 +1,35 @@
+{
+	"format_version": "1.17.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "g3:crystal_heart_activator"
+		},
+		"components": {
+			"minecraft:immovable": true,
+			"minecraft:explosion_resistance": 2147483647,
+			"minecraft:destroy_time": 2147483647,
+			"minecraft:map_color": "#737c8b",
+			"minecraft:random_ticking": {
+                "on_tick": {
+                    "event": "activate",
+                    "target": "self"
+                }
+            }
+		},
+        "events": {
+            "activate": {
+                "randomize": [
+                    {
+                        "weight": 1,
+                        "run_command": {
+                            "command": [
+                                "summon g3:crystal_heart_runtime ~ ~ ~",
+                                "setblock ~ ~ ~ g3:unbreakable_altar"
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+	}
+}

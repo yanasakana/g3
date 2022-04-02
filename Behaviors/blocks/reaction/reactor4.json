@@ -1,0 +1,28 @@
+{
+  "format_version": "1.16.200",
+  "minecraft:block": {
+    "description": {
+      "identifier": "smpvine:reactor_stage4"
+    },
+    "components": {
+      "minecraft:destroy_time": 2,
+	  "minecraft:block_light_absorption": 1,
+	  "minecraft:display_name": "reactor_dead",
+	  "minecraft:unit_cube": {},
+		"minecraft:material_instances" : {
+		"*": {
+      "texture": "reactor_dead",
+      "render_method" : "opaque"
+		}
+		},
+		"minecraft:entity_collision":{
+		"origin":[-8.0, 0.0, -8.0],
+		"size":[16,16,16]
+		},
+		"minecraft:pick_collision":{
+		"origin":[-8.0, 0.0, -8.0],
+		"size":[16,16,16]
+		}
+    }
+  }
+}

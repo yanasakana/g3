@@ -1,0 +1,21 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "g3:ruby_flawless",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "ruby_flawless"
+            },
+            "minecraft:display_name": {
+                "value": "Flawless Ruby"
+            },
+            "minecraft:max_stack_size": 64,
+            "minecraft:creative_category": {
+                "parent": "ruby"
+            }
+        }
+    }
+}

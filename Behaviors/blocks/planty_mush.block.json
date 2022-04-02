@@ -1,0 +1,16 @@
+{
+	"format_version": "1.17.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "g3:planty_mush"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"category": "nature",
+				"group": "itemGroup.name.grass"
+			},
+			"minecraft:destroy_time": 0.1,
+			"minecraft:map_color": "#2b4411"
+		}
+	}
+}

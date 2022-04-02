@@ -1,0 +1,21 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "catacombs:blaze_orb",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "blaze_rod"
+            },
+            "minecraft:icon": {
+                "texture": "blaze_orb"
+            },
+            "minecraft:display_name": {
+                "value": "Blaze Orb"
+            },
+            "minecraft:max_stack_size": 1
+        }
+    }
+}

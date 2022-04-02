@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " ##",
+            "###",
+            "/# "
+        ],
+        "key": {
+            "#": {
+                "item": "catacombs:crystalized_ender_pearl"
+            },
+            "/": {
+                "item": "minecraft:end_rod"
+            }
+        },
+        "result": {
+            "item": "catacombs:aspect_of_the_end",
+            "count": 1
+        },
+        "description": {
+            "identifier": "catacombs:aspect_of_the_end"
+        }
+    }
+}

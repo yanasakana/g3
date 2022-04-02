@@ -1,0 +1,24 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "##",
+            "##"
+        ],
+        "key": {
+            "#": {
+                "item": "g3:topaz_polished"
+            }
+        },
+        "result": {
+            "item": "g3:topaz_flawless",
+            "count": 1
+        },
+        "description": {
+            "identifier": "g3:topaz_flawless"
+        }
+    }
+}

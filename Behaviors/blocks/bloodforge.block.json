@@ -1,0 +1,99 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "catacombs:bloodforge",
+      "properties": {
+        "minecraft:direction": {}
+      }
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "category": "items",
+        "group": "itemGroup.name.furnace"
+      },
+      "minecraft:map_color": "#bc3c2b",
+      "minecraft:destroy_time": 100.0,
+      "minecraft:block_light_emission": 0.4,
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "bloodforge_side",
+          "render_method": "alpha_test"
+        },
+        "south": {
+          "texture": "bloodforge_front",
+          "render_method": "alpha_test"
+        },
+        "up": {
+          "texture": "bloodforge_top",
+          "render_method": "alpha_test"
+        },
+        "down": {
+          "texture": "bloodforge_bottom",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:on_player_placing": {
+        "event": "event:on_player_placing"
+      },
+      "minecraft:crafting_table": {
+        "custom_description": "tile.catacombs:bloodforge.name",
+        "grid_size": 3,
+        "crafting_tags": [
+          "bloodforge"
+        ]
+      },
+      "minecraft:unit_cube": {}
+    },
+    "permutations": [
+      {
+        "condition": "query.block_property('minecraft:direction') == 0",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "condition": "query.block_property('minecraft:direction') == 1",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            180,
+            0
+          ]
+        }
+      },
+      {
+        "condition": "query.block_property('minecraft:direction') == 2",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            90,
+            0
+          ]
+        }
+      },
+      {
+        "condition": "query.block_property('minecraft:direction') == 3",
+        "components": {
+          "minecraft:rotation": [
+            0,
+            270,
+            0
+          ]
+        }
+      }
+    ],
+    "events": {
+      "event:on_player_placing": {
+        "set_block_property": {
+          "minecraft:direction": "query.cardinal_facing_2d - 2"
+        }
+      }
+    }
+  }
+}

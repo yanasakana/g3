@@ -1,0 +1,17 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "g3:lockbox_opened_overworld"
+        },
+        "components": {
+            "minecraft:creative_category": {
+				"category": "items",
+				"group": "lockbox"
+			},
+            "minecraft:loot": "loot_tables/blocks/lockbox.json",
+            "minecraft:destroy_time": 1,
+            "minecraft:map_color": "#615756"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "catacombs:pulse_rod_depleted"
+            },
+            {
+                "item": "catacombs:blaze_orb"
+            }
+        ],
+        "result": {
+            "item": "catacombs:pulse_rod",
+            "count": 1
+        },
+        "description": {
+            "identifier": "catacombs:pulse_rod_reload"
+        }
+    }
+}

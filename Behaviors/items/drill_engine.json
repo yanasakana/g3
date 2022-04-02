@@ -1,0 +1,21 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "g3:drill_engine",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "drill_engine"
+            },
+            "minecraft:display_name": {
+                "value": "Drill Engine"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:creative_category": {
+                "parent": "drill_parts"
+            }
+        }
+    }
+}

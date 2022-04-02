@@ -1,0 +1,23 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "g3:planty_mush_feature"
+    },
+    "count": 9,
+    "replace_rules": [
+      {
+        "places_block": "g3:planty_mush",
+        "may_replace": [
+          "minecraft:stone",
+          "minecraft:deepslate",
+          "minecraft:gravel",
+          "minecraft:tuff",
+          "minecraft:dirt",
+          "minecraft:sand",
+          "minecraft:seagrass"
+        ]
+      }
+    ]
+  }
+}

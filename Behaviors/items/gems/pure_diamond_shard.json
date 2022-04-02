@@ -1,0 +1,21 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "g3:pure_diamond_shard",
+            "category": "items"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "pure_diamond_shard"
+            },
+            "minecraft:display_name": {
+                "value": "Pure Diamond Shard"
+            },
+            "minecraft:max_stack_size": 64,
+            "minecraft:creative_category": {
+                "parent": "pure_diamond"
+            }
+        }
+    }
+}

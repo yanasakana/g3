@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "drill_table"
+        ],
+        "pattern": [
+            " # ",
+            "   ",
+            "   "
+        ],
+        "key": {
+            "#": {
+                "item": "g3:drill_ruby_titanium_empty"
+            }
+        },
+        "result": {
+            "item": "g3:drill_engine_titanium",
+            "count": 1
+        },
+        "description": {
+            "identifier": "g3:disassemble_drill_ruby_titanium_take_engine"
+        }
+    }
+}

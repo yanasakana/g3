@@ -1,0 +1,29 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "g3:topaz_polished"
+            },
+            {
+                "item": "minecraft:glowstone_dust"
+            },
+            {
+                "item": "minecraft:glowstone_dust"
+            },
+            {
+                "item": "g3:topaz_polished"
+            }
+        ],
+        "result": {
+            "item": "minecraft:glowstone",
+            "count": 2
+        },
+        "description": {
+            "identifier": "g3:glowstone_block_from_topaz"
+        }
+    }
+}

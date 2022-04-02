@@ -1,0 +1,40 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "catacombs:hunter",
+      "min_engine_version": "1.16.0",
+      "materials": {
+        "default": "iron_golem"
+      },
+      "textures": {
+        "default": "textures/entity/hunter"
+      },
+      "geometry": {
+        "default": "geometry.hunter"
+      },
+      "scripts": {
+        "animate": [
+          "move_controller",
+          "attack_controller"
+        ]
+      },
+      "animations": {
+        "move": "animation.hunter.move",
+        "melee": "animation.hunter.melee",
+        "ranged": "animation.hunter.ranged",
+        "idle": "animation.hunter.idle",
+        "move_controller": "controller.animation.hunter.move",
+        "attack_controller": "controller.animation.hunter.attack"
+      },
+      "render_controllers": [
+        "controller.render.iron_golem"
+      ],
+      "enable_attachables": false,
+      "spawn_egg": {
+        "base_color": "#373a44",
+        "overlay_color": "#18294f"
+      }
+    }
+  }
+}

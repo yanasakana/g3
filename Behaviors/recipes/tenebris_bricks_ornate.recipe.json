@@ -1,0 +1,24 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "##",
+            "##"
+        ],
+        "key": {
+            "#": {
+                "item": "catacombs:tenebris_bricks"
+            }
+        },
+        "result": {
+            "item": "catacombs:tenebris_bricks_ornate",
+            "count": 4
+        },
+        "description": {
+            "identifier": "catacombs:tenebris_bricks_ornate"
+        }
+    }
+}

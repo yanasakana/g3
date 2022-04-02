@@ -1,0 +1,24 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "catacombs:smithingtable_upgrade_blade_blue_to_red"
+        },
+        "tags": [
+            "smithing_table"
+        ],
+        "priority": 2,
+        "ingredients": [
+            {
+                "item": "catacombs:wither_blade_blue"
+            },
+            {
+                "item": "catacombs_wither_fragment_red:netherite_ingot"
+            }
+        ],
+        "result": {
+            "item": "catacombs:wither_blade_red",
+            "count": 1
+        }
+    }
+}
