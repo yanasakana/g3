@@ -49,6 +49,20 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "item",
+                    "name": "g3:bomb",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ]
                 }
             ]
         },

@@ -583,6 +583,12 @@
         "aspect_of_the_end": {
             "textures": "textures/items/weapons/aspect_of_the_end"
         },
+        "mineral_knives": {
+            "textures": "textures/items/weapons/mineral_knives"
+        },
+        "mineral_knife": {
+            "textures": "textures/items/weapons/singular_mineral_knife"
+        },
         "pulse_rod": {
             "textures": "textures/items/weapons/pulse_rod"
         },
@@ -612,6 +618,9 @@
         },
         "skeleton_key": {
             "textures": "textures/items/skeleton_key"
+        },
+        "spirit_lantern": {
+            "textures": "textures/items/spirit_lantern"
         }
     },
     "texture_name": "atlas.items"

@@ -12,6 +12,30 @@
       "minecraft:destroy_time": 0,
       "minecraft:map_color": "#8d957c",
       "minecraft:unwalkable": true,
+      "minecraft:entity_collision": {
+        "origin": [
+          -4,
+          0,
+          -4
+        ],
+        "size": [
+          8,
+          16,
+          8
+        ]
+      },
+      "minecraft:pick_collision": {
+        "origin": [
+          -4,
+          0,
+          -4
+        ],
+        "size": [
+          8,
+          16,
+          8
+        ]
+      },
       "minecraft:breakonpush": true,
       "minecraft:geometry": "geometry.plant",
       "minecraft:loot": "loot_tables/empty.json",

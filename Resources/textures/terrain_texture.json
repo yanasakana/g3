@@ -64,6 +64,9 @@
         "soul_campfire_log": {
             "textures": "textures/blocks/soul_campfire_log"
         },
+        "spirit_flame": {
+            "textures": "textures/blocks/spirit_flame"
+        },
         "wood_birch": {
             "textures": {
                 "variations": [

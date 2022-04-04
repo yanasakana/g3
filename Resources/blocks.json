@@ -21,6 +21,10 @@
         "textures": "redstone_ore_off",
         "sound": "stone"
     },
+    "g3:spirit_flame": {
+        "textures": "redstone_ore_off",
+        "sound": "sand"
+    },
     "farmland": {
         "sound": "gravel",
         "textures": {

@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " #S",
+            "#T#",
+            " # "
+        ],
+        "key": {
+            "#": {
+                "item": "g3:worm_scale"
+            },
+            "S": {
+                "item": "minecraft:string"
+            },
+            "T": {
+                "item": "minecraft:tnt"
+            }
+        },
+        "result": {
+            "item": "g3:bomb",
+            "count": 5
+        },
+        "description": {
+            "identifier": "g3:bomb"
+        }
+    }
+}

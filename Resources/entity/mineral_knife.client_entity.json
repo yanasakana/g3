@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "g3:mineral_knife",
+      "textures": {
+        "default": "textures/projectiles/player/mineral_knife"
+      },
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "geometry": {
+        "default": "geometry.mineral_knife"
+      },
+      "animations": {
+        "aim": "animation.projectile.aim"
+      },
+      "scripts": {
+        "animate": [
+          "aim"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ]
+    }
+  }
+}

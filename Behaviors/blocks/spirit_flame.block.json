@@ -1,0 +1,42 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "g3:spirit_flame"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "category": "nature"
+      },
+      "minecraft:entity_collision": false,
+      "minecraft:pick_collision": {
+        "origin": [
+          -4,
+          0,
+          -4
+        ],
+        "size": [
+          8,
+          16,
+          8
+        ]
+      },
+      "minecraft:destroy_time": 0,
+      "minecraft:map_color": "#85f1a2",
+      "minecraft:unwalkable": true,
+      "minecraft:block_light_emission": 1,
+      "minecraft:breakonpush": true,
+      "minecraft:geometry": "geometry.plant",
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:block_light_absorption": 0,
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "spirit_flame",
+          "render_method": "blend",
+          "face_dimming": false,
+          "ambient_occlusion": false
+        }
+      }
+    }
+  }
+}
