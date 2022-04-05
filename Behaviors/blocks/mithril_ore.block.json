@@ -17,7 +17,7 @@
 
 			"minecraft:map_color": "#9ed391",
 
-			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:loot": "loot_tables/blocks/mithril_ore.json",
 			"minecraft:on_player_destroyed": {
 				"event": "destroyed",
 				"target": "self",

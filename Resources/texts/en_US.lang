@@ -28,8 +28,8 @@ tile.g3:pure_diamond_block_perfect.name=Perfect Pure Diamond Block
 tile.g3:mithril_block_fake.name=Decorative Mithril
 tile.g3:mithril_ore.name=Mithril Ore
 tile.g3:deepslate_mithril_ore.name=Deepslate Mithril Ore
-tile.g3:mithril_block.name=Mithril Block
-tile.g3:titanium_block.name=Titanium Block
+tile.g3:mithril_block.name=Block of Mithril
+tile.g3:titanium_block.name=Block of Titanium
 tile.g3:planty_mush.name=Planty Mush
 tile.g3:altar.name=Prismatic Altar
 
@@ -50,7 +50,8 @@ tile.g3:spirit_flame.name=Spirit Flame
 tile.g3:deepslate_worm_egg.name=worm_egg
 tile.g3:worm_egg.name=worm_egg
 
-tile.catacombs:bloodforge.name=Bloodforge
+tile.g3:forge_off.name=Forge
+tile.g3:forge_on.name=Forge
 
 tile.catacombs:tenebris.name=Tenebris
 tile.catacombs:tenebris_blood_vessel.name=Tenebris Blood Vessel
@@ -62,8 +63,6 @@ tile.catacombs:rotten_flesh_block.name=Block of Rotten Flesh
 
 
 ##Items
-
-item.catacombs:vulcanite=vulcanite
 
 item.catacombs:wither_essence=Wither Essence
 item.catacombs:dragon_essence=Dragon Essence

@@ -50,6 +50,20 @@
 						}
 					},
 					{
+						"block": "g3:mithril_ore",
+						"speed": 30,
+						"on_dig": {
+							"event": "used"
+						}
+					},
+					{
+						"block": "g3:deepslate_mithril_ore",
+						"speed": 30,
+						"on_dig": {
+							"event": "used"
+						}
+					},
+					{
 						"block": "minecraft:stone",
 						"speed": 30,
 						"on_dig": {

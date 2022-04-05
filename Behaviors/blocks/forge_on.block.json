@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:block": {
     "description": {
-      "identifier": "catacombs:bloodforge",
+      "identifier": "g3:forge_on",
       "properties": {
         "minecraft:direction": {}
       }
@@ -12,25 +12,25 @@
         "category": "items",
         "group": "itemGroup.name.furnace"
       },
-      "minecraft:map_color": "#bc3c2b",
+      "minecraft:map_color": "#A2B2A9",
       "minecraft:destroy_time": 100.0,
       "minecraft:block_light_emission": 0.4,
       "minecraft:loot": "loot_tables/empty.json",
       "minecraft:material_instances": {
         "*": {
-          "texture": "bloodforge_side",
+          "texture": "forge_side",
           "render_method": "alpha_test"
         },
         "south": {
-          "texture": "bloodforge_front",
+          "texture": "forge_front_on",
           "render_method": "alpha_test"
         },
         "up": {
-          "texture": "bloodforge_top",
+          "texture": "forge_top",
           "render_method": "alpha_test"
         },
         "down": {
-          "texture": "bloodforge_bottom",
+          "texture": "forge_bottom",
           "render_method": "alpha_test"
         }
       },
@@ -38,10 +38,10 @@
         "event": "event:on_player_placing"
       },
       "minecraft:crafting_table": {
-        "custom_description": "tile.catacombs:bloodforge.name",
+        "custom_description": "tile.g3:forge_on.name",
         "grid_size": 3,
         "crafting_tags": [
-          "bloodforge"
+          "forge"
         ]
       },
       "minecraft:unit_cube": {}

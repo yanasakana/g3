@@ -1,0 +1,20 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "g3:gemstone_slag_block"
+            }
+        ],
+        "result": {
+            "item": "g3:gemstone_slag",
+            "count": 4
+        },
+        "description": {
+            "identifier": "g3:gemstone_slag_from_block"
+        }
+    }
+}

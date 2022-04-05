@@ -1,0 +1,35 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "g3:amethyst_polished"
+            },
+            {
+                "item": "g3:sapphire_polished"
+            },
+            {
+                "item": "g3:jade_polished"
+            },
+            {
+                "item": "g3:topaz_polished"
+            },
+            {
+                "item": "g3:ruby_polished"
+            },
+            {
+                "item": "minecraft:obsidian"
+            }
+        ],
+        "result": {
+            "item": "g3:gemstone_slag",
+            "count": 1
+        },
+        "description": {
+            "identifier": "g3:gemstone_slag"
+        }
+    }
+}

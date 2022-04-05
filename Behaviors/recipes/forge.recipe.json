@@ -1,0 +1,44 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "g3:titanium_block"
+            },
+            {
+                "item": "g3:titanium_block"
+            },
+            {
+                "item": "g3:titanium_block"
+            },
+            {
+                "item": "g3:gemstone_slag_block"
+            },
+            {
+                "item": "g3:drill_engine"
+            },
+            {
+                "item": "g3:gemstone_slag_block"
+            },
+            {
+                "item": "g3:gemstone_slag_block"
+            },
+            {
+                "item": "g3:gemstone_slag_block"
+            },
+            {
+                "item": "g3:gemstone_slag_block"
+            }
+        ],
+        "result": {
+            "item": "g3:forge",
+            "count": 1
+        },
+        "description": {
+            "identifier": "g3:forge"
+        }
+    }
+}

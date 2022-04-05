@@ -4676,17 +4676,20 @@
         "tenebris_bricks_ornate": {
             "textures": "textures/blocks/tenebris_bricks_ornate"
         },
-        "bloodforge_top": {
-            "textures": "textures/blocks/bloodforge_top"
+        "forge_top": {
+            "textures": "textures/blocks/forge_top"
         },
-        "bloodforge_front": {
-            "textures": "textures/blocks/bloodforge_front"
+        "forge_front_on": {
+            "textures": "textures/blocks/forge_front_on"
         },
-        "bloodforge_side": {
-            "textures": "textures/blocks/bloodforge_side"
+        "forge_front_off": {
+            "textures": "textures/blocks/forge_front_off"
         },
-        "bloodforge_bottom": {
-            "textures": "textures/blocks/bloodforge_bottom"
+        "forge_side": {
+            "textures": "textures/blocks/forge_side"
+        },
+        "forge_bottom": {
+            "textures": "textures/blocks/forge_bottom"
         },
         "tenebris": {
             "textures": {
