@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#S#",
+            " # ",
+            "#P#"
+        ],
+        "key": {
+            "#": {
+                "item": "metal_gear:plating"
+            },
+            "S": {
+                "item": "minecraft:sticky_piston"
+            },
+            "P": {
+                "item": "minecraft:piston"
+            }
+        },
+        "result": {
+            "item": "metal_gear:rex_body",
+            "count": 1
+        },
+        "description": {
+            "identifier": "metal_gear:rex_body"
+        }
+    }
+}

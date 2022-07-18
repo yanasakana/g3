@@ -1,0 +1,40 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#MF",
+            " K ",
+            "D S"
+        ],
+        "key": {
+            "#": {
+                "item": "metal_gear:rex_railgun"
+            },
+            "M": {
+                "item": "metal_gear:rex_head"
+            },
+            "F": {
+                "item": "metal_gear:rex_radome"
+            },
+            "K": {
+                "item": "metal_gear:rex_body"
+            },
+            "D": {
+                "item": "metal_gear:rex_right_leg"
+            },
+            "S": {
+                "item": "metal_gear:rex_left_leg"
+            }
+        },
+        "result": {
+            "item": "metal_gear:rex_inactive_spawn_egg",
+            "count": 1
+        },
+        "description": {
+            "identifier": "metal_gear:rex_inactive_spawn_egg"
+        }
+    }
+}

@@ -1,0 +1,138 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.rex.moveandattack": {
+			"initial_state": "idle",
+			"states": {
+				"idle": {
+					"animations": [
+						"startup_phase_3"
+					],
+					"blend_transition": 0.2,
+					"transitions": [
+						{
+							"move": "q.modified_move_speed > 0.05"
+						},
+						{
+							"melee": "variable.attack_time > 0.0"
+						}
+					]
+				},
+				"move": {
+					"animations": [
+						"move"
+					],
+					"blend_transition": 0.2,
+					"transitions": [
+						{
+							"idle": "q.modified_move_speed < 0.05"
+						},
+						{
+							"melee": "variable.attack_time > 0.0"
+						}
+					]
+				},
+				"melee": {
+					"animations": [
+						"melee"
+					],
+					"blend_transition": 0.2,
+					"transitions": [
+						{
+							"idle": "!variable.attack_time > 0.0"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.rex.damaged": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"damaged": "query.health <= 5000"
+						}
+					]
+				},
+				"damaged": {
+					"particle_effects": [
+						{
+							"effect": "smoke_poof"
+						}
+					],
+					"transitions": [
+						{
+							"default": "query.health >= 5000"
+						}
+					]
+				}
+			}
+		},
+		"controller.animation.rex.startup": {
+			"initial_state": "phase_1",
+			"states": {
+				"phase_1": {
+					"animations": [
+						"startup_phase_1"
+					],
+					"transitions": [
+						{
+							"phase_2": "query.variant == 2"
+						}
+					]
+				},
+				"phase_2": {
+					"animations": [
+						"startup_phase_2"
+					],
+					"transitions": [
+						{
+							"phase_3": "query.variant == 3"
+						}
+					]
+				},
+				"phase_3": {
+					"animations": [
+						"startup_phase_3"
+					],
+					"transitions": [
+						{
+							"phase_4": "query.variant == 4"
+						}
+					]
+				},
+				"phase_4": {
+				}
+			}
+		},
+		"controller.animation.rex.death": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"death": "query.variant == 4"
+						}
+					]
+				},
+				"death": {
+					"animations": [
+						"death"
+					],
+					"particle_effects": [
+						{
+							"effect": "explosion_1"
+						},
+						{
+							"effect": "explosion_2"
+						},
+						{
+							"effect": "explosion_3"
+						}
+					]
+				}
+			}
+		}
+	}
+}

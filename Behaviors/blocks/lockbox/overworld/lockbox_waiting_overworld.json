@@ -5,7 +5,6 @@
 			"identifier": "g3:lockbox_waiting_overworld"
 		},
 		"components": {
-			"minecraft:immovable": true,
 			"minecraft:explosion_resistance": 2147483647,
             "minecraft:ticking": {
                 "looping": false,

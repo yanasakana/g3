@@ -5,7 +5,6 @@
 			"identifier": "g3:unbreakable_altar"
 		},
 		"components": {
-			"minecraft:immovable": true,
 			"minecraft:explosion_resistance": 2147483647,
 			"minecraft:destroy_time": 2147483647,
 			"minecraft:map_color": "#737c8b"

@@ -1,0 +1,96 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "metal_gear:rex_bullet",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "runtime_identifier": "minecraft:arrow"
+    },
+    "component_groups": {
+      "minecraft:exploding": {
+        "minecraft:explode": {
+          "fuse_length": 0,
+          "fuse_lit": true,
+          "power": 0,
+          "causes_fire": false,
+          "destroy_affected_by_griefing": true
+        }
+      }
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "width": 1,
+        "height": 1
+      },
+      "minecraft:projectile": {
+        "on_hit": {
+          "impact_damage": {
+            "damage": 6,
+            "knockback": true,
+            "semi_random_diff_damage": true,
+            "destroy_on_hit": true
+          },
+          "definition_event": {
+            "affect_projectile": true,
+            "event_trigger": {
+              "event": "minecraft:explode",
+              "target": "self"
+            }
+          }
+        },
+        "power": 3.2,
+        "gravity": 0.00,
+        "uncertainty_base": 7.5,
+        "uncertainty_multiplier": 2,
+        "shoot_sound": "block.stonecutter.use",
+        "hit_sound": "break.calcite",
+        "anchor": 1,
+        "offset": [
+          0,
+          -0.1,
+          0
+        ],
+        "inertia": 1.0,
+        "liquid_inertia": 1.0,
+        "shoot_target": true
+      },
+      "minecraft:explode": {
+        "fuse_length": 3,
+        "fuse_lit": true,
+        "power": 0,
+        "causes_fire": false,
+        "destroy_affected_by_griefing": true
+      },
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:type_family": {
+        "family": [
+          "metal_gear",
+          "metal_gear_weapon",
+          "inanimate"
+        ]
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+        "default_values": {
+          "max_optimized_distance": 80.0,
+          "max_dropped_ticks": 10,
+          "use_motion_prediction_hints": true
+        }
+      }
+    },
+    "events": {
+      "minecraft:explode": {
+        "add": {
+          "component_groups": [
+            "minecraft:exploding"
+          ]
+        }
+      }
+    }
+  }
+}

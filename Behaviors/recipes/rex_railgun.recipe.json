@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#  ",
+            "M# ",
+            " MD"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:golden_rail"
+            },
+            "M": {
+                "item": "metal_gear:plating"
+            },
+            "D": {
+                "item": "minecraft:dispenser"
+            }
+        },
+        "result": {
+            "item": "metal_gear:rex_railgun",
+            "count": 1
+        },
+        "description": {
+            "identifier": "metal_gear:rex_railgun"
+        }
+    }
+}

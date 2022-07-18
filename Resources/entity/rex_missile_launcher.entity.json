@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "metal_gear:rex_missile_launcher",
+      "textures": {
+        "default": "textures/entity/rex_bullet"
+      },
+      "materials": {
+        "default": "spider"
+      },
+      "geometry": {
+        "default": "geometry.null"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ]
+    }
+  }
+}

@@ -3,7 +3,7 @@
     "header": {
         "name": "The Hot Sauce Collection (Behaviors)",
         "description": "@VinniSauce",
-        "uuid": "77af89e1-f5b3-4107-bc12-12ce75ac4afa",
+        "uuid": "c1d56e2f-6153-41b8-8e6e-bf1ac452e68c",
         "version": [
             1,
             0,
@@ -18,7 +18,7 @@
     "modules": [
         {
             "type": "data",
-            "uuid": "3bdc14c5-8d38-44dd-966d-8a663a8b7584",
+            "uuid": "3dfc9200-8e4a-43db-b0c1-ce2fb4eca1d1",
             "version": [
                 1,
                 0,
@@ -28,7 +28,7 @@
     ],
     "dependencies": [
         {
-            "uuid": "99fdfcd9-c04f-42da-b848-d13a767df42d",
+            "uuid": "e9cb5e74-756a-4d53-9766-e120ff3dee78",
             "version": [
                 1,
                 0,

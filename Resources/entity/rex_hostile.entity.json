@@ -1,0 +1,44 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "metal_gear:rex_hostile",
+			"materials": {
+				"default": "spider"
+			},
+			"textures": {
+				"default": "textures/entity/rex_hostile"
+			},
+			"geometry": {
+				"default": "geometry.rex"
+			},
+			"scripts": {
+				"animate": [
+					"move_controller",
+					"smoke_controller"
+				]
+			},
+			"particle_effects": {
+				"explosion_1": "metal_gear:explosion_1",
+				"explosion_2": "metal_gear:explosion_2",
+				"explosion_3": "metal_gear:explosion_3",
+				"smoke_poof": "metal_gear:smoke_poof"
+			},
+			"animations": {
+				"move": "animation.rex.walk",
+				"melee": "animation.rex.attack",
+				"startup_phase_1": "animation.rex.inactive",
+				"startup_phase_2": "animation.rex.activate",
+				"startup_phase_3": "animation.rex.upright",
+				"death": "animation.rex.critical_damage",
+				"move_controller": "controller.animation.rex.moveandattack",
+				"smoke_controller": "controller.animation.rex.damaged",
+				"startup_controller": "controller.animation.rex.startup",
+				"death_controller": "controller.animation.rex.death"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			]
+		}
+	}
+}

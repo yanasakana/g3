@@ -36,7 +36,6 @@
           8
         ]
       },
-      "minecraft:breakonpush": true,
       "minecraft:geometry": "geometry.plant",
       "minecraft:loot": "loot_tables/empty.json",
       "minecraft:block_light_absorption": 0,

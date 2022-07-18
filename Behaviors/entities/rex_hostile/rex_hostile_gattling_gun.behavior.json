@@ -1,0 +1,209 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "metal_gear:rex_hostile_gattling_gun",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "despawn": {
+        "minecraft:instant_despawn": {}
+      }
+    },
+    "components": {
+      "minecraft:is_hidden_when_invisible": {},
+      "minecraft:shooter": {
+        "def": "metal_gear:rex_bullet"
+      },
+      "minecraft:persistent": {},
+      "minecraft:behavior.ranged_attack": {
+        "priority": 2,
+        "burst_shots": 16,
+        "burst_interval": 0.1,
+        "charge_charged_trigger": 0.0,
+        "charge_shoot_trigger": 4.0,
+        "attack_interval_min": 4.0,
+        "attack_interval_max": 4.0,
+        "attack_radius": 64.0
+      },
+      "minecraft:experience_reward": {
+        "on_death": "0"
+      },
+      "minecraft:collision_box": {
+        "width": 0.1,
+        "height": 0.1
+      },
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "anvil",
+            "deals_damage": false
+          },
+          {
+            "cause": "attack",
+            "deals_damage": false
+          },
+          {
+            "cause": "block_explosion",
+            "deals_damage": false
+          },
+          {
+            "cause": "contact",
+            "deals_damage": false
+          },
+          {
+            "cause": "drowning",
+            "deals_damage": false
+          },
+          {
+            "cause": "entity_explosion",
+            "deals_damage": false
+          },
+          {
+            "cause": "fall",
+            "deals_damage": false
+          },
+          {
+            "cause": "falling_block",
+            "deals_damage": false
+          },
+          {
+            "cause": "fire",
+            "deals_damage": false
+          },
+          {
+            "cause": "fire_tick",
+            "deals_damage": false
+          },
+          {
+            "cause": "fly_into_wall",
+            "deals_damage": false
+          },
+          {
+            "cause": "lava",
+            "deals_damage": false
+          },
+          {
+            "cause": "magic",
+            "deals_damage": false
+          },
+          {
+            "cause": "piston",
+            "deals_damage": false
+          },
+          {
+            "cause": "projectile",
+            "deals_damage": false
+          },
+          {
+            "cause": "stalactite",
+            "deals_damage": false
+          },
+          {
+            "cause": "stalagmite",
+            "deals_damage": false
+          },
+          {
+            "cause": "starve",
+            "deals_damage": false
+          },
+          {
+            "cause": "suffocation",
+            "deals_damage": false
+          },
+          {
+            "cause": "suicide",
+            "deals_damage": false
+          },
+          {
+            "cause": "thorns",
+            "deals_damage": false
+          },
+          {
+						"cause": "void",
+            "damage_multiplier": 100.0, 
+						"deals_damage": true
+					},
+          {
+            "cause": "wither",
+            "deals_damage": false
+          }
+        ]
+      },
+      "minecraft:navigation.walk": {
+        "can_path_over_water": false,
+        "avoid_water": true,
+        "avoid_damage_blocks": true
+      },
+      "minecraft:movement.basic": {},
+      "minecraft:health": {
+        "value": 10000,
+        "max": 10000
+      },
+      "minecraft:fire_immune": {},
+      "minecraft:movement": {
+        "value": 0.35
+      },
+      "minecraft:jump.static": {},
+      "minecraft:can_climb": {},
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 1,
+        "must_reach": false,
+        "must_see": true,
+        "entity_types": [
+          {
+            "filters": {
+              "any_of": [
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "operator": "==",
+                  "value": "player"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "operator": "==",
+                  "value": "villager"
+                },
+                {
+                  "test": "is_family",
+                  "subject": "other",
+                  "operator": "==",
+                  "value": "irongolem"
+                }
+              ]
+            },
+            "max_dist": 64
+          }
+        ]
+      },
+      "minecraft:type_family": {
+        "family": [
+          "inanimate",
+          "hostile_rex_weapon",
+          "rex_weapon"
+        ]
+      },
+      "minecraft:physics": {
+        "has_collision": false
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": false
+      },
+      "minecraft:conditional_bandwidth_optimization": {}
+    },
+    "events": {
+      "minecraft:despawn": {
+        "add": {
+          "component_groups": [
+            "despawn"
+          ]
+        }
+      }
+    }
+  }
+}

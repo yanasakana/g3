@@ -2322,7 +2322,8 @@
                     {
                         "run_command": {
                             "command": [
-                                "title @p actionbar Your drill has run out of fuel."
+                                "title @p actionbar Your drill has run out of fuel.",
+								"replaceitem entity @p slot.weapon.mainhand 0 g3:drill_sapphire_copper_empty"
                             ]
                         }
                     },

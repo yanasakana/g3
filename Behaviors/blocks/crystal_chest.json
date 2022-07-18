@@ -13,7 +13,6 @@
         "size": [8, 8, 8]
       },
       "minecraft:loot": "loot_tables/crystal_chest.json",
-      "minecraft:immovable": true,
 			"minecraft:explosion_resistance": 32767,
       "minecraft:destroy_time": 0,
       "minecraft:block_light_emission": 0.3,

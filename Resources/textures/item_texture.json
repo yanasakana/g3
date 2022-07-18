@@ -1,6 +1,33 @@
 {
     "resource_pack_name": "vanilla",
     "texture_data": {
+        "rex_spawn_egg": {
+			"textures": ["textures/items/rex_spawn_egg"]
+		},
+		"rex_right_leg": {
+            "textures": "textures/items/rex_right_leg"
+        },
+		"rex_left_leg": {
+            "textures": "textures/items/rex_left_leg"
+        },
+		"rex_body": {
+            "textures": "textures/items/rex_body"
+        },
+		"rex_head": {
+            "textures": "textures/items/rex_head"
+        },
+		"rex_railgun": {
+            "textures": "textures/items/rex_railgun"
+        },
+		"rex_radome": {
+            "textures": "textures/items/rex_radome"
+        },
+		"plating": {
+            "textures": "textures/items/plating"
+        },
+		"reprogram_module": {
+            "textures": "textures/items/reprogram_module"
+        },
         "drill_amethyst_no_engine": {
             "textures": "textures/items/drill/full/amethyst/no_engine"
         },

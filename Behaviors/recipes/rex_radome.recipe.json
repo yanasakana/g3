@@ -1,0 +1,40 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#MO",
+            "MBM",
+            "CMK"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:sculk_sensor"
+            },
+            "M": {
+                "item": "metal_gear:plating"
+            },
+            "O": {
+                "item": "minecraft:observer"
+            },
+            "B": {
+                "item": "minecraft:beacon"
+            },
+            "C": {
+                "item": "minecraft:compass"
+            },
+            "K": {
+                "item": "minecraft:clock"
+            }
+        },
+        "result": {
+            "item": "metal_gear:rex_radome",
+            "count": 1
+        },
+        "description": {
+            "identifier": "metal_gear:rex_radome"
+        }
+    }
+}

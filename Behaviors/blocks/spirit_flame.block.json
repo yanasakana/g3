@@ -25,7 +25,6 @@
       "minecraft:map_color": "#85f1a2",
       "minecraft:unwalkable": true,
       "minecraft:block_light_emission": 1,
-      "minecraft:breakonpush": true,
       "minecraft:geometry": "geometry.plant",
       "minecraft:loot": "loot_tables/empty.json",
       "minecraft:block_light_absorption": 0,

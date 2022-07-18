@@ -8,7 +8,6 @@
       "minecraft:destroy_time": 200,
 	  "minecraft:block_light_absorption": 1,
 	  "minecraft:explosion_resistance": 36000000,
-	  "minecraft:immovable": true,
 	  "minecraft:display_name": "reactor_item_gen",
 	  "minecraft:unit_cube": {},
 		"minecraft:material_instances" : {

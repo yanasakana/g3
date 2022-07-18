@@ -1,0 +1,72 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "metal_gear:rex_destroyed",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"mob"
+				]
+			},
+			"minecraft:area_attack": {
+				"damage_range": 4,
+				"damage_per_tick": 10000,
+				"cause": "void",
+				"entity_filter": {
+					"any_of": [
+						{
+							"test": "is_family",
+							"subject": "other",
+							"value": "rex_weapon"
+						}
+					]
+				}
+			},
+			"minecraft:explode": {
+				"fuse_length": 10,
+				"fuse_lit": true,
+				"power": 6,
+				"causes_fire": true,
+				"destroy_affected_by_griefing": true
+			},
+			"minecraft:variant": {
+				"value": 4
+			},
+			"minecraft:collision_box": {
+				"width": 4,
+				"height": 7
+			},
+			"minecraft:health": {
+				"value": 1,
+				"max": 1,
+				"min": 1
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:jump.static": {},
+			"minecraft:can_climb": {},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			},
+			"minecraft:balloonable": {
+				"mass": 20
+			},
+			"minecraft:persistent": {},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:follow_range": {
+				"value": 64
+			},
+			"minecraft:conditional_bandwidth_optimization": {}
+		},
+		"events": {}
+	}
+}

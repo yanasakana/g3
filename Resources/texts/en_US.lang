@@ -220,3 +220,38 @@ entity.smpvine:brimstone_firebolt.name=Brimstone Fireball
 entity.smpvine:brimstone_fire.name=Brimstone Flames
 
 item.egg.name=Raw Egg
+
+
+
+
+
+
+
+
+
+
+##Content from Metal Gear
+
+entity.metal_gear:rex.name=Metal Gear REX
+entity.metal_gear:rex_hostile.name=Metal Gear REX (Reprogrammed)
+entity.metal_gear:rex_inactive.name=Metal Gear REX
+entity.metal_gear:rex_destroyed.name=Metal Gear REX
+action.interact.reprogram_rex=Reprogram Metal Gear REX (WARNING: This will make REX hostile to Players and Villagers. Only use if you know what you are doing.)
+action.interact.activate_rex=Activate Metal Gear REX (This cannot be undone.)
+item.spawn_egg.entity.metal_gear:rex_inactive.name=Metal Gear REX
+item.metal_gear:rex_right_leg=Right leg of Metal Gear REX
+item.metal_gear:rex_left_leg=Left leg of Metal Gear REX
+item.metal_gear:rex_body=Body of Metal Gear REX
+item.metal_gear:rex_head=Head of Metal Gear REX
+item.metal_gear:rex_railgun=Railgun of Metal Gear REX
+item.metal_gear:rex_radome=Radome of Metal Gear REX
+item.metal_gear:plating=Heavy-Duty Steel Plating
+item.metal_gear:reprogram_module=Metal Gear Reprogram Module (EXTREMELY DANGEROUS)
+
+entity.metal_gear:rex_gattling_gun.name=Metal Gear REX
+
+entity.metal_gear:rex_missile_launcher.name=Metal Gear REX
+
+entity.metal_gear:rex_hostile_gattling_gun.name=Metal Gear REX (Reprogrammed)
+
+entity.metal_gear:rex_hostile_missile_launcher.name=Metal Gear REX (Reprogrammed)

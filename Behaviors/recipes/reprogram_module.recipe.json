@@ -1,0 +1,35 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#N#",
+            "#S#",
+            " c "
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:iron_nugget"
+            },
+            "N": {
+                "item": "minecraft:netherite_scrap"
+            },
+            "S": {
+                "item": "minecraft:skull",
+                "data": 1
+            },
+            "c": {
+                "item": "minecraft:copper_ingot"
+            }
+        },
+        "result": {
+            "item": "metal_gear:reprogram_module",
+            "count": 1
+        },
+        "description": {
+            "identifier": "metal_gear:reprogram_module"
+        }
+    }
+}
